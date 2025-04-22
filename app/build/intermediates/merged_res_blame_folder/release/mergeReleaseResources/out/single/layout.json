@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_customer_login.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_customer_login.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_driver_signup.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_driver_signup.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_driver_login.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_driver_login.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_history_single.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_history_single.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_customer_map.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_customer_map.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_customer_signup.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_customer_signup.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_welcome_.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_welcome_.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_driver_setting.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_driver_setting.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_history.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_history.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_customer_settings.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_customer_settings.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_driver_map.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_driver_map.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_reset_password.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_reset_password.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/activity_maps2.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/activity_maps2.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-mergeReleaseResources-45:/layout/item_history.xml",
+        "source": "sachdeva.saksham.medrescue.app-main-47:/layout/item_history.xml"
+    }
+]

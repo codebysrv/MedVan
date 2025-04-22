@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResetPasswordActivity" android:exported="false"/>
+        <activity android:name=".CustomerRegistration" android:exported="false"/>
+        <activity android:name=".DriverSignupActivity" android:exported="false"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".CustomerSignup" android:exported="false"/>
+
+        <service
+            android:name=".onAppKilled"
+            android:stopWithTask="false" />
+
+        <activity 
+            android:name=".Welcome_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".CustomerLoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_customer_login" />
+        <activity
+            android:name=".DriverLoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_driver_login" />
+            
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".DriverMapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_driver_map" />
+        <activity
+            android:name=".CustomerMapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_customer_map" />
+        <activity android:name=".DriverSettingActivity" android:exported="false"/>
+        <activity android:name=".CustomerSettingsActivity" android:exported="false"/>
+        <activity android:name=".HistorySingleActivity" android:exported="false"/>
+        <activity android:name=".HistoryActivity" android:exported="false"/>
+        <activity android:name=".MapsActivity2" android:exported="false"/>
+    </application>
+
+</manifest>

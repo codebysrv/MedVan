@@ -1,0 +1,25 @@
+<lint-module
+    format="1"
+    dir="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app"
+    name=":app"
+    type="APP"
+    maven="MedRescue:app:unspecified"
+    agpVersion="8.9.1"
+    buildFolder="build"
+    bootClassPath="C:\Users\Sourav\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\Sourav\AppData\Local\Android\Sdk\build-tools\35.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="debug"/>
+</lint-module>

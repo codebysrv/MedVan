@@ -1,0 +1,573 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sachdeva.saksham.medrescue"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!-- To auto-complete the email text field in the login form with the user's emails -->
+11    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+11-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:4:5-71
+11-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:4:22-68
+12    <uses-permission android:name="android.permission.READ_PROFILE" />
+12-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:5:5-71
+12-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:6:5-72
+13-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:6:22-69
+14    <!--
+15         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+16         Google Maps Android API v2, but you must specify either coarse or fine
+17         location permissions for the 'MyLocation' functionality. 
+18    -->
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:12:5-79
+19-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:12:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:13:5-81
+20-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:13:22-78
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:14:5-67
+21-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:14:22-64
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:15:5-80
+22-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:15:22-77
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+23-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:11:5-76
+23-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:11:22-73
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+24-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+28        android:required="true" />
+28-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+29
+30    <queries>
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+31
+32        <!-- Needs to be explicitly declared on Android R+ -->
+33        <package android:name="com.google.android.apps.maps" />
+33-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+33-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
+36-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
+37    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+37-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+37-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+38    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+38-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+38-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+39    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+39-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+39-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+40-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+40-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+41
+42    <permission
+42-->[androidx.core:core:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8cb8c09c003000518d67f6c3299cc3c1\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+43        android:name="sachdeva.saksham.medrescue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8cb8c09c003000518d67f6c3299cc3c1\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8cb8c09c003000518d67f6c3299cc3c1\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="sachdeva.saksham.medrescue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8cb8c09c003000518d67f6c3299cc3c1\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8cb8c09c003000518d67f6c3299cc3c1\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+47
+48    <application
+48-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:17:5-71:19
+49        android:name="androidx.multidex.MultiDexApplication"
+49-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:18:9-61
+50        android:allowBackup="true"
+50-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:19:9-35
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8cb8c09c003000518d67f6c3299cc3c1\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+52        android:debuggable="true"
+53        android:extractNativeLibs="true"
+54        android:icon="@mipmap/ic_launcher"
+54-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:20:9-43
+55        android:label="@string/app_name"
+55-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:21:9-41
+56        android:roundIcon="@mipmap/ic_launcher_round"
+56-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:22:9-54
+57        android:supportsRtl="true"
+57-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:23:9-35
+58        android:testOnly="true"
+59        android:theme="@style/AppTheme" >
+59-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:24:9-40
+60        <activity
+60-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:25:9-83
+61            android:name="sachdeva.saksham.medrescue.ResetPasswordActivity"
+61-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:25:19-56
+62            android:exported="false" />
+62-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:25:57-81
+63        <activity
+63-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:26:9-82
+64            android:name="sachdeva.saksham.medrescue.CustomerRegistration"
+64-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:26:19-55
+65            android:exported="false" />
+65-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:26:56-80
+66        <activity
+66-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:27:9-28:61
+67            android:name="sachdeva.saksham.medrescue.DriverSignupActivity"
+67-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:27:19-55
+68            android:configChanges="orientation|screenSize"
+68-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:28:13-59
+69            android:exported="false" />
+69-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:27:56-80
+70        <activity
+70-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:29:9-76
+71            android:name="sachdeva.saksham.medrescue.CustomerSignup"
+71-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:29:19-49
+72            android:exported="false" />
+72-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:29:50-74
+73
+74        <service
+74-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:31:9-33:44
+75            android:name="sachdeva.saksham.medrescue.onAppKilled"
+75-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:32:13-40
+76            android:stopWithTask="false" />
+76-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:33:13-41
+77
+78        <activity
+78-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:35:9-43:20
+79            android:name="sachdeva.saksham.medrescue.Welcome_Activity"
+79-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:36:13-45
+80            android:exported="true" >
+80-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:37:13-36
+81            <intent-filter>
+81-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:38:13-42:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:39:17-69
+82-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:39:25-66
+83                <action android:name="android.intent.action.VIEW" />
+83-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:17-69
+83-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:41:17-77
+85-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:41:27-74
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:45:9-48:69
+89            android:name="sachdeva.saksham.medrescue.CustomerLoginActivity"
+89-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:46:13-50
+90            android:exported="false"
+90-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:47:13-37
+91            android:label="@string/title_activity_customer_login" />
+91-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:48:13-66
+92        <activity
+92-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:49:9-52:67
+93            android:name="sachdeva.saksham.medrescue.DriverLoginActivity"
+93-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:50:13-48
+94            android:exported="false"
+94-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:51:13-37
+95            android:label="@string/title_activity_driver_login" />
+95-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:52:13-64
+96
+97        <meta-data
+97-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:54:9-56:55
+98            android:name="com.google.android.geo.API_KEY"
+98-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:55:13-58
+99            android:value="@string/google_maps_key" />
+99-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:56:13-52
+100
+101        <activity
+101-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:58:9-61:65
+102            android:name="sachdeva.saksham.medrescue.DriverMapActivity"
+102-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:59:13-46
+103            android:exported="false"
+103-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:60:13-37
+104            android:label="@string/title_activity_driver_map" />
+104-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:61:13-62
+105        <activity
+105-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:62:9-65:67
+106            android:name="sachdeva.saksham.medrescue.CustomerMapActivity"
+106-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:63:13-48
+107            android:exported="false"
+107-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:64:13-37
+108            android:label="@string/title_activity_customer_map" />
+108-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:65:13-64
+109        <activity
+109-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:66:9-83
+110            android:name="sachdeva.saksham.medrescue.DriverSettingActivity"
+110-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:66:19-56
+111            android:exported="false" />
+111-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:66:57-81
+112        <activity
+112-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:67:9-86
+113            android:name="sachdeva.saksham.medrescue.CustomerSettingsActivity"
+113-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:67:19-59
+114            android:exported="false" />
+114-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:67:60-84
+115        <activity
+115-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:68:9-83
+116            android:name="sachdeva.saksham.medrescue.HistorySingleActivity"
+116-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:68:19-56
+117            android:exported="false" />
+117-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:68:57-81
+118        <activity
+118-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:69:9-77
+119            android:name="sachdeva.saksham.medrescue.HistoryActivity"
+119-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:69:19-50
+120            android:exported="false" />
+120-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:69:51-75
+121        <activity
+121-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:70:9-75
+122            android:name="sachdeva.saksham.medrescue.MapsActivity2"
+122-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:70:19-48
+123            android:exported="false" />
+123-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:70:49-73
+124        <activity
+124-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:15:9-21:20
+125            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+125-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:16:13-91
+126            android:exported="false"
+126-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:17:13-37
+127            android:label="@string/places_autocomplete_label"
+127-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:18:13-62
+128            android:theme="@style/PlacesAutocompleteOverlay"
+128-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:19:13-61
+129            android:windowSoftInputMode="adjustResize" >
+129-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:20:13-55
+130        </activity> <!-- Needs to be explicitly declared on P+ -->
+131        <uses-library
+131-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+132            android:name="org.apache.http.legacy"
+132-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+133            android:required="false" />
+133-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+134
+135        <activity
+135-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1c5fa44690fb5191762e65baabb2a173\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+136            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+136-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1c5fa44690fb5191762e65baabb2a173\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+137            android:excludeFromRecents="true"
+137-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1c5fa44690fb5191762e65baabb2a173\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1c5fa44690fb5191762e65baabb2a173\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+139-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1c5fa44690fb5191762e65baabb2a173\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+140        <!--
+141            Service handling Google Sign-In user revocation. For apps that do not integrate with
+142            Google Sign-In, this service will never be started.
+143        -->
+144        <service
+144-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1c5fa44690fb5191762e65baabb2a173\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+145            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+145-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1c5fa44690fb5191762e65baabb2a173\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+146            android:exported="true"
+146-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1c5fa44690fb5191762e65baabb2a173\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+147            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+147-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1c5fa44690fb5191762e65baabb2a173\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+148            android:visibleToInstantApps="true" />
+148-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1c5fa44690fb5191762e65baabb2a173\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+149        <service
+149-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1bc393f5a6d8648c1f4b401b562d5ae6\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
+150            android:name="com.google.firebase.components.ComponentDiscoveryService"
+150-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1bc393f5a6d8648c1f4b401b562d5ae6\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:27:13-84
+151            android:directBootAware="true"
+151-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\48ad7904b57df6a8365a860be084e319\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+152            android:exported="false" >
+152-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1bc393f5a6d8648c1f4b401b562d5ae6\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:28:13-37
+153            <meta-data
+153-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1bc393f5a6d8648c1f4b401b562d5ae6\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+154                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+154-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1bc393f5a6d8648c1f4b401b562d5ae6\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1bc393f5a6d8648c1f4b401b562d5ae6\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1bc393f5a6d8648c1f4b401b562d5ae6\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+157                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+157-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1bc393f5a6d8648c1f4b401b562d5ae6\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1bc393f5a6d8648c1f4b401b562d5ae6\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+160                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+160-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+162            <meta-data
+162-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+163                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+163-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\ded8116f8d02ad9895acd84b10dfef83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+166                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+166-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\ded8116f8d02ad9895acd84b10dfef83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\ded8116f8d02ad9895acd84b10dfef83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\ded8116f8d02ad9895acd84b10dfef83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+169                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+169-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\ded8116f8d02ad9895acd84b10dfef83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\ded8116f8d02ad9895acd84b10dfef83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+171            <meta-data
+171-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1f7360d91016edf9c8e574276c1e521c\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+172                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+172-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1f7360d91016edf9c8e574276c1e521c\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\1f7360d91016edf9c8e574276c1e521c\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+174            <meta-data
+174-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\48ad7904b57df6a8365a860be084e319\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+175                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+175-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\48ad7904b57df6a8365a860be084e319\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\48ad7904b57df6a8365a860be084e319\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+177        </service>
+178
+179        <activity
+179-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+180            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+180-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+181            android:excludeFromRecents="true"
+181-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+182            android:exported="true"
+182-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+183            android:launchMode="singleTask"
+183-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+184-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+185            <intent-filter>
+185-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+186                <action android:name="android.intent.action.VIEW" />
+186-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:17-69
+186-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:25-66
+187
+188                <category android:name="android.intent.category.DEFAULT" />
+188-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+188-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+189                <category android:name="android.intent.category.BROWSABLE" />
+189-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+189-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+190
+191                <data
+191-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+192                    android:host="firebase.auth"
+192-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+193                    android:path="/"
+193-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+194                    android:scheme="genericidp" />
+194-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+195            </intent-filter>
+196        </activity>
+197        <activity
+197-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+198            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+198-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+199            android:excludeFromRecents="true"
+199-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+200            android:exported="true"
+200-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+201            android:launchMode="singleTask"
+201-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+202            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+202-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+203            <intent-filter>
+203-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+204                <action android:name="android.intent.action.VIEW" />
+204-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:17-69
+204-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:25-66
+205
+206                <category android:name="android.intent.category.DEFAULT" />
+206-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+206-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+207                <category android:name="android.intent.category.BROWSABLE" />
+207-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+207-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+208
+209                <data
+209-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+210                    android:host="firebase.auth"
+210-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+211                    android:path="/"
+211-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+212                    android:scheme="recaptcha" />
+212-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+213            </intent-filter>
+214        </activity>
+215        <activity
+215-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\73f5f45d5d06f9e2b788ed62349c92e8\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:9-22:45
+216            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+216-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\73f5f45d5d06f9e2b788ed62349c92e8\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:19-85
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\73f5f45d5d06f9e2b788ed62349c92e8\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:22:19-43
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\73f5f45d5d06f9e2b788ed62349c92e8\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:21:19-78
+219
+220        <property
+220-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+221            android:name="android.adservices.AD_SERVICES_CONFIG"
+221-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+222            android:resource="@xml/ga_ad_services_config" />
+222-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\759592ba5ce63a54fb832fcc217c9307\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+223
+224        <provider
+224-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\48ad7904b57df6a8365a860be084e319\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+225            android:name="com.google.firebase.provider.FirebaseInitProvider"
+225-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\48ad7904b57df6a8365a860be084e319\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+226            android:authorities="sachdeva.saksham.medrescue.firebaseinitprovider"
+226-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\48ad7904b57df6a8365a860be084e319\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+227            android:directBootAware="true"
+227-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\48ad7904b57df6a8365a860be084e319\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+228            android:exported="false"
+228-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\48ad7904b57df6a8365a860be084e319\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+229            android:initOrder="100" />
+229-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\48ad7904b57df6a8365a860be084e319\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+230
+231        <receiver
+231-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+232            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+232-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+233            android:enabled="true"
+233-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+234            android:exported="false" >
+234-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+235        </receiver>
+236
+237        <service
+237-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+238            android:name="com.google.android.gms.measurement.AppMeasurementService"
+238-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+239            android:enabled="true"
+239-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+240            android:exported="false" />
+240-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+241        <service
+241-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+242            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+242-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+243            android:enabled="true"
+243-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+244            android:exported="false"
+244-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+245            android:permission="android.permission.BIND_JOB_SERVICE" />
+245-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8bd473c1740c64f6eeb4fbdf84f553f8\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+246
+247        <uses-library
+247-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\0566d1c5d1b746ba5bb7429721a43e77\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+248            android:name="android.ext.adservices"
+248-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\0566d1c5d1b746ba5bb7429721a43e77\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+249            android:required="false" />
+249-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\0566d1c5d1b746ba5bb7429721a43e77\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+250
+251        <provider
+251-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\09100dd6ed474fe36959c016f8cee7e8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+252            android:name="androidx.startup.InitializationProvider"
+252-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\09100dd6ed474fe36959c016f8cee7e8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+253            android:authorities="sachdeva.saksham.medrescue.androidx-startup"
+253-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\09100dd6ed474fe36959c016f8cee7e8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+254            android:exported="false" >
+254-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\09100dd6ed474fe36959c016f8cee7e8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+255            <meta-data
+255-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\09100dd6ed474fe36959c016f8cee7e8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+256                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+256-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\09100dd6ed474fe36959c016f8cee7e8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+257                android:value="androidx.startup" />
+257-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\09100dd6ed474fe36959c016f8cee7e8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+258            <meta-data
+258-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\18cd2bb904717375a63927282365a139\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+259                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+259-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\18cd2bb904717375a63927282365a139\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+260                android:value="androidx.startup" />
+260-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\18cd2bb904717375a63927282365a139\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+261            <meta-data
+261-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+262                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+262-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+263                android:value="androidx.startup" />
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+264        </provider>
+265
+266        <meta-data
+266-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\308fc8754f610f6a21759bc127ecd143\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+267            android:name="com.google.android.gms.version"
+267-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\308fc8754f610f6a21759bc127ecd143\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+268            android:value="@integer/google_play_services_version" />
+268-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\308fc8754f610f6a21759bc127ecd143\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+269
+270        <receiver
+270-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+271            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+272            android:directBootAware="false"
+272-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+273            android:enabled="true"
+273-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+274            android:exported="true"
+274-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+275            android:permission="android.permission.DUMP" >
+275-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+276            <intent-filter>
+276-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+277                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+278            </intent-filter>
+279            <intent-filter>
+279-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+280                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+281            </intent-filter>
+282            <intent-filter>
+282-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+283                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+284            </intent-filter>
+285            <intent-filter>
+285-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+286                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\341c323cd15c9425584b1ddfb70af80e\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+287            </intent-filter>
+288        </receiver>
+289
+290        <service
+290-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\36c26b0517d810df19ee0ffc097212ff\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+291            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+291-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\36c26b0517d810df19ee0ffc097212ff\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+292            android:exported="false" >
+292-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\36c26b0517d810df19ee0ffc097212ff\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+293            <meta-data
+293-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\36c26b0517d810df19ee0ffc097212ff\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+294                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+294-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\36c26b0517d810df19ee0ffc097212ff\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+295                android:value="cct" />
+295-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\36c26b0517d810df19ee0ffc097212ff\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+296        </service>
+297        <service
+297-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\4b1b890c2362c15bfe77b73269829ccf\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+298            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+298-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\4b1b890c2362c15bfe77b73269829ccf\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+299            android:exported="false"
+299-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\4b1b890c2362c15bfe77b73269829ccf\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+300            android:permission="android.permission.BIND_JOB_SERVICE" >
+300-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\4b1b890c2362c15bfe77b73269829ccf\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+301        </service>
+302
+303        <receiver
+303-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\4b1b890c2362c15bfe77b73269829ccf\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+304            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+304-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\4b1b890c2362c15bfe77b73269829ccf\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+305            android:exported="false" />
+305-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\4b1b890c2362c15bfe77b73269829ccf\transformed\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+306    </application>
+307
+308</manifest>

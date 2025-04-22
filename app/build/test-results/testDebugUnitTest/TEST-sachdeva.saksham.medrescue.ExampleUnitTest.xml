@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sachdeva.saksham.medrescue.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-22T20:07:45" hostname="LAPTOP-SRV" time="0.002">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="sachdeva.saksham.medrescue.ExampleUnitTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,1038 @@
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:15: Warning: READ_EXTERNAL_STORAGE is deprecated (and is not granted) when targeting Android 13+. If you need to query or interact with MediaStore or media files on the shared storage, you should instead use one or more new storage permissions: READ_MEDIA_IMAGES, READ_MEDIA_VIDEO or READ_MEDIA_AUDIO. [ScopedStorage]
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ScopedStorage":
+   Scoped storage is enforced on Android 10+ (or Android 11+ if using
+   requestLegacyExternalStorage). In particular, WRITE_EXTERNAL_STORAGE will
+   no longer provide write access to all files; it will provide the equivalent
+   of READ_EXTERNAL_STORAGE instead.
+
+   As of Android 13, if you need to query or interact with MediaStore or media
+   files on the shared storage, you should be using instead one or more new
+   storage permissions:
+   * android.permission.READ_MEDIA_IMAGES
+   * android.permission.READ_MEDIA_VIDEO
+   * android.permission.READ_MEDIA_AUDIO
+
+   and then add maxSdkVersion="33" to the older permission. See the developer
+   guide for how to do this:
+   https://developer.android.com/about/versions/13/behavior-changes-13#granula
+   r-media-permissions
+
+   The MANAGE_EXTERNAL_STORAGE permission can be used to manage all files, but
+   it is rarely necessary and most apps on Google Play are not allowed to use
+   it. Most apps should instead migrate to use scoped storage. To modify or
+   delete files, apps should request write access from the user as described
+   at https://goo.gle/android-mediastore-createwriterequest.
+
+   To learn more, read these resources: Play policy:
+   https://goo.gle/policy-storage-help Allowable use cases:
+   https://goo.gle/policy-storage-usecases
+
+   https://goo.gle/android-storage-usecases
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:13: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk 34
+        ~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application or sdk runs on a version of Android that is more
+   recent than your targetSdkVersion specifies that it has been tested with,
+   various compatibility modes kick in. This ensures that your application
+   continues to work, but it may look out of place. For example, if the
+   targetSdkVersion is less than 14, your app may get an option button in the
+   UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:10: Warning: Replace the <fragment> tag with FragmentContainerView. [FragmentTagUsage from androidx.fragment]
+    <fragment
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:78: Warning: Replace the <fragment> tag with FragmentContainerView. [FragmentTagUsage from androidx.fragment]
+                <fragment
+                 ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:8: Warning: Replace the <fragment> tag with FragmentContainerView. [FragmentTagUsage from androidx.fragment]
+    <fragment
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:17: Warning: Replace the <fragment> tag with FragmentContainerView. [FragmentTagUsage from androidx.fragment]
+    <fragment
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_maps2.xml:9: Warning: Replace the <fragment> tag with FragmentContainerView. [FragmentTagUsage from androidx.fragment]
+    <fragment
+     ~~~~~~~~
+
+   Explanation for issues of type "FragmentTagUsage":
+   FragmentContainerView replaces the <fragment> tag as the preferred         
+          way of adding fragments via XML. Unlike the <fragment> tag,
+   FragmentContainerView                 uses a normal FragmentTransaction
+   under the hood to add the initial fragment,                 allowing
+   further FragmentTransaction operations on the FragmentContainerView        
+           and providing a consistent timing for lifecycle events.
+
+   https://developer.android.com/reference/androidx/fragment/app/FragmentContainerView.html
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.fragment
+   Feedback: https://issuetracker.google.com/issues/new?component=460964
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\HistoryRecyclerView\HistoryAdapter.java:29: Warning: Avoid passing null as the view root (needed to resolve layout parameters on the inflated layout's root element) [InflateParams]
+        View layoutView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_history, null, false);
+                                                                                                  ~~~~
+
+   Explanation for issues of type "InflateParams":
+   When inflating a layout, avoid passing in null as the parent view, since
+   otherwise any layout parameters on the root of the inflated layout will be
+   ignored.
+
+   https://www.bignerdranch.com/blog/understanding-androids-layoutinflater-inflate/
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java:74: Warning: Use SwitchCompat from AppCompat or SwitchMaterial from Material library [UseSwitchCompatOrMaterialCode from androidx.appcompat]
+    private Switch mworkingSwitch;
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseSwitchCompatOrMaterialCode":
+   Use SwitchCompat from AppCompat or SwitchMaterial from Material library
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.appcompat
+   Feedback: https://issuetracker.google.com/issues/new?component=460343
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:54: Warning: Use SwitchCompat from AppCompat or SwitchMaterial from Material library [UseSwitchCompatOrMaterialXml from androidx.appcompat]
+        <Switch
+        ^
+
+   Explanation for issues of type "UseSwitchCompatOrMaterialXml":
+   Use SwitchCompat from AppCompat or SwitchMaterial from Material library
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.appcompat
+   Feedback: https://issuetracker.google.com/issues/new?component=460343
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:8: Warning: A newer version of compileSdkVersion than 34 is available: 35 [GradleDependency]
+    compileSdk 34
+    ~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:47: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:48: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:49: Warning: A newer version of com.google.android.material:material than 1.9.0 is available: 1.12.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.9.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:52: Warning: A newer version of androidx.fragment:fragment than 1.6.2 is available: 1.8.6 [GradleDependency]
+    implementation 'androidx.fragment:fragment:1.6.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:56: Warning: A newer version of com.google.android.gms:play-services-maps than 18.2.0 is available: 19.2.0 [GradleDependency]
+    implementation 'com.google.android.gms:play-services-maps:18.2.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:57: Warning: A newer version of com.google.android.gms:play-services-location than 21.0.1 is available: 21.3.0 [GradleDependency]
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:58: Warning: A newer version of com.google.android.gms:play-services-auth than 20.7.0 is available: 21.3.0 [GradleDependency]
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:59: Warning: A newer version of com.google.android.gms:play-services-places than 17.0.0 is available: 17.1.0 [GradleDependency]
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:60: Warning: A newer version of com.google.android.gms:play-services-base than 18.2.0 is available: 18.7.0 [GradleDependency]
+    implementation 'com.google.android.gms:play-services-base:18.2.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:63: Warning: A newer version of com.google.firebase:firebase-bom than 32.7.0 is available: 33.12.0 [GradleDependency]
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:69: Warning: A newer version of com.google.android.libraries.places:places than 3.3.0 is available: 4.2.0 [GradleDependency]
+    implementation 'com.google.android.libraries.places:places:3.3.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:78: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle:79: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:43: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="11dp" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:96: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:20: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:85: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:20: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="11dp" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:70: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:20: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:85: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:36: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+                android:textSize="20dp" />
+                ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:51: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+                android:textSize="20dp" />
+                ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:66: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+                android:textSize="20dp" />
+                ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:100: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+                    android:textSize="20dp" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:115: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+                    android:textSize="20dp" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml:29: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml:38: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="14dp" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\item_history.xml:15: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="15dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\item_history.xml:24: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="15dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SpUsage":
+   When setting text sizes, you should normally use sp, or "scale-independent
+   pixels". This is like the dp unit, but it is also scaled by the user's font
+   size preference. It is recommend you use this unit when specifying font
+   sizes, so they will be adjusted for both the screen density and the user's
+   preference.
+
+   There are cases where you might need to use dp; typically this happens when
+   the text is in a container with a specific dp-size. This will prevent the
+   text from spilling outside the container. Note however that this means that
+   the user's font size settings are not respected, so consider adjusting the
+   layout itself to be more flexible.
+
+   https://developer.android.com/training/multiscreen/screendensities.html
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:85: Warning: Use databinding or explicit wiring of click listener in code [UsingOnClickInXml from androidx.appcompat]
+                        android:onClick="sendMessage"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:101: Warning: Use databinding or explicit wiring of click listener in code [UsingOnClickInXml from androidx.appcompat]
+                        android:onClick="sendMessage2"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UsingOnClickInXml":
+   Old versions of the platform do not properly support resolving
+   android:onClick
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.appcompat
+   Feedback: https://issuetracker.google.com/issues/new?component=460343
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\HistoryActivity.java:86: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+                    mHistoryAdapter.notifyDataSetChanged();
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NotifyDataSetChanged":
+   The RecyclerView adapter's onNotifyDataSetChanged method does not specify
+   what about the data set has changed, forcing any observers to assume that
+   all existing items and structure may no longer be valid. `LayoutManager`s
+   will be forced to fully rebind and relayout all visible views.
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:76: Warning: Invalid layout param in a LinearLayout: layout_centerHorizontal [ObsoleteLayoutParam]
+                    android:layout_centerHorizontal="true"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:82: Warning: Invalid layout param in a LinearLayout: layout_below [ObsoleteLayoutParam]
+                        android:layout_below="@+id/linlay1"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:83: Warning: Invalid layout param in a LinearLayout: layout_centerHorizontal [ObsoleteLayoutParam]
+                        android:layout_centerHorizontal="true"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:98: Warning: Invalid layout param in a LinearLayout: layout_below [ObsoleteLayoutParam]
+                        android:layout_below="@+id/linlay1"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:99: Warning: Invalid layout param in a LinearLayout: layout_centerHorizontal [ObsoleteLayoutParam]
+                        android:layout_centerHorizontal="true"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteLayoutParam":
+   The given layout_param is not defined for the given layout, meaning it has
+   no effect. This usually happens when you change the parent layout or move
+   view code around without updating the layout params. This will cause
+   useless attribute processing at runtime, and is misleading for others
+   reading the layout so the parameter should be removed.
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:2: Warning: This <FrameLayout> can be replaced with a <merge> tag [MergeRootFrame]
+<FrameLayout
+^
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:1: Warning: This <FrameLayout> can be replaced with a <merge> tag [MergeRootFrame]
+<FrameLayout
+^
+
+   Explanation for issues of type "MergeRootFrame":
+   If a <FrameLayout> is the root of a layout and does not provide background
+   or padding etc, it can often be replaced with a <merge> tag which is
+   slightly more efficient. Note that this depends on context, so make sure
+   you understand how the <merge> tag works before proceeding.
+
+   https://android-developers.googleblog.com/2009/03/android-layout-tricks-3-optimize-by.html
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:9: Warning: Possible overdraw: Root element paints background #80ced6 with a theme that also paints a background (inferred theme is @style/AppTheme) [Overdraw]
+    android:background="#80ced6"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:10: Warning: Possible overdraw: Root element paints background #80ced6 with a theme that also paints a background (inferred theme is @style/AppTheme) [Overdraw]
+    android:background="#80ced6"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:9: Warning: Possible overdraw: Root element paints background #80ced6 with a theme that also paints a background (inferred theme is @style/AppTheme) [Overdraw]
+    android:background="#80ced6"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:9: Warning: Possible overdraw: Root element paints background #80ced6 with a theme that also paints a background (inferred theme is @style/AppTheme) [Overdraw]
+    android:background="#80ced6"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:10: Warning: Possible overdraw: Root element paints background #80ced6 with a theme that also paints a background (inferred theme is @style/AppTheme) [Overdraw]
+    android:background="#80ced6"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:9: Warning: Possible overdraw: Root element paints background #80ced6 with a theme that also paints a background (inferred theme is @style/AppTheme) [Overdraw]
+    android:background="#80ced6"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml:12: Warning: Possible overdraw: Root element paints background #80ced6 with a theme that also paints a background (inferred theme is @style/AppTheme) [Overdraw]
+    android:background="#80ced6"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:9: Warning: Possible overdraw: Root element paints background #80ced6 with a theme that also paints a background (inferred theme is @style/AppTheme) [Overdraw]
+    android:background="#80ced6"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml:10: Warning: Possible overdraw: Root element paints background #80ced6 with a theme that also paints a background (inferred theme is @style/AppTheme) [Overdraw]
+    android:background="#80ced6">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\item_history.xml:7: Warning: Possible overdraw: Root element paints background #80ced6 with a theme that also paints a background (inferred theme is @style/AppTheme) [Overdraw]
+    android:background="#80ced6"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\amb.jpg: Warning: The resource R.drawable.amb appears to be unused [UnusedResources]
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\amb2.png: Warning: The resource R.drawable.amb2 appears to be unused [UnusedResources]
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\colors.xml:8: Warning: The resource R.color.transparent appears to be unused [UnusedResources]
+    <color name="transparent">#00000000</color>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\dimens.xml:3: Warning: The resource R.dimen.activity_horizontal_margin appears to be unused [UnusedResources]
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\dimens.xml:4: Warning: The resource R.dimen.activity_vertical_margin appears to be unused [UnusedResources]
+    <dimen name="activity_vertical_margin">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\ic_add_alert_black_24dp.xml:1: Warning: The resource R.drawable.ic_add_alert_black_24dp appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\ic_edit_location_black_24dp.xml:1: Warning: The resource R.drawable.ic_edit_location_black_24dp appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable-v24\ic_launcher_foreground.xml:1: Warning: The resource R.drawable.ic_launcher_foreground appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\mipmap-hdpi\ic_pickup.png: Warning: The resource R.mipmap.ic_pickup appears to be unused [UnusedResources]
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\mipmap-hdpi\ic_pickup_round.png: Warning: The resource R.mipmap.ic_pickup_round appears to be unused [UnusedResources]
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.prompt_email appears to be unused [UnusedResources]
+    <string name="prompt_email">Email</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml:7: Warning: The resource R.string.prompt_password appears to be unused [UnusedResources]
+    <string name="prompt_password">Password (optional)</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml:8: Warning: The resource R.string.action_sign_in appears to be unused [UnusedResources]
+    <string name="action_sign_in">Sign in or register</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml:9: Warning: The resource R.string.action_sign_in_short appears to be unused [UnusedResources]
+    <string name="action_sign_in_short">Sign in</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml:14: Warning: The resource R.string.permission_rationale appears to be unused [UnusedResources]
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml:18: Warning: The resource R.string.title_activity_maps appears to be unused [UnusedResources]
+    <string name="title_activity_maps">Map</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml:21: Warning: The resource R.string.title_activity_login appears to be unused [UnusedResources]
+    <string name="title_activity_login">Sign in</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:79: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+        <LinearLayout
+         ~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:88: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+            <LinearLayout
+             ~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:73: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+                <LinearLayout
+                 ~~~~~~~~~~~~
+
+   Explanation for issues of type "UselessParent":
+   A layout with children that has no siblings, is not a scrollview or a root
+   layout, and does not have a background, can be removed and have its
+   children moved directly into the parent for a flatter and more efficient
+   layout hierarchy.
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml:2: Warning: The application adaptive roundIcon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\amb.jpg: Warning: Found bitmap drawable res/drawable/amb.jpg in densityless folder [IconLocation]
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\amb2.png: Warning: Found bitmap drawable res/drawable/amb2.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:24: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+            <Button
+             ~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:36: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+            <Button
+             ~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:47: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+            <Button
+             ~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:20: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+            <Button
+             ~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:31: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+            <Button
+             ~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:42: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+            <Button
+             ~~~~~~
+
+   Explanation for issues of type "ButtonStyle":
+   Button bars typically use a borderless style for the buttons. Set the
+   style="?android:attr/buttonBarButtonStyle" attribute on each of the
+   buttons, and set style="?android:attr/buttonBarStyle" on the parent layout
+
+   https://d.android.com/r/studio-ui/designer/material/dialogs
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:22: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:37: Warning: The view name (@+id/phone) suggests this is a phone number, but it does not include 'phone' in the inputType [TextFields]
+        android:inputType="number"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:31: id defined here
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:22: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:38: Warning: The view name (@+id/phone) suggests this is a phone number, but it does not include 'phone' in the inputType [TextFields]
+        android:inputType="number"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:32: id defined here
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:41: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "TextFields":
+   Providing an inputType attribute on a text field improves usability because
+   depending on the data to be input, optimized keyboards can be shown to the
+   user (such as just digits and parentheses for a phone number). 
+
+   The lint detector also looks at the id of the view, and if the id offers a
+   hint of the purpose of the field (for example, the id contains the phrase
+   phone or email), then lint will also ensure that the inputType contains the
+   corresponding type attributes.
+
+   If you really want to keep the text field generic, you can suppress this
+   warning by setting inputType="text".
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:146: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+            android:textSize="10sp" />
+            ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SmallSp":
+   Avoid using sizes smaller than 11sp.
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:12: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:23: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:22: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:30: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:12: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:23: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:72: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:83: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:22: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:31: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:41: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:12: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:23: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml:40: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:76: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:65: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:51: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:65: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:18: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:192: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        mRequest.setText("Getting Your Ambulance...");
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:399: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                mRequest.setText("Request An Ambulance");
+                                 ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:413: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                mRequest.setText("Request An Ambulance");
+                                 ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:432: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        mRequest.setText("Request An Ambulance");
+                                         ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:474: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                                                    mRequest.setText("Looking for Driver's Location....");
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:519: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                                        mRequest.setText("Request An Ambulance");
+                                                         ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:534: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                            mRequest.setText("Request An Ambulance");
+                                             ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:546: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                    mRequest.setText("Request An Ambulance");
+                                     ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:555: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            mRequest.setText("Request An Ambulance");
+                             ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:592: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        mRequest.setText("Ambulance Arrived");
+                                         ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:595: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                        mRequest.setText("Ambulance Found: "+ String.valueOf(dis)+ " Kms away...");
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:595: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        mRequest.setText("Ambulance Found: "+ String.valueOf(dis)+ " Kms away...");
+                                         ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:595: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        mRequest.setText("Ambulance Found: "+ String.valueOf(dis)+ " Kms away...");
+                                                                                   ~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java:879: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        mRequest.setText("Request An Ambulance");
+                         ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java:143: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        mrideStatus.setText("Patient Assigned ! Please pickup the patient.");
+                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java:197: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        mrideStatus.setText("Pick Patient");
+                            ~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java:315: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                        mCustomerDestination.setText("destination: "+destination);
+                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java:315: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        mCustomerDestination.setText("destination: "+destination);
+                                                     ~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java:318: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        mCustomerDestination.setText("destination: ---");
+                                                     ~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverSignupActivity.java:74: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                        mSignup.setText("Creating Account...");
+                                        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverSignupActivity.java:106: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                                                        mSignup.setText("Sign Up");
+                                                                        ~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverSignupActivity.java:119: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                                        mSignup.setText("Sign Up");
+                                                        ~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:20: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+        android:hint="Email"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:31: Warning: Hardcoded string "Password...", should use @string resource [HardcodedText]
+        android:hint="Password..."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:42: Warning: Hardcoded string "Forget Password", should use @string resource [HardcodedText]
+        android:text="Forget Password"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:52: Warning: Hardcoded string "login", should use @string resource [HardcodedText]
+        android:text="login" />
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:63: Warning: Hardcoded string "Or, Create a new account :", should use @string resource [HardcodedText]
+        android:text="Or, Create a new account :"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:73: Warning: Hardcoded string "Sign Up", should use @string resource [HardcodedText]
+        android:text="Sign Up" />
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:94: Warning: Hardcoded string "Patient's/Attendant's Login", should use @string resource [HardcodedText]
+        android:text="Patient's/Attendant's Login"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:34: Warning: Hardcoded string "Logout", should use @string resource [HardcodedText]
+                android:text="Logout" />
+                ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:45: Warning: Hardcoded string "history", should use @string resource [HardcodedText]
+                android:text="history" />
+                ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:56: Warning: Hardcoded string "Profile", should use @string resource [HardcodedText]
+                android:text="Profile"/>
+                ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:74: Warning: Hardcoded string "Search for nearest hospital", should use @string resource [HardcodedText]
+                    android:text="Search for nearest hospital"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:146: Warning: Hardcoded string "Request An Ambulance", should use @string resource [HardcodedText]
+            android:text="Request An Ambulance"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:18: Warning: Hardcoded string "                 Patient's Profile", should use @string resource [HardcodedText]
+        android:text="                 Patient's Profile"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:29: Warning: Hardcoded string "Name", should use @string resource [HardcodedText]
+        android:hint="Name" />
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:35: Warning: Hardcoded string "Phone", should use @string resource [HardcodedText]
+        android:hint="Phone"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:43: Warning: Hardcoded string "Confirm", should use @string resource [HardcodedText]
+        android:text="Confirm"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml:49: Warning: Hardcoded string "Back", should use @string resource [HardcodedText]
+        android:text="Back"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:20: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+        android:hint="Email"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:31: Warning: Hardcoded string "Password...", should use @string resource [HardcodedText]
+        android:hint="Password..."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:42: Warning: Hardcoded string "Verify Email", should use @string resource [HardcodedText]
+        android:text="Verify Email" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:52: Warning: Hardcoded string "Already  have an account ?", should use @string resource [HardcodedText]
+        android:text="Already  have an account ?"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:62: Warning: Hardcoded string "Login", should use @string resource [HardcodedText]
+        android:text="Login" />
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:83: Warning: Hardcoded string "Sign Up With Your Email", should use @string resource [HardcodedText]
+        android:text="Sign Up With Your Email"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:19: Warning: Hardcoded string "Forget Password", should use @string resource [HardcodedText]
+        android:text="Forget Password"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:29: Warning: Hardcoded string "login", should use @string resource [HardcodedText]
+        android:text="login" />
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:39: Warning: Hardcoded string "Or, Create a new account :", should use @string resource [HardcodedText]
+        android:text="Or, Create a new account :"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:49: Warning: Hardcoded string "Sign Up", should use @string resource [HardcodedText]
+        android:text="Sign Up" />
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:68: Warning: Hardcoded string "Driver's Login", should use @string resource [HardcodedText]
+        android:text="Driver's Login"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:80: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+        android:hint="Email"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:91: Warning: Hardcoded string "Password...", should use @string resource [HardcodedText]
+        android:hint="Password..."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:30: Warning: Hardcoded string "Logout", should use @string resource [HardcodedText]
+                android:text="Logout"/>
+                ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:41: Warning: Hardcoded string "History", should use @string resource [HardcodedText]
+                android:text="History"/>
+                ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:52: Warning: Hardcoded string "Profile", should use @string resource [HardcodedText]
+                android:text="Profile"/>
+                ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:57: Warning: Hardcoded string "Working", should use @string resource [HardcodedText]
+            android:text="Working"
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:89: Warning: Hardcoded string "Destination: --", should use @string resource [HardcodedText]
+                android:text="Destination: --"/>
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:107: Warning: Hardcoded string "Pickup Customer", should use @string resource [HardcodedText]
+        android:text="Pickup Customer"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:18: Warning: Hardcoded string "                    Driver's Profile", should use @string resource [HardcodedText]
+        android:text="                    Driver's Profile"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:29: Warning: Hardcoded string "Name", should use @string resource [HardcodedText]
+        android:hint="Name" />
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:36: Warning: Hardcoded string "Phone No.", should use @string resource [HardcodedText]
+        android:hint="Phone No."
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:46: Warning: Hardcoded string "Vehicle No.", should use @string resource [HardcodedText]
+        android:hint="Vehicle No."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:54: Warning: Hardcoded string "Confirm", should use @string resource [HardcodedText]
+        android:text="Confirm"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml:61: Warning: Hardcoded string "Back", should use @string resource [HardcodedText]
+        android:text="Back" />
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:20: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+        android:hint="Email"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:31: Warning: Hardcoded string "Password...", should use @string resource [HardcodedText]
+        android:hint="Password..."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:42: Warning: Hardcoded string "Verify Email", should use @string resource [HardcodedText]
+        android:text="Verify Email" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:52: Warning: Hardcoded string "Already  have an account ?", should use @string resource [HardcodedText]
+        android:text="Already  have an account ?"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:62: Warning: Hardcoded string "Login", should use @string resource [HardcodedText]
+        android:text="Login" />
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:83: Warning: Hardcoded string "Sign Up With Your Email", should use @string resource [HardcodedText]
+        android:text="Sign Up With Your Email"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml:23: Warning: Hardcoded string "Your Trips", should use @string resource [HardcodedText]
+        android:text="Your Trips"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml:35: Warning: Hardcoded string "(Please,tap on any ride-id for more details.)", should use @string resource [HardcodedText]
+        android:text="(Please,tap on any ride-id for more details.)"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:35: Warning: Hardcoded string "From - To :", should use @string resource [HardcodedText]
+                android:text="From - To :"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:44: Warning: Hardcoded string "From - To", should use @string resource [HardcodedText]
+                android:text="From - To" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:50: Warning: Hardcoded string "Distance Travelled :", should use @string resource [HardcodedText]
+                android:text="Distance Travelled :"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:59: Warning: Hardcoded string "distance", should use @string resource [HardcodedText]
+                android:text="distance" />
+                ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:65: Warning: Hardcoded string "Date and Time :", should use @string resource [HardcodedText]
+                android:text="Date and Time :"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:74: Warning: Hardcoded string "date", should use @string resource [HardcodedText]
+                android:text="date" />
+                ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:99: Warning: Hardcoded string "Name :", should use @string resource [HardcodedText]
+                    android:text="Name :"
+                    ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:108: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+                    android:text="name" />
+                    ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:114: Warning: Hardcoded string "Phone No.:", should use @string resource [HardcodedText]
+                    android:text="Phone No.:"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:123: Warning: Hardcoded string "phone", should use @string resource [HardcodedText]
+                    android:text="phone" />
+                    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml:19: Warning: Hardcoded string "MedRescue", should use @string resource [HardcodedText]
+        android:text="MedRescue"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml:28: Warning: Hardcoded string "Forgot your password?", should use @string resource [HardcodedText]
+        android:text="Forgot your password?"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml:37: Warning: Hardcoded string "To reset password, enter your email, press the button and check mail to follow instruction.", should use @string resource [HardcodedText]
+        android:text="To reset password, enter your email, press the button and check mail to follow instruction."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml:46: Warning: Hardcoded string "Enter Your email here...", should use @string resource [HardcodedText]
+        android:hint="Enter Your email here..."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml:54: Warning: Hardcoded string "Reset Password", should use @string resource [HardcodedText]
+        android:text="Reset Password" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml:61: Warning: Hardcoded string "BACK", should use @string resource [HardcodedText]
+        android:text="BACK"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:41: Warning: Hardcoded string "Med Rescue", should use @string resource [HardcodedText]
+                android:text="Med Rescue"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:51: Warning: Hardcoded string "(Book Ambulances 24X7)", should use @string resource [HardcodedText]
+                android:text="(Book Ambulances 24X7)"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:61: Warning: Hardcoded string "Please Select Appropriate Option :", should use @string resource [HardcodedText]
+                android:text="Please Select Appropriate Option :"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:90: Warning: Hardcoded string "I'm a Patient ", should use @string resource [HardcodedText]
+                        android:text="I'm a Patient "
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:107: Warning: Hardcoded string "  I'm a Driver", should use @string resource [HardcodedText]
+                        android:text="  I'm a Driver"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml:143: Warning: Hardcoded string "Med Rescue © 2019", should use @string resource [HardcodedText]
+            android:text="Med Rescue © 2019"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\item_history.xml:16: Warning: Hardcoded string "time", should use @string resource [HardcodedText]
+        android:text="time"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\item_history.xml:25: Warning: Hardcoded string "rideid", should use @string resource [HardcodedText]
+        android:text="rideid"
+        ~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:105: Warning: When you define paddingLeft you should probably also define paddingRight for right-to-left symmetry [RtlSymmetry]
+                android:paddingLeft="40sp">
+                ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:83: Warning: When you define paddingLeft you should probably also define paddingRight for right-to-left symmetry [RtlSymmetry]
+            android:paddingLeft="40sp">
+            ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RtlSymmetry":
+   If you specify padding or margin on the left side of a layout, you should
+   probably also specify padding on the right side (and vice versa) for
+   right-to-left layout symmetry.
+
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:40: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="200dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="200dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:50: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="45dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="45dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:62: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="110dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="110dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml:92: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:40: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="2dp" to better support right-to-left layouts [RtlHardcoded]
+                android:layout_marginRight="2dp"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:50: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="2dp" to better support right-to-left layouts [RtlHardcoded]
+                android:layout_marginRight="2dp"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml:105: Warning: Consider replacing android:paddingLeft with android:paddingStart="40sp" to better support right-to-left layouts [RtlHardcoded]
+                android:paddingLeft="40sp">
+                ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:50: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="100dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="100dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml:81: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="80dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="80dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:17: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="200dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="200dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:27: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="45dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="45dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:38: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="110dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="110dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml:66: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="120dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="120dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml:83: Warning: Consider replacing android:paddingLeft with android:paddingStart="40sp" to better support right-to-left layouts [RtlHardcoded]
+            android:paddingLeft="40sp">
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:50: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="100dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="100dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml:81: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="80dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="80dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml:20: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="120dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="120dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml:32: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="40dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="40dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml:47: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+            android:layout_marginLeft="20dp"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:26: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="30dp" to better support right-to-left layouts [RtlHardcoded]
+            android:layout_marginLeft="30dp"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:28: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="10dp" to better support right-to-left layouts [RtlHardcoded]
+            android:layout_marginRight="10dp"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:84: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="30dp" to better support right-to-left layouts [RtlHardcoded]
+            android:layout_marginLeft="30dp"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml:91: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+                android:layout_marginLeft="20dp"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RtlHardcoded":
+   Using Gravity#LEFT and Gravity#RIGHT can lead to problems when a layout is
+   rendered in locales where text flows from right to left. Use Gravity#START
+   and Gravity#END instead. Similarly, in XML gravity and layout_gravity
+   attributes, use start rather than left.
+
+   For XML attributes such as paddingLeft and layout_marginLeft, use
+   paddingStart and layout_marginStart. NOTE: If your minSdkVersion is less
+   than 17, you should add both the older left/right attributes as well as the
+   new start/end attributes. On older platforms, where RTL is not supported
+   and the start/end attributes are unknown and therefore ignored, you need
+   the older left/right attributes. There is a separate lint check which
+   catches that type of error.
+
+   (Note: For Gravity#LEFT and Gravity#START, you can use these constants even
+   when targeting older platforms, because the start bitmask is a superset of
+   the left bitmask. Therefore, you can use gravity="start" rather than
+   gravity="left|start".)
+
+0 errors, 237 warnings

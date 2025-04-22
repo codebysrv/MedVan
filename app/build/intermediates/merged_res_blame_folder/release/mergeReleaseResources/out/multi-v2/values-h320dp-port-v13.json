@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "sachdeva.saksham.medrescue.app-mergeReleaseResources-44:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sourav\\.gradle\\caches\\8.11.1\\transforms\\a2dae289eed538ab8272f15809ccd4ff\\transformed\\material-1.9.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    }
+                }
+            ]
+        }
+    ]
+}

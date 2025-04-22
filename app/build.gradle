@@ -1,0 +1,80 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'sachdeva.saksham.medrescue'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "sachdeva.saksham.medrescue"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    lint {
+        disable 'InvalidPackage'
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    
+    // AndroidX Core Libraries
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.fragment:fragment:1.6.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    
+    // Google Play Services
+    implementation 'com.google.android.gms:play-services-maps:18.2.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    implementation 'com.google.android.gms:play-services-base:18.2.0'
+    
+    // Firebase
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-auth'
+    
+    // Places API
+    implementation 'com.google.android.libraries.places:places:3.3.0'
+    
+    // Other Dependencies
+    implementation 'com.firebase:geofire-android:3.2.0'
+    implementation 'com.github.jd-alexander:library:1.1.0'
+    implementation 'com.basgeekball:awesome-validation:4.3'
+    
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
