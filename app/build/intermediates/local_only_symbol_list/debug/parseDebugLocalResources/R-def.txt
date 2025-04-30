@@ -12,12 +12,15 @@ dimen activity_horizontal_margin
 dimen activity_vertical_margin
 drawable amb
 drawable amb2
+drawable button_green_background
+drawable button_red_background
 drawable grad_bg
 drawable ic_add_alert_black_24dp
 drawable ic_edit_location_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_local_hospital_black_24dp
+drawable medvan_logo
 id back
 id buttons
 id car
@@ -103,6 +106,7 @@ mipmap patient
 string action_sign_in
 string action_sign_in_short
 string app_name
+string app_tagline
 string default_web_client_id
 string error_field_required
 string error_incorrect_password

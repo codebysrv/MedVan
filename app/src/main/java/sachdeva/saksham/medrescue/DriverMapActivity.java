@@ -377,13 +377,22 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
     }
 
     private void getRouteToMarker(LatLng pickupLatLng) {
-        Routing routing = new Routing.Builder()
-                .travelMode(AbstractRouting.TravelMode.DRIVING)
-                .withListener(this)
-                .alternativeRoutes(false)
-                .waypoints(new LatLng(mLastLocation.getLatitude(),mLastLocation.getLongitude()), pickupLatLng)
-                .build();
-        routing.execute();
+        if (mLastLocation == null) {
+            Toast.makeText(this, "Waiting for location update...", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        try {
+            Routing routing = new Routing.Builder()
+                    .travelMode(AbstractRouting.TravelMode.DRIVING)
+                    .withListener(this)
+                    .alternativeRoutes(false)
+                    .waypoints(new LatLng(mLastLocation.getLatitude(), mLastLocation.getLongitude()), pickupLatLng)
+                    .build();
+            routing.execute();
+        } catch (Exception e) {
+            Toast.makeText(this, "Error getting route: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override

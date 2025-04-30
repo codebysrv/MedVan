@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF0000"
     tools:context="sachdeva.saksham.medrescue.DriverMapActivity">
 
     <fragment
@@ -26,7 +27,9 @@
                 android:layout_marginLeft="2dp"
                 android:layout_marginTop="2dp"
                 android:layout_height="wrap_content"
-                android:background="#80ced6"
+                android:background="@drawable/grad_bg"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
                 android:text="Logout"/>
             <Button
                 android:id="@+id/history"
@@ -37,7 +40,9 @@
                 android:layout_marginLeft="2dp"
                 android:layout_marginTop="2dp"
                 android:layout_height="wrap_content"
-                android:background="#80ced6"
+                android:background="@drawable/grad_bg"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
                 android:text="History"/>
             <Button
                 android:id="@+id/settings"
@@ -48,13 +53,17 @@
                 android:layout_marginLeft="2dp"
                 android:layout_marginTop="2dp"
                 android:layout_height="wrap_content"
-                android:background="#80ced6"
+                android:background="@drawable/grad_bg"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
                 android:text="Profile"/>
         </LinearLayout>
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Working"
+            android:textColor="#000000"
+            android:textStyle="bold"
             android:layout_margin="10sp"
             android:id="@+id/workingSwitch"/>
     </LinearLayout>
@@ -106,6 +115,6 @@
         android:layout_height="wrap_content"
         android:text="Pickup Customer"
         android:id="@+id/rideStatus"
-        android:background="#80ced6"/>
+        android:background="#FF0000"/>
     </LinearLayout>
 </FrameLayout>

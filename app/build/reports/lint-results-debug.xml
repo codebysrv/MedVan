@@ -14,7 +14,7 @@
         errorLine1="    &lt;uses-permission android:name=&quot;android.permission.READ_EXTERNAL_STORAGE&quot; />"
         errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml"
             line="15"
             column="36"/>
     </issue>
@@ -32,7 +32,7 @@
         errorLine1="        targetSdk 34"
         errorLine2="        ~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="13"
             column="9"/>
     </issue>
@@ -50,8 +50,8 @@
         errorLine1="    &lt;fragment"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="10"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="11"
             column="6"/>
     </issue>
 
@@ -68,8 +68,8 @@
         errorLine1="                &lt;fragment"
         errorLine2="                 ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="78"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="85"
             column="18"/>
     </issue>
 
@@ -86,8 +86,8 @@
         errorLine1="    &lt;fragment"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="8"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="9"
             column="6"/>
     </issue>
 
@@ -104,7 +104,7 @@
         errorLine1="    &lt;fragment"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="17"
             column="6"/>
     </issue>
@@ -122,7 +122,7 @@
         errorLine1="    &lt;fragment"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_maps2.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_maps2.xml"
             line="9"
             column="6"/>
     </issue>
@@ -140,7 +140,7 @@
         errorLine1="        View layoutView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_history, null, false);"
         errorLine2="                                                                                                  ~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\HistoryRecyclerView\HistoryAdapter.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\HistoryRecyclerView\HistoryAdapter.java"
             line="29"
             column="99"/>
     </issue>
@@ -156,7 +156,7 @@
         errorLine1="    private Switch mworkingSwitch;"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
             line="74"
             column="5"/>
     </issue>
@@ -172,8 +172,8 @@
         errorLine1="        &lt;Switch"
         errorLine2="        ^">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="54"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="61"
             column="9"/>
     </issue>
 
@@ -188,7 +188,7 @@
         errorLine1="    compileSdk 34"
         errorLine2="    ~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="8"
             column="5"/>
     </issue>
@@ -204,7 +204,7 @@
         errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.6.1&apos;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="47"
             column="20"/>
     </issue>
@@ -220,7 +220,7 @@
         errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.1.4&apos;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="48"
             column="20"/>
     </issue>
@@ -236,7 +236,7 @@
         errorLine1="    implementation &apos;com.google.android.material:material:1.9.0&apos;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="49"
             column="20"/>
     </issue>
@@ -252,7 +252,7 @@
         errorLine1="    implementation &apos;androidx.fragment:fragment:1.6.2&apos;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="52"
             column="20"/>
     </issue>
@@ -268,7 +268,7 @@
         errorLine1="    implementation &apos;com.google.android.gms:play-services-maps:18.2.0&apos;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="56"
             column="20"/>
     </issue>
@@ -284,7 +284,7 @@
         errorLine1="    implementation &apos;com.google.android.gms:play-services-location:21.0.1&apos;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="57"
             column="20"/>
     </issue>
@@ -300,7 +300,7 @@
         errorLine1="    implementation &apos;com.google.android.gms:play-services-auth:20.7.0&apos;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="58"
             column="20"/>
     </issue>
@@ -316,7 +316,7 @@
         errorLine1="    implementation &apos;com.google.android.gms:play-services-places:17.0.0&apos;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="59"
             column="20"/>
     </issue>
@@ -332,7 +332,7 @@
         errorLine1="    implementation &apos;com.google.android.gms:play-services-base:18.2.0&apos;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="60"
             column="20"/>
     </issue>
@@ -340,7 +340,7 @@
     <issue
         id="GradleDependency"
         severity="Warning"
-        message="A newer version of com.google.firebase:firebase-bom than 32.7.0 is available: 33.12.0"
+        message="A newer version of com.google.firebase:firebase-bom than 32.7.0 is available: 33.13.0"
         category="Correctness"
         priority="4"
         summary="Obsolete Gradle Dependency"
@@ -348,7 +348,7 @@
         errorLine1="    implementation platform(&apos;com.google.firebase:firebase-bom:32.7.0&apos;)"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="63"
             column="20"/>
     </issue>
@@ -364,7 +364,7 @@
         errorLine1="    implementation &apos;com.google.android.libraries.places:places:3.3.0&apos;"
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="69"
             column="20"/>
     </issue>
@@ -380,7 +380,7 @@
         errorLine1="    androidTestImplementation &apos;androidx.test.ext:junit:1.1.5&apos;"
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="78"
             column="31"/>
     </issue>
@@ -396,7 +396,7 @@
         errorLine1="    androidTestImplementation &apos;androidx.test.espresso:espresso-core:3.5.1&apos;"
         errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\build.gradle"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\build.gradle"
             line="79"
             column="31"/>
     </issue>
@@ -411,46 +411,10 @@
         explanation="When setting text sizes, you should normally use `sp`, or &quot;scale-independent pixels&quot;. This is like the `dp` unit, but it is also scaled by the user&apos;s font size preference. It is recommend you use this unit when specifying font sizes, so they will be adjusted for both the screen density and the user&apos;s preference.&#xA;&#xA;There **are** cases where you might need to use `dp`; typically this happens when the text is in a container with a specific dp-size. This will prevent the text from spilling outside the container. Note however that this means that the user&apos;s font size settings are not respected, so consider adjusting the layout itself to be more flexible."
         url="https://developer.android.com/training/multiscreen/screendensities.html"
         urls="https://developer.android.com/training/multiscreen/screendensities.html"
-        errorLine1="        android:textSize=&quot;11dp&quot; />"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="43"
-            column="9"/>
-    </issue>
-
-    <issue
-        id="SpUsage"
-        severity="Warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes"
-        category="Correctness"
-        priority="3"
-        summary="Using `dp` instead of `sp` for text sizes"
-        explanation="When setting text sizes, you should normally use `sp`, or &quot;scale-independent pixels&quot;. This is like the `dp` unit, but it is also scaled by the user&apos;s font size preference. It is recommend you use this unit when specifying font sizes, so they will be adjusted for both the screen density and the user&apos;s preference.&#xA;&#xA;There **are** cases where you might need to use `dp`; typically this happens when the text is in a container with a specific dp-size. This will prevent the text from spilling outside the container. Note however that this means that the user&apos;s font size settings are not respected, so consider adjusting the layout itself to be more flexible."
-        url="https://developer.android.com/training/multiscreen/screendensities.html"
-        urls="https://developer.android.com/training/multiscreen/screendensities.html"
         errorLine1="        android:textSize=&quot;20dp&quot; />"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="96"
-            column="9"/>
-    </issue>
-
-    <issue
-        id="SpUsage"
-        severity="Warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes"
-        category="Correctness"
-        priority="3"
-        summary="Using `dp` instead of `sp` for text sizes"
-        explanation="When setting text sizes, you should normally use `sp`, or &quot;scale-independent pixels&quot;. This is like the `dp` unit, but it is also scaled by the user&apos;s font size preference. It is recommend you use this unit when specifying font sizes, so they will be adjusted for both the screen density and the user&apos;s preference.&#xA;&#xA;There **are** cases where you might need to use `dp`; typically this happens when the text is in a container with a specific dp-size. This will prevent the text from spilling outside the container. Note however that this means that the user&apos;s font size settings are not respected, so consider adjusting the layout itself to be more flexible."
-        url="https://developer.android.com/training/multiscreen/screendensities.html"
-        urls="https://developer.android.com/training/multiscreen/screendensities.html"
-        errorLine1="        android:textSize=&quot;20dp&quot; />"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="20"
             column="9"/>
     </issue>
@@ -468,80 +432,8 @@
         errorLine1="        android:textSize=&quot;20dp&quot; />"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="85"
-            column="9"/>
-    </issue>
-
-    <issue
-        id="SpUsage"
-        severity="Warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes"
-        category="Correctness"
-        priority="3"
-        summary="Using `dp` instead of `sp` for text sizes"
-        explanation="When setting text sizes, you should normally use `sp`, or &quot;scale-independent pixels&quot;. This is like the `dp` unit, but it is also scaled by the user&apos;s font size preference. It is recommend you use this unit when specifying font sizes, so they will be adjusted for both the screen density and the user&apos;s preference.&#xA;&#xA;There **are** cases where you might need to use `dp`; typically this happens when the text is in a container with a specific dp-size. This will prevent the text from spilling outside the container. Note however that this means that the user&apos;s font size settings are not respected, so consider adjusting the layout itself to be more flexible."
-        url="https://developer.android.com/training/multiscreen/screendensities.html"
-        urls="https://developer.android.com/training/multiscreen/screendensities.html"
-        errorLine1="        android:textSize=&quot;11dp&quot; />"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="20"
-            column="9"/>
-    </issue>
-
-    <issue
-        id="SpUsage"
-        severity="Warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes"
-        category="Correctness"
-        priority="3"
-        summary="Using `dp` instead of `sp` for text sizes"
-        explanation="When setting text sizes, you should normally use `sp`, or &quot;scale-independent pixels&quot;. This is like the `dp` unit, but it is also scaled by the user&apos;s font size preference. It is recommend you use this unit when specifying font sizes, so they will be adjusted for both the screen density and the user&apos;s preference.&#xA;&#xA;There **are** cases where you might need to use `dp`; typically this happens when the text is in a container with a specific dp-size. This will prevent the text from spilling outside the container. Note however that this means that the user&apos;s font size settings are not respected, so consider adjusting the layout itself to be more flexible."
-        url="https://developer.android.com/training/multiscreen/screendensities.html"
-        urls="https://developer.android.com/training/multiscreen/screendensities.html"
-        errorLine1="        android:textSize=&quot;20dp&quot; />"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="70"
-            column="9"/>
-    </issue>
-
-    <issue
-        id="SpUsage"
-        severity="Warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes"
-        category="Correctness"
-        priority="3"
-        summary="Using `dp` instead of `sp` for text sizes"
-        explanation="When setting text sizes, you should normally use `sp`, or &quot;scale-independent pixels&quot;. This is like the `dp` unit, but it is also scaled by the user&apos;s font size preference. It is recommend you use this unit when specifying font sizes, so they will be adjusted for both the screen density and the user&apos;s preference.&#xA;&#xA;There **are** cases where you might need to use `dp`; typically this happens when the text is in a container with a specific dp-size. This will prevent the text from spilling outside the container. Note however that this means that the user&apos;s font size settings are not respected, so consider adjusting the layout itself to be more flexible."
-        url="https://developer.android.com/training/multiscreen/screendensities.html"
-        urls="https://developer.android.com/training/multiscreen/screendensities.html"
-        errorLine1="        android:textSize=&quot;20dp&quot; />"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
-            line="20"
-            column="9"/>
-    </issue>
-
-    <issue
-        id="SpUsage"
-        severity="Warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes"
-        category="Correctness"
-        priority="3"
-        summary="Using `dp` instead of `sp` for text sizes"
-        explanation="When setting text sizes, you should normally use `sp`, or &quot;scale-independent pixels&quot;. This is like the `dp` unit, but it is also scaled by the user&apos;s font size preference. It is recommend you use this unit when specifying font sizes, so they will be adjusted for both the screen density and the user&apos;s preference.&#xA;&#xA;There **are** cases where you might need to use `dp`; typically this happens when the text is in a container with a specific dp-size. This will prevent the text from spilling outside the container. Note however that this means that the user&apos;s font size settings are not respected, so consider adjusting the layout itself to be more flexible."
-        url="https://developer.android.com/training/multiscreen/screendensities.html"
-        urls="https://developer.android.com/training/multiscreen/screendensities.html"
-        errorLine1="        android:textSize=&quot;20dp&quot; />"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="85"
             column="9"/>
     </issue>
 
@@ -558,7 +450,7 @@
         errorLine1="                android:textSize=&quot;20dp&quot; />"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="36"
             column="17"/>
     </issue>
@@ -576,7 +468,7 @@
         errorLine1="                android:textSize=&quot;20dp&quot; />"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="51"
             column="17"/>
     </issue>
@@ -594,7 +486,7 @@
         errorLine1="                android:textSize=&quot;20dp&quot; />"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="66"
             column="17"/>
     </issue>
@@ -612,7 +504,7 @@
         errorLine1="                    android:textSize=&quot;20dp&quot; />"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="100"
             column="21"/>
     </issue>
@@ -630,7 +522,7 @@
         errorLine1="                    android:textSize=&quot;20dp&quot; />"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="115"
             column="21"/>
     </issue>
@@ -648,7 +540,7 @@
         errorLine1="        android:textSize=&quot;20dp&quot; />"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_reset_password.xml"
             line="29"
             column="9"/>
     </issue>
@@ -666,7 +558,7 @@
         errorLine1="        android:textSize=&quot;14dp&quot; />"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_reset_password.xml"
             line="38"
             column="9"/>
     </issue>
@@ -684,7 +576,7 @@
         errorLine1="        android:textSize=&quot;15dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\item_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\item_history.xml"
             line="15"
             column="9"/>
     </issue>
@@ -702,7 +594,7 @@
         errorLine1="        android:textSize=&quot;15dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\item_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\item_history.xml"
             line="24"
             column="9"/>
     </issue>
@@ -718,7 +610,7 @@
         errorLine1="                        android:onClick=&quot;sendMessage&quot;"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="85"
             column="25"/>
     </issue>
@@ -734,7 +626,7 @@
         errorLine1="                        android:onClick=&quot;sendMessage2&quot;"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="101"
             column="25"/>
     </issue>
@@ -750,7 +642,7 @@
         errorLine1="                    mHistoryAdapter.notifyDataSetChanged();"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\HistoryActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\HistoryActivity.java"
             line="86"
             column="21"/>
     </issue>
@@ -766,7 +658,7 @@
         errorLine1="                    android:layout_centerHorizontal=&quot;true&quot;"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="76"
             column="21"/>
     </issue>
@@ -782,7 +674,7 @@
         errorLine1="                        android:layout_below=&quot;@+id/linlay1&quot;"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="82"
             column="25"/>
     </issue>
@@ -798,7 +690,7 @@
         errorLine1="                        android:layout_centerHorizontal=&quot;true&quot;"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="83"
             column="25"/>
     </issue>
@@ -814,7 +706,7 @@
         errorLine1="                        android:layout_below=&quot;@+id/linlay1&quot;"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="98"
             column="25"/>
     </issue>
@@ -830,59 +722,23 @@
         errorLine1="                        android:layout_centerHorizontal=&quot;true&quot;"
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="99"
             column="25"/>
     </issue>
 
     <issue
-        id="MergeRootFrame"
-        severity="Warning"
-        message="This `&lt;FrameLayout>` can be replaced with a `&lt;merge>` tag"
-        category="Performance"
-        priority="4"
-        summary="FrameLayout can be replaced with `&lt;merge>` tag"
-        explanation="If a `&lt;FrameLayout>` is the root of a layout and does not provide background or padding etc, it can often be replaced with a `&lt;merge>` tag which is slightly more efficient. Note that this depends on context, so make sure you understand how the `&lt;merge>` tag works before proceeding."
-        url="https://android-developers.googleblog.com/2009/03/android-layout-tricks-3-optimize-by.html"
-        urls="https://android-developers.googleblog.com/2009/03/android-layout-tricks-3-optimize-by.html"
-        errorLine1="&lt;FrameLayout"
-        errorLine2="^">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="2"
-            column="1"/>
-    </issue>
-
-    <issue
-        id="MergeRootFrame"
-        severity="Warning"
-        message="This `&lt;FrameLayout>` can be replaced with a `&lt;merge>` tag"
-        category="Performance"
-        priority="4"
-        summary="FrameLayout can be replaced with `&lt;merge>` tag"
-        explanation="If a `&lt;FrameLayout>` is the root of a layout and does not provide background or padding etc, it can often be replaced with a `&lt;merge>` tag which is slightly more efficient. Note that this depends on context, so make sure you understand how the `&lt;merge>` tag works before proceeding."
-        url="https://android-developers.googleblog.com/2009/03/android-layout-tricks-3-optimize-by.html"
-        urls="https://android-developers.googleblog.com/2009/03/android-layout-tricks-3-optimize-by.html"
-        errorLine1="&lt;FrameLayout"
-        errorLine2="^">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="1"
-            column="1"/>
-    </issue>
-
-    <issue
         id="Overdraw"
         severity="Warning"
-        message="Possible overdraw: Root element paints background `#80ced6` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
+        message="Possible overdraw: Root element paints background `#00FF00` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
         category="Performance"
         priority="3"
         summary="Overdraw: Painting regions more than once"
         explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.&#xA;&#xA;NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.&#xA;&#xA;If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.&#xA;&#xA;Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead."
-        errorLine1="    android:background=&quot;#80ced6&quot;"
+        errorLine1="    android:background=&quot;#00FF00&quot;>"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
             line="9"
             column="5"/>
     </issue>
@@ -898,7 +754,39 @@
         errorLine1="    android:background=&quot;#80ced6&quot;"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
+            line="10"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        severity="Warning"
+        message="Possible overdraw: Root element paints background `#FF0000` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
+        category="Performance"
+        priority="3"
+        summary="Overdraw: Painting regions more than once"
+        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.&#xA;&#xA;NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.&#xA;&#xA;If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.&#xA;&#xA;Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead."
+        errorLine1="    android:background=&quot;#FF0000&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="6"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        severity="Warning"
+        message="Possible overdraw: Root element paints background `#80ced6` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
+        category="Performance"
+        priority="3"
+        summary="Overdraw: Painting regions more than once"
+        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.&#xA;&#xA;NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.&#xA;&#xA;If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.&#xA;&#xA;Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead."
+        errorLine1="    android:background=&quot;#80ced6&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="10"
             column="5"/>
     </issue>
@@ -914,71 +802,7 @@
         errorLine1="    android:background=&quot;#80ced6&quot;"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="9"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="Overdraw"
-        severity="Warning"
-        message="Possible overdraw: Root element paints background `#80ced6` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
-        category="Performance"
-        priority="3"
-        summary="Overdraw: Painting regions more than once"
-        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.&#xA;&#xA;NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.&#xA;&#xA;If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.&#xA;&#xA;Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead."
-        errorLine1="    android:background=&quot;#80ced6&quot;"
-        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="9"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="Overdraw"
-        severity="Warning"
-        message="Possible overdraw: Root element paints background `#80ced6` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
-        category="Performance"
-        priority="3"
-        summary="Overdraw: Painting regions more than once"
-        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.&#xA;&#xA;NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.&#xA;&#xA;If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.&#xA;&#xA;Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead."
-        errorLine1="    android:background=&quot;#80ced6&quot;"
-        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
-            line="10"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="Overdraw"
-        severity="Warning"
-        message="Possible overdraw: Root element paints background `#80ced6` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
-        category="Performance"
-        priority="3"
-        summary="Overdraw: Painting regions more than once"
-        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.&#xA;&#xA;NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.&#xA;&#xA;If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.&#xA;&#xA;Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead."
-        errorLine1="    android:background=&quot;#80ced6&quot;"
-        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="9"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="Overdraw"
-        severity="Warning"
-        message="Possible overdraw: Root element paints background `#80ced6` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
-        category="Performance"
-        priority="3"
-        summary="Overdraw: Painting regions more than once"
-        explanation="If you set a background drawable on a root view, then you should use a custom theme where the theme background is null. Otherwise, the theme background will be painted first, only to have your custom background completely cover it; this is called &quot;overdraw&quot;.&#xA;&#xA;NOTE: This detector relies on figuring out which layouts are associated with which activities based on scanning the Java code, and it&apos;s currently doing that using an inexact pattern matching algorithm. Therefore, it can incorrectly conclude which activity the layout is associated with and then wrongly complain that a background-theme is hidden.&#xA;&#xA;If you want your custom background on multiple pages, then you should consider making a custom theme with your custom background and just using that theme instead of a root element background.&#xA;&#xA;Of course it&apos;s possible that your custom drawable is translucent and you want it to be mixed with the background. However, you will get better performance if you pre-mix the background with your drawable and use that resulting image or color as a custom theme background instead."
-        errorLine1="    android:background=&quot;#80ced6&quot;"
-        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history.xml"
             line="12"
             column="5"/>
     </issue>
@@ -994,7 +818,7 @@
         errorLine1="    android:background=&quot;#80ced6&quot;"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="9"
             column="5"/>
     </issue>
@@ -1010,7 +834,7 @@
         errorLine1="    android:background=&quot;#80ced6&quot;>"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_reset_password.xml"
             line="10"
             column="5"/>
     </issue>
@@ -1026,7 +850,7 @@
         errorLine1="    android:background=&quot;#80ced6&quot;"
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\item_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\item_history.xml"
             line="7"
             column="5"/>
     </issue>
@@ -1040,7 +864,7 @@
         summary="Unused resources"
         explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\amb.jpg"/>
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\drawable\amb.jpg"/>
     </issue>
 
     <issue
@@ -1052,7 +876,7 @@
         summary="Unused resources"
         explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\amb2.png"/>
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\drawable\amb2.png"/>
     </issue>
 
     <issue
@@ -1066,8 +890,40 @@
         errorLine1="    &lt;color name=&quot;transparent&quot;>#00000000&lt;/color>"
         errorLine2="           ~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\colors.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\colors.xml"
             line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.gradStart` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,"
+        errorLine1="    &lt;color name=&quot;gradStart&quot;>#19AA8B&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\colors.xml"
+            line="9"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.gradStop` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,"
+        errorLine1="    &lt;color name=&quot;gradStop&quot;>#23A7D8&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\colors.xml"
+            line="10"
             column="12"/>
     </issue>
 
@@ -1082,7 +938,7 @@
         errorLine1="    &lt;dimen name=&quot;activity_horizontal_margin&quot;>16dp&lt;/dimen>"
         errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\dimens.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\dimens.xml"
             line="3"
             column="12"/>
     </issue>
@@ -1098,7 +954,7 @@
         errorLine1="    &lt;dimen name=&quot;activity_vertical_margin&quot;>16dp&lt;/dimen>"
         errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\dimens.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\dimens.xml"
             line="4"
             column="12"/>
     </issue>
@@ -1114,7 +970,7 @@
         errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
         errorLine2="^">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\ic_add_alert_black_24dp.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\drawable\ic_add_alert_black_24dp.xml"
             line="1"
             column="1"/>
     </issue>
@@ -1130,7 +986,7 @@
         errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
         errorLine2="^">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\ic_edit_location_black_24dp.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\drawable\ic_edit_location_black_24dp.xml"
             line="1"
             column="1"/>
     </issue>
@@ -1146,7 +1002,23 @@
         errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
         errorLine2="^">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable-v24\ic_launcher_foreground.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\drawable-v24\ic_launcher_foreground.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.ic_local_hospital_black_24dp` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,"
+        errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\drawable\ic_local_hospital_black_24dp.xml"
             line="1"
             column="1"/>
     </issue>
@@ -1160,7 +1032,7 @@
         summary="Unused resources"
         explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\mipmap-hdpi\ic_pickup.png"/>
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\mipmap-hdpi\ic_pickup.png"/>
     </issue>
 
     <issue
@@ -1172,7 +1044,7 @@
         summary="Unused resources"
         explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\mipmap-hdpi\ic_pickup_round.png"/>
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\mipmap-hdpi\ic_pickup_round.png"/>
     </issue>
 
     <issue
@@ -1186,7 +1058,7 @@
         errorLine1="    &lt;string name=&quot;prompt_email&quot;>Email&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\strings.xml"
             line="6"
             column="13"/>
     </issue>
@@ -1202,7 +1074,7 @@
         errorLine1="    &lt;string name=&quot;prompt_password&quot;>Password (optional)&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\strings.xml"
             line="7"
             column="13"/>
     </issue>
@@ -1218,7 +1090,7 @@
         errorLine1="    &lt;string name=&quot;action_sign_in&quot;>Sign in or register&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\strings.xml"
             line="8"
             column="13"/>
     </issue>
@@ -1234,7 +1106,7 @@
         errorLine1="    &lt;string name=&quot;action_sign_in_short&quot;>Sign in&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\strings.xml"
             line="9"
             column="13"/>
     </issue>
@@ -1250,7 +1122,7 @@
         errorLine1="    &lt;string name=&quot;permission_rationale&quot;>&quot;Contacts permissions are needed for providing email"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\strings.xml"
             line="14"
             column="13"/>
     </issue>
@@ -1266,7 +1138,7 @@
         errorLine1="    &lt;string name=&quot;title_activity_maps&quot;>Map&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\strings.xml"
             line="18"
             column="13"/>
     </issue>
@@ -1282,7 +1154,7 @@
         errorLine1="    &lt;string name=&quot;title_activity_login&quot;>Sign in&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\values\strings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\values\strings.xml"
             line="21"
             column="13"/>
     </issue>
@@ -1298,8 +1170,8 @@
         errorLine1="        &lt;LinearLayout"
         errorLine2="         ~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="79"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="88"
             column="10"/>
     </issue>
 
@@ -1314,7 +1186,7 @@
         errorLine1="            &lt;LinearLayout"
         errorLine2="             ~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="88"
             column="14"/>
     </issue>
@@ -1330,7 +1202,7 @@
         errorLine1="                &lt;LinearLayout"
         errorLine2="                 ~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="73"
             column="18"/>
     </issue>
@@ -1346,7 +1218,7 @@
         errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
         errorLine2="^">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml"
             line="2"
             column="1"/>
     </issue>
@@ -1362,9 +1234,27 @@
         errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
         errorLine2="^">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml"
             line="2"
             column="1"/>
+    </issue>
+
+    <issue
+        id="IconDipSize"
+        severity="Warning"
+        message="The image `ic_launcher.png` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher.png: 32x32 dp (48x48 px), mipmap-xhdpi/ic_launcher.png: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher.png: 48x48 dp (144x144 px), mipmap-xxxhdpi/ic_launcher.png: 48x48 dp (192x192 px)"
+        category="Usability:Icons"
+        priority="5"
+        summary="Icon density-independent size validation"
+        explanation="Checks the all icons which are provided in multiple densities, all compute to roughly the same density-independent pixel (`dip`) size. This catches errors where images are either placed in the wrong folder, or icons are changed to new sizes but some folders are forgotten.">
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\mipmap-hdpi\ic_launcher.png"/>
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png"/>
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\mipmap-xxhdpi\ic_launcher.png"/>
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\mipmap-xhdpi\ic_launcher.png"/>
     </issue>
 
     <issue
@@ -1378,7 +1268,7 @@
         url="https://developer.android.com/guide/practices/screens_support.html"
         urls="https://developer.android.com/guide/practices/screens_support.html">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\amb.jpg"/>
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\drawable\amb.jpg"/>
     </issue>
 
     <issue
@@ -1392,7 +1282,21 @@
         url="https://developer.android.com/guide/practices/screens_support.html"
         urls="https://developer.android.com/guide/practices/screens_support.html">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\drawable\amb2.png"/>
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\drawable\amb2.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/medvan_logo.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon **really** is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="https://developer.android.com/guide/practices/screens_support.html"
+        urls="https://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\drawable\medvan_logo.png"/>
     </issue>
 
     <issue
@@ -1408,8 +1312,8 @@
         errorLine1="            &lt;Button"
         errorLine2="             ~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="24"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="25"
             column="14"/>
     </issue>
 
@@ -1426,8 +1330,8 @@
         errorLine1="            &lt;Button"
         errorLine2="             ~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="36"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="39"
             column="14"/>
     </issue>
 
@@ -1444,62 +1348,62 @@
         errorLine1="            &lt;Button"
         errorLine2="             ~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="52"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        severity="Warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        category="Usability"
+        priority="5"
+        summary="Button should be borderless"
+        explanation="Button bars typically use a borderless style for the buttons. Set the `style=&quot;?android:attr/buttonBarButtonStyle&quot;` attribute on each of the buttons, and set `style=&quot;?android:attr/buttonBarStyle&quot;` on the parent layout"
+        url="https://d.android.com/r/studio-ui/designer/material/dialogs"
+        urls="https://d.android.com/r/studio-ui/designer/material/dialogs"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="21"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        severity="Warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        category="Usability"
+        priority="5"
+        summary="Button should be borderless"
+        explanation="Button bars typically use a borderless style for the buttons. Set the `style=&quot;?android:attr/buttonBarButtonStyle&quot;` attribute on each of the buttons, and set `style=&quot;?android:attr/buttonBarStyle&quot;` on the parent layout"
+        url="https://d.android.com/r/studio-ui/designer/material/dialogs"
+        urls="https://d.android.com/r/studio-ui/designer/material/dialogs"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="34"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ButtonStyle"
+        severity="Warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
+        category="Usability"
+        priority="5"
+        summary="Button should be borderless"
+        explanation="Button bars typically use a borderless style for the buttons. Set the `style=&quot;?android:attr/buttonBarButtonStyle&quot;` attribute on each of the buttons, and set `style=&quot;?android:attr/buttonBarStyle&quot;` on the parent layout"
+        url="https://d.android.com/r/studio-ui/designer/material/dialogs"
+        urls="https://d.android.com/r/studio-ui/designer/material/dialogs"
+        errorLine1="            &lt;Button"
+        errorLine2="             ~~~~~~">
+        <location
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
             line="47"
-            column="14"/>
-    </issue>
-
-    <issue
-        id="ButtonStyle"
-        severity="Warning"
-        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
-        category="Usability"
-        priority="5"
-        summary="Button should be borderless"
-        explanation="Button bars typically use a borderless style for the buttons. Set the `style=&quot;?android:attr/buttonBarButtonStyle&quot;` attribute on each of the buttons, and set `style=&quot;?android:attr/buttonBarStyle&quot;` on the parent layout"
-        url="https://d.android.com/r/studio-ui/designer/material/dialogs"
-        urls="https://d.android.com/r/studio-ui/designer/material/dialogs"
-        errorLine1="            &lt;Button"
-        errorLine2="             ~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="20"
-            column="14"/>
-    </issue>
-
-    <issue
-        id="ButtonStyle"
-        severity="Warning"
-        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
-        category="Usability"
-        priority="5"
-        summary="Button should be borderless"
-        explanation="Button bars typically use a borderless style for the buttons. Set the `style=&quot;?android:attr/buttonBarButtonStyle&quot;` attribute on each of the buttons, and set `style=&quot;?android:attr/buttonBarStyle&quot;` on the parent layout"
-        url="https://d.android.com/r/studio-ui/designer/material/dialogs"
-        urls="https://d.android.com/r/studio-ui/designer/material/dialogs"
-        errorLine1="            &lt;Button"
-        errorLine2="             ~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="31"
-            column="14"/>
-    </issue>
-
-    <issue
-        id="ButtonStyle"
-        severity="Warning"
-        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)"
-        category="Usability"
-        priority="5"
-        summary="Button should be borderless"
-        explanation="Button bars typically use a borderless style for the buttons. Set the `style=&quot;?android:attr/buttonBarButtonStyle&quot;` attribute on each of the buttons, and set `style=&quot;?android:attr/buttonBarStyle&quot;` on the parent layout"
-        url="https://d.android.com/r/studio-ui/designer/material/dialogs"
-        urls="https://d.android.com/r/studio-ui/designer/material/dialogs"
-        errorLine1="            &lt;Button"
-        errorLine2="             ~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="42"
             column="14"/>
     </issue>
 
@@ -1514,7 +1418,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="22"
             column="6"/>
     </issue>
@@ -1530,11 +1434,11 @@
         errorLine1="        android:inputType=&quot;number&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="37"
             column="9"/>
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="31"
             column="9"
             message="id defined here"/>
@@ -1551,7 +1455,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="22"
             column="6"/>
     </issue>
@@ -1567,11 +1471,11 @@
         errorLine1="        android:inputType=&quot;number&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="38"
             column="9"/>
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="32"
             column="9"
             message="id defined here"/>
@@ -1588,7 +1492,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="41"
             column="6"/>
     </issue>
@@ -1604,8 +1508,8 @@
         errorLine1="            android:textSize=&quot;10sp&quot; />"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
-            line="146"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
+            line="137"
             column="13"/>
     </issue>
 
@@ -1622,7 +1526,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
             line="12"
             column="6"/>
     </issue>
@@ -1640,8 +1544,8 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="23"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="26"
             column="6"/>
     </issue>
 
@@ -1658,7 +1562,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="22"
             column="6"/>
     </issue>
@@ -1676,7 +1580,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="30"
             column="6"/>
     </issue>
@@ -1694,7 +1598,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
             line="12"
             column="6"/>
     </issue>
@@ -1712,8 +1616,8 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="23"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
+            line="26"
             column="6"/>
     </issue>
 
@@ -1730,8 +1634,8 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="72"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="82"
             column="6"/>
     </issue>
 
@@ -1748,8 +1652,8 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="83"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="96"
             column="6"/>
     </issue>
 
@@ -1766,7 +1670,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="22"
             column="6"/>
     </issue>
@@ -1784,7 +1688,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="31"
             column="6"/>
     </issue>
@@ -1802,7 +1706,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="41"
             column="6"/>
     </issue>
@@ -1820,7 +1724,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
             line="12"
             column="6"/>
     </issue>
@@ -1838,8 +1742,8 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="23"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
+            line="26"
             column="6"/>
     </issue>
 
@@ -1856,7 +1760,7 @@
         errorLine1="    &lt;EditText"
         errorLine2="     ~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_reset_password.xml"
             line="40"
             column="6"/>
     </issue>
@@ -1874,8 +1778,8 @@
         errorLine1="    &lt;ImageView"
         errorLine2="     ~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="76"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="90"
             column="6"/>
     </issue>
 
@@ -1892,8 +1796,8 @@
         errorLine1="    &lt;ImageView"
         errorLine2="     ~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="65"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
+            line="77"
             column="6"/>
     </issue>
 
@@ -1910,8 +1814,8 @@
         errorLine1="    &lt;ImageView"
         errorLine2="     ~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="51"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="59"
             column="6"/>
     </issue>
 
@@ -1928,8 +1832,8 @@
         errorLine1="    &lt;ImageView"
         errorLine2="     ~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="65"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
+            line="77"
             column="6"/>
     </issue>
 
@@ -1946,7 +1850,7 @@
         errorLine1="        &lt;ImageView"
         errorLine2="         ~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="18"
             column="10"/>
     </issue>
@@ -1964,7 +1868,7 @@
         errorLine1="                        mRequest.setText(&quot;Getting Your Ambulance...&quot;);"
         errorLine2="                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="192"
             column="42"/>
     </issue>
@@ -1982,7 +1886,7 @@
         errorLine1="                mRequest.setText(&quot;Request An Ambulance&quot;);"
         errorLine2="                                 ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="399"
             column="34"/>
     </issue>
@@ -2000,7 +1904,7 @@
         errorLine1="                mRequest.setText(&quot;Request An Ambulance&quot;);"
         errorLine2="                                 ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="413"
             column="34"/>
     </issue>
@@ -2018,7 +1922,7 @@
         errorLine1="                        mRequest.setText(&quot;Request An Ambulance&quot;);"
         errorLine2="                                         ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="432"
             column="42"/>
     </issue>
@@ -2036,7 +1940,7 @@
         errorLine1="                                                    mRequest.setText(&quot;Looking for Driver&apos;s Location....&quot;);"
         errorLine2="                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="474"
             column="70"/>
     </issue>
@@ -2054,7 +1958,7 @@
         errorLine1="                                        mRequest.setText(&quot;Request An Ambulance&quot;);"
         errorLine2="                                                         ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="519"
             column="58"/>
     </issue>
@@ -2072,7 +1976,7 @@
         errorLine1="                            mRequest.setText(&quot;Request An Ambulance&quot;);"
         errorLine2="                                             ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="534"
             column="46"/>
     </issue>
@@ -2090,7 +1994,7 @@
         errorLine1="                    mRequest.setText(&quot;Request An Ambulance&quot;);"
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="546"
             column="38"/>
     </issue>
@@ -2108,7 +2012,7 @@
         errorLine1="            mRequest.setText(&quot;Request An Ambulance&quot;);"
         errorLine2="                             ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="555"
             column="30"/>
     </issue>
@@ -2126,7 +2030,7 @@
         errorLine1="                        mRequest.setText(&quot;Ambulance Arrived&quot;);"
         errorLine2="                                         ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="592"
             column="42"/>
     </issue>
@@ -2144,7 +2048,7 @@
         errorLine1="                        mRequest.setText(&quot;Ambulance Found: &quot;+ String.valueOf(dis)+ &quot; Kms away...&quot;);"
         errorLine2="                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="595"
             column="42"/>
     </issue>
@@ -2162,7 +2066,7 @@
         errorLine1="                        mRequest.setText(&quot;Ambulance Found: &quot;+ String.valueOf(dis)+ &quot; Kms away...&quot;);"
         errorLine2="                                         ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="595"
             column="42"/>
     </issue>
@@ -2180,7 +2084,7 @@
         errorLine1="                        mRequest.setText(&quot;Ambulance Found: &quot;+ String.valueOf(dis)+ &quot; Kms away...&quot;);"
         errorLine2="                                                                                   ~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="595"
             column="84"/>
     </issue>
@@ -2198,7 +2102,7 @@
         errorLine1="        mRequest.setText(&quot;Request An Ambulance&quot;);"
         errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\CustomerMapActivity.java"
             line="879"
             column="26"/>
     </issue>
@@ -2216,7 +2120,7 @@
         errorLine1="                        mrideStatus.setText(&quot;Patient Assigned ! Please pickup the patient.&quot;);"
         errorLine2="                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
             line="143"
             column="45"/>
     </issue>
@@ -2234,7 +2138,7 @@
         errorLine1="        mrideStatus.setText(&quot;Pick Patient&quot;);"
         errorLine2="                            ~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
             line="197"
             column="29"/>
     </issue>
@@ -2252,7 +2156,7 @@
         errorLine1="                        mCustomerDestination.setText(&quot;destination: &quot;+destination);"
         errorLine2="                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
             line="315"
             column="54"/>
     </issue>
@@ -2270,7 +2174,7 @@
         errorLine1="                        mCustomerDestination.setText(&quot;destination: &quot;+destination);"
         errorLine2="                                                     ~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
             line="315"
             column="54"/>
     </issue>
@@ -2288,7 +2192,7 @@
         errorLine1="                        mCustomerDestination.setText(&quot;destination: ---&quot;);"
         errorLine2="                                                     ~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\DriverMapActivity.java"
             line="318"
             column="54"/>
     </issue>
@@ -2306,7 +2210,7 @@
         errorLine1="                        mSignup.setText(&quot;Creating Account...&quot;);"
         errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverSignupActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\DriverSignupActivity.java"
             line="74"
             column="41"/>
     </issue>
@@ -2324,7 +2228,7 @@
         errorLine1="                                                        mSignup.setText(&quot;Sign Up&quot;);"
         errorLine2="                                                                        ~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverSignupActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\DriverSignupActivity.java"
             line="106"
             column="73"/>
     </issue>
@@ -2342,7 +2246,7 @@
         errorLine1="                                        mSignup.setText(&quot;Sign Up&quot;);"
         errorLine2="                                                        ~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\java\sachdeva\saksham\medrescue\DriverSignupActivity.java"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\java\sachdeva\saksham\medrescue\DriverSignupActivity.java"
             line="119"
             column="57"/>
     </issue>
@@ -2358,7 +2262,7 @@
         errorLine1="        android:hint=&quot;Email&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
             line="20"
             column="9"/>
     </issue>
@@ -2374,8 +2278,8 @@
         errorLine1="        android:hint=&quot;Password...&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="31"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="34"
             column="9"/>
     </issue>
 
@@ -2390,24 +2294,24 @@
         errorLine1="        android:text=&quot;Forget Password&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="42"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="48"
             column="9"/>
     </issue>
 
     <issue
         id="HardcodedText"
         severity="Warning"
-        message="Hardcoded string &quot;login&quot;, should use `@string` resource"
+        message="Hardcoded string &quot;Login&quot;, should use `@string` resource"
         category="Internationalization"
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="        android:text=&quot;login&quot; />"
+        errorLine1="        android:text=&quot;Login&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="52"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="60"
             column="9"/>
     </issue>
 
@@ -2422,8 +2326,8 @@
         errorLine1="        android:text=&quot;Or, Create a new account :&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="63"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="73"
             column="9"/>
     </issue>
 
@@ -2435,11 +2339,11 @@
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="        android:text=&quot;Sign Up&quot; />"
+        errorLine1="        android:text=&quot;Sign Up&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="73"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="85"
             column="9"/>
     </issue>
 
@@ -2454,8 +2358,8 @@
         errorLine1="        android:text=&quot;Patient&apos;s/Attendant&apos;s Login&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="94"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="109"
             column="9"/>
     </issue>
 
@@ -2470,24 +2374,24 @@
         errorLine1="                android:text=&quot;Logout&quot; />"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="34"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="37"
             column="17"/>
     </issue>
 
     <issue
         id="HardcodedText"
         severity="Warning"
-        message="Hardcoded string &quot;history&quot;, should use `@string` resource"
+        message="Hardcoded string &quot;History&quot;, should use `@string` resource"
         category="Internationalization"
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="                android:text=&quot;history&quot; />"
+        errorLine1="                android:text=&quot;History&quot; />"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="45"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="50"
             column="17"/>
     </issue>
 
@@ -2502,8 +2406,8 @@
         errorLine1="                android:text=&quot;Profile&quot;/>"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="56"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="63"
             column="17"/>
     </issue>
 
@@ -2518,8 +2422,8 @@
         errorLine1="                    android:text=&quot;Search for nearest hospital&quot;"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="74"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="81"
             column="21"/>
     </issue>
 
@@ -2534,8 +2438,8 @@
         errorLine1="            android:text=&quot;Request An Ambulance&quot;"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="146"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="153"
             column="13"/>
     </issue>
 
@@ -2550,7 +2454,7 @@
         errorLine1="        android:text=&quot;                 Patient&apos;s Profile&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="18"
             column="9"/>
     </issue>
@@ -2566,7 +2470,7 @@
         errorLine1="        android:hint=&quot;Name&quot; />"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="29"
             column="9"/>
     </issue>
@@ -2582,7 +2486,7 @@
         errorLine1="        android:hint=&quot;Phone&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="35"
             column="9"/>
     </issue>
@@ -2598,7 +2502,7 @@
         errorLine1="        android:text=&quot;Confirm&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="43"
             column="9"/>
     </issue>
@@ -2614,7 +2518,7 @@
         errorLine1="        android:text=&quot;Back&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_settings.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_settings.xml"
             line="49"
             column="9"/>
     </issue>
@@ -2630,7 +2534,7 @@
         errorLine1="        android:hint=&quot;Email&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
             line="20"
             column="9"/>
     </issue>
@@ -2646,8 +2550,8 @@
         errorLine1="        android:hint=&quot;Password...&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="31"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
+            line="34"
             column="9"/>
     </issue>
 
@@ -2659,27 +2563,27 @@
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="        android:text=&quot;Verify Email&quot; />"
+        errorLine1="        android:text=&quot;Verify Email&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="42"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
+            line="48"
             column="9"/>
     </issue>
 
     <issue
         id="HardcodedText"
         severity="Warning"
-        message="Hardcoded string &quot;Already  have an account ?&quot;, should use `@string` resource"
+        message="Hardcoded string &quot;Already have an account?&quot;, should use `@string` resource"
         category="Internationalization"
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="        android:text=&quot;Already  have an account ?&quot;"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        errorLine1="        android:text=&quot;Already have an account?&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="52"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
+            line="60"
             column="9"/>
     </issue>
 
@@ -2691,11 +2595,11 @@
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="        android:text=&quot;Login&quot; />"
+        errorLine1="        android:text=&quot;Login&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="62"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
+            line="72"
             column="9"/>
     </issue>
 
@@ -2710,8 +2614,8 @@
         errorLine1="        android:text=&quot;Sign Up With Your Email&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="83"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
+            line="96"
             column="9"/>
     </issue>
 
@@ -2726,7 +2630,7 @@
         errorLine1="        android:text=&quot;Forget Password&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
             line="19"
             column="9"/>
     </issue>
@@ -2734,16 +2638,16 @@
     <issue
         id="HardcodedText"
         severity="Warning"
-        message="Hardcoded string &quot;login&quot;, should use `@string` resource"
+        message="Hardcoded string &quot;Login&quot;, should use `@string` resource"
         category="Internationalization"
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="        android:text=&quot;login&quot; />"
+        errorLine1="        android:text=&quot;Login&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="29"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="31"
             column="9"/>
     </issue>
 
@@ -2758,8 +2662,8 @@
         errorLine1="        android:text=&quot;Or, Create a new account :&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="39"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="43"
             column="9"/>
     </issue>
 
@@ -2771,11 +2675,11 @@
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="        android:text=&quot;Sign Up&quot; />"
+        errorLine1="        android:text=&quot;Sign Up&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="49"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="55"
             column="9"/>
     </issue>
 
@@ -2790,8 +2694,8 @@
         errorLine1="        android:text=&quot;Driver&apos;s Login&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="68"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="77"
             column="9"/>
     </issue>
 
@@ -2806,8 +2710,8 @@
         errorLine1="        android:hint=&quot;Email&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="80"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="90"
             column="9"/>
     </issue>
 
@@ -2822,8 +2726,8 @@
         errorLine1="        android:hint=&quot;Password...&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="91"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="104"
             column="9"/>
     </issue>
 
@@ -2838,8 +2742,8 @@
         errorLine1="                android:text=&quot;Logout&quot;/>"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="30"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="33"
             column="17"/>
     </issue>
 
@@ -2854,8 +2758,8 @@
         errorLine1="                android:text=&quot;History&quot;/>"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="41"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="46"
             column="17"/>
     </issue>
 
@@ -2870,8 +2774,8 @@
         errorLine1="                android:text=&quot;Profile&quot;/>"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="52"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="59"
             column="17"/>
     </issue>
 
@@ -2886,8 +2790,8 @@
         errorLine1="            android:text=&quot;Working&quot;"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="57"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="64"
             column="13"/>
     </issue>
 
@@ -2902,8 +2806,8 @@
         errorLine1="                android:text=&quot;Destination: --&quot;/>"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="89"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="98"
             column="17"/>
     </issue>
 
@@ -2918,8 +2822,8 @@
         errorLine1="        android:text=&quot;Pickup Customer&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="107"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="116"
             column="9"/>
     </issue>
 
@@ -2934,7 +2838,7 @@
         errorLine1="        android:text=&quot;                    Driver&apos;s Profile&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="18"
             column="9"/>
     </issue>
@@ -2950,7 +2854,7 @@
         errorLine1="        android:hint=&quot;Name&quot; />"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="29"
             column="9"/>
     </issue>
@@ -2966,7 +2870,7 @@
         errorLine1="        android:hint=&quot;Phone No.&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="36"
             column="9"/>
     </issue>
@@ -2982,7 +2886,7 @@
         errorLine1="        android:hint=&quot;Vehicle No.&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="46"
             column="9"/>
     </issue>
@@ -2998,7 +2902,7 @@
         errorLine1="        android:text=&quot;Confirm&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="54"
             column="9"/>
     </issue>
@@ -3014,7 +2918,7 @@
         errorLine1="        android:text=&quot;Back&quot; />"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_setting.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_setting.xml"
             line="61"
             column="9"/>
     </issue>
@@ -3030,7 +2934,7 @@
         errorLine1="        android:hint=&quot;Email&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
             line="20"
             column="9"/>
     </issue>
@@ -3046,8 +2950,8 @@
         errorLine1="        android:hint=&quot;Password...&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="31"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
+            line="34"
             column="9"/>
     </issue>
 
@@ -3059,11 +2963,11 @@
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="        android:text=&quot;Verify Email&quot; />"
+        errorLine1="        android:text=&quot;Verify Email&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="42"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
+            line="48"
             column="9"/>
     </issue>
 
@@ -3078,8 +2982,8 @@
         errorLine1="        android:text=&quot;Already  have an account ?&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="52"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
+            line="60"
             column="9"/>
     </issue>
 
@@ -3091,11 +2995,11 @@
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="        android:text=&quot;Login&quot; />"
+        errorLine1="        android:text=&quot;Login&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="62"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
+            line="72"
             column="9"/>
     </issue>
 
@@ -3110,8 +3014,8 @@
         errorLine1="        android:text=&quot;Sign Up With Your Email&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="83"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
+            line="96"
             column="9"/>
     </issue>
 
@@ -3126,7 +3030,7 @@
         errorLine1="        android:text=&quot;Your Trips&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history.xml"
             line="23"
             column="9"/>
     </issue>
@@ -3142,7 +3046,7 @@
         errorLine1="        android:text=&quot;(Please,tap on any ride-id for more details.)&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history.xml"
             line="35"
             column="9"/>
     </issue>
@@ -3158,7 +3062,7 @@
         errorLine1="                android:text=&quot;From - To :&quot;"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="35"
             column="17"/>
     </issue>
@@ -3174,7 +3078,7 @@
         errorLine1="                android:text=&quot;From - To&quot; />"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="44"
             column="17"/>
     </issue>
@@ -3190,7 +3094,7 @@
         errorLine1="                android:text=&quot;Distance Travelled :&quot;"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="50"
             column="17"/>
     </issue>
@@ -3206,7 +3110,7 @@
         errorLine1="                android:text=&quot;distance&quot; />"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="59"
             column="17"/>
     </issue>
@@ -3222,7 +3126,7 @@
         errorLine1="                android:text=&quot;Date and Time :&quot;"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="65"
             column="17"/>
     </issue>
@@ -3238,7 +3142,7 @@
         errorLine1="                android:text=&quot;date&quot; />"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="74"
             column="17"/>
     </issue>
@@ -3254,7 +3158,7 @@
         errorLine1="                    android:text=&quot;Name :&quot;"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="99"
             column="21"/>
     </issue>
@@ -3270,7 +3174,7 @@
         errorLine1="                    android:text=&quot;name&quot; />"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="108"
             column="21"/>
     </issue>
@@ -3286,7 +3190,7 @@
         errorLine1="                    android:text=&quot;Phone No.:&quot;"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="114"
             column="21"/>
     </issue>
@@ -3302,7 +3206,7 @@
         errorLine1="                    android:text=&quot;phone&quot; />"
         errorLine2="                    ~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="123"
             column="21"/>
     </issue>
@@ -3318,7 +3222,7 @@
         errorLine1="        android:text=&quot;MedRescue&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_reset_password.xml"
             line="19"
             column="9"/>
     </issue>
@@ -3334,7 +3238,7 @@
         errorLine1="        android:text=&quot;Forgot your password?&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_reset_password.xml"
             line="28"
             column="9"/>
     </issue>
@@ -3350,7 +3254,7 @@
         errorLine1="        android:text=&quot;To reset password, enter your email, press the button and check mail to follow instruction.&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_reset_password.xml"
             line="37"
             column="9"/>
     </issue>
@@ -3366,7 +3270,7 @@
         errorLine1="        android:hint=&quot;Enter Your email here...&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_reset_password.xml"
             line="46"
             column="9"/>
     </issue>
@@ -3382,7 +3286,7 @@
         errorLine1="        android:text=&quot;Reset Password&quot; />"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_reset_password.xml"
             line="54"
             column="9"/>
     </issue>
@@ -3398,7 +3302,7 @@
         errorLine1="        android:text=&quot;BACK&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_reset_password.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_reset_password.xml"
             line="61"
             column="9"/>
     </issue>
@@ -3406,32 +3310,16 @@
     <issue
         id="HardcodedText"
         severity="Warning"
-        message="Hardcoded string &quot;Med Rescue&quot;, should use `@string` resource"
+        message="Hardcoded string &quot;MedVan&quot;, should use `@string` resource"
         category="Internationalization"
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="                android:text=&quot;Med Rescue&quot;"
-        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        errorLine1="                android:text=&quot;MedVan&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="41"
-            column="17"/>
-    </issue>
-
-    <issue
-        id="HardcodedText"
-        severity="Warning"
-        message="Hardcoded string &quot;(Book Ambulances 24X7)&quot;, should use `@string` resource"
-        category="Internationalization"
-        priority="5"
-        summary="Hardcoded text"
-        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="                android:text=&quot;(Book Ambulances 24X7)&quot;"
-        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
-            line="51"
             column="17"/>
     </issue>
 
@@ -3446,7 +3334,7 @@
         errorLine1="                android:text=&quot;Please Select Appropriate Option :&quot;"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
             line="61"
             column="17"/>
     </issue>
@@ -3454,48 +3342,48 @@
     <issue
         id="HardcodedText"
         severity="Warning"
-        message="Hardcoded string &quot;I&apos;m a Patient &quot;, should use `@string` resource"
+        message="Hardcoded string &quot;Patient&apos;s App&quot;, should use `@string` resource"
         category="Internationalization"
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="                        android:text=&quot;I&apos;m a Patient &quot;"
-        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        errorLine1="                        android:text=&quot;Patient&apos;s App&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
-            line="90"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
+            line="89"
             column="25"/>
     </issue>
 
     <issue
         id="HardcodedText"
         severity="Warning"
-        message="Hardcoded string &quot;  I&apos;m a Driver&quot;, should use `@string` resource"
+        message="Hardcoded string &quot;Driver&apos;s App&quot;, should use `@string` resource"
         category="Internationalization"
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="                        android:text=&quot;  I&apos;m a Driver&quot;"
-        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        errorLine1="                        android:text=&quot;Driver&apos;s App&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
-            line="107"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
+            line="105"
             column="25"/>
     </issue>
 
     <issue
         id="HardcodedText"
         severity="Warning"
-        message="Hardcoded string &quot;Med Rescue © 2019&quot;, should use `@string` resource"
+        message="Hardcoded string &quot;MedVan © 2025&quot;, should use `@string` resource"
         category="Internationalization"
         priority="5"
         summary="Hardcoded text"
         explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait) you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
-        errorLine1="            android:text=&quot;Med Rescue © 2019&quot;"
-        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        errorLine1="            android:text=&quot;MedVan © 2025&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_welcome_.xml"
-            line="143"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_welcome_.xml"
+            line="134"
             column="13"/>
     </issue>
 
@@ -3510,7 +3398,7 @@
         errorLine1="        android:text=&quot;time&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\item_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\item_history.xml"
             line="16"
             column="9"/>
     </issue>
@@ -3526,7 +3414,7 @@
         errorLine1="        android:text=&quot;rideid&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\item_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\item_history.xml"
             line="25"
             column="9"/>
     </issue>
@@ -3542,8 +3430,8 @@
         errorLine1="                android:paddingLeft=&quot;40sp&quot;>"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="105"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="112"
             column="17"/>
     </issue>
 
@@ -3558,8 +3446,8 @@
         errorLine1="            android:paddingLeft=&quot;40sp&quot;>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="83"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="92"
             column="13"/>
     </issue>
 
@@ -3574,8 +3462,8 @@
         errorLine1="        android:layout_marginLeft=&quot;200dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="40"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="46"
             column="9"/>
     </issue>
 
@@ -3590,8 +3478,8 @@
         errorLine1="        android:layout_marginLeft=&quot;45dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="50"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="58"
             column="9"/>
     </issue>
 
@@ -3606,8 +3494,8 @@
         errorLine1="        android:layout_marginLeft=&quot;110dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="62"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="72"
             column="9"/>
     </issue>
 
@@ -3622,8 +3510,8 @@
         errorLine1="        android:layout_marginLeft=&quot;60dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_login.xml"
-            line="92"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_login.xml"
+            line="107"
             column="9"/>
     </issue>
 
@@ -3638,8 +3526,8 @@
         errorLine1="                android:layout_marginRight=&quot;2dp&quot;"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="40"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="43"
             column="17"/>
     </issue>
 
@@ -3654,8 +3542,8 @@
         errorLine1="                android:layout_marginRight=&quot;2dp&quot;"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="50"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="55"
             column="17"/>
     </issue>
 
@@ -3670,8 +3558,8 @@
         errorLine1="                android:paddingLeft=&quot;40sp&quot;>"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_map.xml"
-            line="105"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_map.xml"
+            line="112"
             column="17"/>
     </issue>
 
@@ -3686,8 +3574,8 @@
         errorLine1="        android:layout_marginLeft=&quot;100dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="50"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
+            line="58"
             column="9"/>
     </issue>
 
@@ -3702,8 +3590,8 @@
         errorLine1="        android:layout_marginLeft=&quot;80dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_customer_signup.xml"
-            line="81"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_customer_signup.xml"
+            line="94"
             column="9"/>
     </issue>
 
@@ -3718,7 +3606,7 @@
         errorLine1="        android:layout_marginLeft=&quot;200dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
             line="17"
             column="9"/>
     </issue>
@@ -3734,8 +3622,8 @@
         errorLine1="        android:layout_marginLeft=&quot;45dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="27"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="29"
             column="9"/>
     </issue>
 
@@ -3750,8 +3638,8 @@
         errorLine1="        android:layout_marginLeft=&quot;110dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="38"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="42"
             column="9"/>
     </issue>
 
@@ -3766,8 +3654,8 @@
         errorLine1="        android:layout_marginLeft=&quot;120dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_login.xml"
-            line="66"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_login.xml"
+            line="75"
             column="9"/>
     </issue>
 
@@ -3782,8 +3670,8 @@
         errorLine1="            android:paddingLeft=&quot;40sp&quot;>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_map.xml"
-            line="83"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_map.xml"
+            line="92"
             column="13"/>
     </issue>
 
@@ -3798,8 +3686,8 @@
         errorLine1="        android:layout_marginLeft=&quot;100dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="50"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
+            line="58"
             column="9"/>
     </issue>
 
@@ -3814,8 +3702,8 @@
         errorLine1="        android:layout_marginLeft=&quot;80dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_driver_signup.xml"
-            line="81"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_driver_signup.xml"
+            line="94"
             column="9"/>
     </issue>
 
@@ -3830,7 +3718,7 @@
         errorLine1="        android:layout_marginLeft=&quot;120dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history.xml"
             line="20"
             column="9"/>
     </issue>
@@ -3846,7 +3734,7 @@
         errorLine1="        android:layout_marginLeft=&quot;40dp&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history.xml"
             line="32"
             column="9"/>
     </issue>
@@ -3862,7 +3750,7 @@
         errorLine1="            android:layout_marginLeft=&quot;20dp&quot;"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history.xml"
             line="47"
             column="13"/>
     </issue>
@@ -3878,7 +3766,7 @@
         errorLine1="            android:layout_marginLeft=&quot;30dp&quot;"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="26"
             column="13"/>
     </issue>
@@ -3894,7 +3782,7 @@
         errorLine1="            android:layout_marginRight=&quot;10dp&quot;"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="28"
             column="13"/>
     </issue>
@@ -3910,7 +3798,7 @@
         errorLine1="            android:layout_marginLeft=&quot;30dp&quot;"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="84"
             column="13"/>
     </issue>
@@ -3926,7 +3814,7 @@
         errorLine1="                android:layout_marginLeft=&quot;20dp&quot;"
         errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\res\layout\activity_history_single.xml"
+            file="C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\res\layout\activity_history_single.xml"
             line="91"
             column="17"/>
     </issue>

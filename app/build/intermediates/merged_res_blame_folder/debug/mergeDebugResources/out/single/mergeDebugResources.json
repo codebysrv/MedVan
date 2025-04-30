@@ -64,6 +64,10 @@
         "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_medvan_logo.png.flat",
+        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/medvan_logo.png"
+    },
+    {
         "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-hdpi_ic_launcher.png.flat",
         "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/ic_launcher.png"
     },
@@ -112,16 +116,16 @@
         "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_login.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-mdpi/ic_launcher.png"
-    },
-    {
         "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "sachdeva.saksham.medrescue.app-pngs-42:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_customer_map.xml.flat",
         "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_map.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_button_green_background.xml.flat",
+        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/button_green_background.xml"
     },
     {
         "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
@@ -160,6 +164,10 @@
         "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxhdpi/ic_pickup.png"
     },
     {
+        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_button_red_background.xml.flat",
+        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/button_red_background.xml"
+    },
+    {
         "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-hdpi_ic_pickup_round.png.flat",
         "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/ic_pickup_round.png"
     },
@@ -176,12 +184,12 @@
         "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-mdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_customer_signup.xml.flat",
         "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_signup.xml"
+    },
+    {
+        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-hdpi_patient.png.flat",

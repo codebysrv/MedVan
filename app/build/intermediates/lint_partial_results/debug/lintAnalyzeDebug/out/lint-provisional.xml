@@ -9,10 +9,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
             line="15"
             column="36"
-            startOffset="918"
+            startOffset="932"
             endLine="15"
             endColumn="76"
-            endOffset="958"/>
+            endOffset="972"/>
         <map>
             <entry
                 name="maxSdkVersion"
@@ -31,10 +31,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
             line="85"
             column="25"
-            startOffset="3521"
+            startOffset="3498"
             endLine="85"
             endColumn="54"
-            endOffset="3550"/>
+            endOffset="3527"/>
         <map>
             <condition minLT="23-∞"/>
         </map>
@@ -48,10 +48,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
             line="101"
             column="25"
-            startOffset="4272"
+            startOffset="4331"
             endLine="101"
             endColumn="55"
-            endOffset="4302"/>
+            endOffset="4361"/>
         <map>
             <condition minLT="23-∞"/>
         </map>
@@ -63,12 +63,12 @@
         message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="105"
+            line="112"
             column="17"
-            startOffset="4201"
-            endLine="105"
+            startOffset="4630"
+            endLine="112"
             endColumn="36"
-            endOffset="4220"/>
+            endOffset="4649"/>
         <map>
             <entry
                 name="applies"
@@ -82,12 +82,12 @@
         message="When you define `paddingLeft` you should probably also define `paddingRight` for right-to-left symmetry">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="83"
+            line="92"
             column="13"
-            startOffset="3133"
-            endLine="83"
+            startOffset="3619"
+            endLine="92"
             endColumn="32"
-            endOffset="3152"/>
+            endOffset="3638"/>
         <map>
             <entry
                 name="applies"
@@ -106,12 +106,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="40"
+            line="46"
             column="9"
-            startOffset="1358"
-            endLine="40"
+            startOffset="1618"
+            endLine="46"
             endColumn="34"
-            endOffset="1383"/>
+            endOffset="1643"/>
         <map>
             <entry
                 name="applies"
@@ -130,12 +130,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="50"
+            line="58"
             column="9"
-            startOffset="1693"
-            endLine="50"
+            startOffset="2034"
+            endLine="58"
             endColumn="34"
-            endOffset="1718"/>
+            endOffset="2059"/>
         <map>
             <entry
                 name="applies"
@@ -154,12 +154,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="62"
+            line="72"
             column="9"
-            startOffset="2087"
-            endLine="62"
+            startOffset="2511"
+            endLine="72"
             endColumn="34"
-            endOffset="2112"/>
+            endOffset="2536"/>
         <map>
             <entry
                 name="applies"
@@ -178,12 +178,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="92"
+            line="107"
             column="9"
-            startOffset="3129"
-            endLine="92"
+            startOffset="3746"
+            endLine="107"
             endColumn="34"
-            endOffset="3154"/>
+            endOffset="3771"/>
         <map>
             <entry
                 name="applies"
@@ -202,12 +202,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="40"
+            line="43"
             column="17"
-            startOffset="1481"
-            endLine="40"
+            startOffset="1651"
+            endLine="43"
             endColumn="43"
-            endOffset="1507"/>
+            endOffset="1677"/>
         <map>
             <entry
                 name="applies"
@@ -226,12 +226,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="50"
+            line="55"
             column="17"
-            startOffset="1861"
-            endLine="50"
+            startOffset="2138"
+            endLine="55"
             endColumn="43"
-            endOffset="1887"/>
+            endOffset="2164"/>
         <map>
             <entry
                 name="applies"
@@ -250,12 +250,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="105"
+            line="112"
             column="17"
-            startOffset="4201"
-            endLine="105"
+            startOffset="4630"
+            endLine="112"
             endColumn="36"
-            endOffset="4220"/>
+            endOffset="4649"/>
         <map>
             <entry
                 name="applies"
@@ -274,12 +274,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="50"
+            line="58"
             column="9"
-            startOffset="1712"
-            endLine="50"
+            startOffset="2053"
+            endLine="58"
             endColumn="34"
-            endOffset="1737"/>
+            endOffset="2078"/>
         <map>
             <entry
                 name="applies"
@@ -298,12 +298,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="81"
+            line="94"
             column="9"
-            startOffset="2789"
-            endLine="81"
+            startOffset="3322"
+            endLine="94"
             endColumn="34"
-            endOffset="2814"/>
+            endOffset="3347"/>
         <map>
             <entry
                 name="applies"
@@ -324,10 +324,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
             line="17"
             column="9"
-            startOffset="635"
+            startOffset="661"
             endLine="17"
             endColumn="34"
-            endOffset="660"/>
+            endOffset="686"/>
         <map>
             <entry
                 name="applies"
@@ -346,12 +346,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="27"
+            line="29"
             column="9"
-            startOffset="970"
-            endLine="27"
+            startOffset="1077"
+            endLine="29"
             endColumn="34"
-            endOffset="995"/>
+            endOffset="1102"/>
         <map>
             <entry
                 name="applies"
@@ -370,12 +370,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="38"
+            line="42"
             column="9"
-            startOffset="1363"
-            endLine="38"
+            startOffset="1552"
+            endLine="42"
             endColumn="34"
-            endOffset="1388"/>
+            endOffset="1577"/>
         <map>
             <entry
                 name="applies"
@@ -394,12 +394,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="66"
+            line="75"
             column="9"
-            startOffset="2403"
-            endLine="66"
+            startOffset="2783"
+            endLine="75"
             endColumn="34"
-            endOffset="2428"/>
+            endOffset="2808"/>
         <map>
             <entry
                 name="applies"
@@ -418,12 +418,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="83"
+            line="92"
             column="13"
-            startOffset="3133"
-            endLine="83"
+            startOffset="3619"
+            endLine="92"
             endColumn="32"
-            endOffset="3152"/>
+            endOffset="3638"/>
         <map>
             <entry
                 name="applies"
@@ -442,12 +442,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="50"
+            line="58"
             column="9"
-            startOffset="1687"
-            endLine="50"
+            startOffset="2028"
+            endLine="58"
             endColumn="34"
-            endOffset="1712"/>
+            endOffset="2053"/>
         <map>
             <entry
                 name="applies"
@@ -466,12 +466,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="81"
+            line="94"
             column="9"
-            startOffset="2764"
-            endLine="81"
+            startOffset="3299"
+            endLine="94"
             endColumn="34"
-            endOffset="2789"/>
+            endOffset="3324"/>
         <map>
             <entry
                 name="applies"

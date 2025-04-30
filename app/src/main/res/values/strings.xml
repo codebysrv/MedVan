@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Med Rescue</string>
+    <string name="app_name">MedVan</string>
     <string name="title_activity_customer_login">Sign in</string>
 
     <!-- Strings related to login -->
@@ -19,4 +19,5 @@
     <string name="title_activity_driver_map">Map</string>
     <string name="title_activity_customer_map">Map</string>
     <string name="title_activity_login">Sign in</string>
+    <string name="app_tagline">Your Emergency Partner</string>
 </resources>

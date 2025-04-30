@@ -14,10 +14,10 @@
             file="${:app*projectDir}/build.gradle"
             line="13"
             column="9"
-            startOffset="255"
+            startOffset="267"
             endLine="13"
             endColumn="21"
-            endOffset="267"/>
+            endOffset="279"/>
     </incident>
 
     <incident
@@ -31,12 +31,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="10"
+            line="11"
             column="6"
-            startOffset="379"
-            endLine="10"
+            startOffset="422"
+            endLine="11"
             endColumn="14"
-            endOffset="387"/>
+            endOffset="430"/>
     </incident>
 
     <incident
@@ -50,12 +50,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="78"
+            line="85"
             column="18"
-            startOffset="3072"
-            endLine="78"
+            startOffset="3474"
+            endLine="85"
             endColumn="26"
-            endOffset="3080"/>
+            endOffset="3482"/>
     </incident>
 
     <incident
@@ -69,12 +69,12 @@
             priority="0"/>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="8"
+            line="9"
             column="6"
-            startOffset="280"
-            endLine="8"
+            startOffset="321"
+            endLine="9"
             endColumn="14"
-            endOffset="288"/>
+            endOffset="329"/>
     </incident>
 
     <incident
@@ -109,10 +109,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_maps2.xml"
             line="9"
             column="6"
-            startOffset="379"
+            startOffset="387"
             endLine="9"
             endColumn="14"
-            endOffset="387"/>
+            endOffset="395"/>
     </incident>
 
     <incident
@@ -149,12 +149,12 @@
         message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="54"
+            line="61"
             column="9"
-            startOffset="2182"
-            endLine="59"
+            startOffset="2560"
+            endLine="68"
             endColumn="46"
-            endOffset="2408"/>
+            endOffset="2870"/>
     </incident>
 
     <incident
@@ -170,10 +170,10 @@
             file="${:app*projectDir}/build.gradle"
             line="8"
             column="5"
-            startOffset="143"
+            startOffset="150"
             endLine="8"
             endColumn="18"
-            endOffset="156"/>
+            endOffset="163"/>
     </incident>
 
     <incident
@@ -190,10 +190,10 @@
             file="${:app*projectDir}/build.gradle"
             line="47"
             column="20"
-            startOffset="1046"
+            startOffset="1092"
             endLine="47"
             endColumn="56"
-            endOffset="1082"/>
+            endOffset="1128"/>
     </incident>
 
     <incident
@@ -210,10 +210,10 @@
             file="${:app*projectDir}/build.gradle"
             line="48"
             column="20"
-            startOffset="1102"
+            startOffset="1149"
             endLine="48"
             endColumn="70"
-            endOffset="1152"/>
+            endOffset="1199"/>
     </incident>
 
     <incident
@@ -230,10 +230,10 @@
             file="${:app*projectDir}/build.gradle"
             line="49"
             column="20"
-            startOffset="1172"
+            startOffset="1220"
             endLine="49"
             endColumn="64"
-            endOffset="1216"/>
+            endOffset="1264"/>
     </incident>
 
     <incident
@@ -250,10 +250,10 @@
             file="${:app*projectDir}/build.gradle"
             line="52"
             column="20"
-            startOffset="1344"
+            startOffset="1395"
             endLine="52"
             endColumn="54"
-            endOffset="1378"/>
+            endOffset="1429"/>
     </incident>
 
     <incident
@@ -270,10 +270,10 @@
             file="${:app*projectDir}/build.gradle"
             line="56"
             column="20"
-            startOffset="1492"
+            startOffset="1547"
             endLine="56"
             endColumn="70"
-            endOffset="1542"/>
+            endOffset="1597"/>
     </incident>
 
     <incident
@@ -290,10 +290,10 @@
             file="${:app*projectDir}/build.gradle"
             line="57"
             column="20"
-            startOffset="1562"
+            startOffset="1618"
             endLine="57"
             endColumn="74"
-            endOffset="1616"/>
+            endOffset="1672"/>
     </incident>
 
     <incident
@@ -310,10 +310,10 @@
             file="${:app*projectDir}/build.gradle"
             line="58"
             column="20"
-            startOffset="1636"
+            startOffset="1693"
             endLine="58"
             endColumn="70"
-            endOffset="1686"/>
+            endOffset="1743"/>
     </incident>
 
     <incident
@@ -330,10 +330,10 @@
             file="${:app*projectDir}/build.gradle"
             line="59"
             column="20"
-            startOffset="1706"
+            startOffset="1764"
             endLine="59"
             endColumn="72"
-            endOffset="1758"/>
+            endOffset="1816"/>
     </incident>
 
     <incident
@@ -350,30 +350,30 @@
             file="${:app*projectDir}/build.gradle"
             line="60"
             column="20"
-            startOffset="1778"
+            startOffset="1837"
             endLine="60"
             endColumn="70"
-            endOffset="1828"/>
+            endOffset="1887"/>
     </incident>
 
     <incident
         id="GradleDependency"
         severity="warning"
-        message="A newer version of com.google.firebase:firebase-bom than 32.7.0 is available: 33.12.0">
+        message="A newer version of com.google.firebase:firebase-bom than 32.7.0 is available: 33.13.0">
         <fix-replace
-            description="Change to 33.12.0"
+            description="Change to 33.13.0"
             family="Update versions"
             oldString="32.7.0"
-            replacement="33.12.0"
+            replacement="33.13.0"
             priority="0"/>
         <location
             file="${:app*projectDir}/build.gradle"
             line="63"
             column="20"
-            startOffset="1869"
+            startOffset="1931"
             endLine="63"
             endColumn="71"
-            endOffset="1920"/>
+            endOffset="1982"/>
     </incident>
 
     <incident
@@ -390,10 +390,10 @@
             file="${:app*projectDir}/build.gradle"
             line="69"
             column="20"
-            startOffset="2137"
+            startOffset="2205"
             endLine="69"
             endColumn="70"
-            endOffset="2187"/>
+            endOffset="2255"/>
     </incident>
 
     <incident
@@ -410,10 +410,10 @@
             file="${:app*projectDir}/build.gradle"
             line="78"
             column="31"
-            startOffset="2488"
+            startOffset="2565"
             endLine="78"
             endColumn="62"
-            endOffset="2519"/>
+            endOffset="2596"/>
     </incident>
 
     <incident
@@ -430,48 +430,10 @@
             file="${:app*projectDir}/build.gradle"
             line="79"
             column="31"
-            startOffset="2550"
+            startOffset="2628"
             endLine="79"
             endColumn="75"
-            endOffset="2594"/>
-    </incident>
-
-    <incident
-        id="SpUsage"
-        severity="warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
-        <fix-replace
-            description="Replace with sp"
-            oldPattern=".*(di?p)"
-            replacement="sp"
-            priority="0"/>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="43"
-            column="9"
-            startOffset="1483"
-            endLine="43"
-            endColumn="32"
-            endOffset="1506"/>
-    </incident>
-
-    <incident
-        id="SpUsage"
-        severity="warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
-        <fix-replace
-            description="Replace with sp"
-            oldPattern=".*(di?p)"
-            replacement="sp"
-            priority="0"/>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="96"
-            column="9"
-            startOffset="3343"
-            endLine="96"
-            endColumn="32"
-            endOffset="3366"/>
+            endOffset="2672"/>
     </incident>
 
     <incident
@@ -503,63 +465,6 @@
             replacement="sp"
             priority="0"/>
         <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="85"
-            column="9"
-            startOffset="2999"
-            endLine="85"
-            endColumn="32"
-            endOffset="3022"/>
-    </incident>
-
-    <incident
-        id="SpUsage"
-        severity="warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
-        <fix-replace
-            description="Replace with sp"
-            oldPattern=".*(di?p)"
-            replacement="sp"
-            priority="0"/>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="20"
-            column="9"
-            startOffset="760"
-            endLine="20"
-            endColumn="32"
-            endOffset="783"/>
-    </incident>
-
-    <incident
-        id="SpUsage"
-        severity="warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
-        <fix-replace
-            description="Replace with sp"
-            oldPattern=".*(di?p)"
-            replacement="sp"
-            priority="0"/>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="70"
-            column="9"
-            startOffset="2605"
-            endLine="70"
-            endColumn="32"
-            endOffset="2628"/>
-    </incident>
-
-    <incident
-        id="SpUsage"
-        severity="warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
-        <fix-replace
-            description="Replace with sp"
-            oldPattern=".*(di?p)"
-            replacement="sp"
-            priority="0"/>
-        <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_setting.xml"
             line="20"
             column="9"
@@ -567,25 +472,6 @@
             endLine="20"
             endColumn="32"
             endOffset="841"/>
-    </incident>
-
-    <incident
-        id="SpUsage"
-        severity="warning"
-        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
-        <fix-replace
-            description="Replace with sp"
-            oldPattern=".*(di?p)"
-            replacement="sp"
-            priority="0"/>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="85"
-            column="9"
-            startOffset="2944"
-            endLine="85"
-            endColumn="32"
-            endOffset="2967"/>
     </incident>
 
     <incident
@@ -696,10 +582,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
             line="29"
             column="9"
-            startOffset="1005"
+            startOffset="1033"
             endLine="29"
             endColumn="32"
-            endOffset="1028"/>
+            endOffset="1056"/>
     </incident>
 
     <incident
@@ -715,10 +601,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
             line="38"
             column="9"
-            startOffset="1377"
+            startOffset="1414"
             endLine="38"
             endColumn="32"
-            endOffset="1400"/>
+            endOffset="1437"/>
     </incident>
 
     <incident
@@ -781,10 +667,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
             line="76"
             column="21"
-            startOffset="3085"
+            startOffset="3062"
             endLine="76"
             endColumn="59"
-            endOffset="3123"/>
+            endOffset="3100"/>
     </incident>
 
     <incident
@@ -795,10 +681,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
             line="82"
             column="25"
-            startOffset="3342"
+            startOffset="3319"
             endLine="82"
             endColumn="60"
-            endOffset="3377"/>
+            endOffset="3354"/>
     </incident>
 
     <incident
@@ -809,10 +695,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
             line="83"
             column="25"
-            startOffset="3402"
+            startOffset="3379"
             endLine="83"
             endColumn="63"
-            endOffset="3440"/>
+            endOffset="3417"/>
     </incident>
 
     <incident
@@ -823,10 +709,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
             line="98"
             column="25"
-            startOffset="4093"
+            startOffset="4152"
             endLine="98"
             endColumn="60"
-            endOffset="4128"/>
+            endOffset="4187"/>
     </incident>
 
     <incident
@@ -837,52 +723,24 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
             line="99"
             column="25"
-            startOffset="4153"
+            startOffset="4212"
             endLine="99"
             endColumn="63"
-            endOffset="4191"/>
-    </incident>
-
-    <incident
-        id="MergeRootFrame"
-        severity="warning"
-        message="This `&lt;FrameLayout>` can be replaced with a `&lt;merge>` tag">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="2"
-            column="1"
-            startOffset="39"
-            endLine="152"
-            endColumn="15"
-            endOffset="6020"/>
-    </incident>
-
-    <incident
-        id="MergeRootFrame"
-        severity="warning"
-        message="This `&lt;FrameLayout>` can be replaced with a `&lt;merge>` tag">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="1"
-            column="1"
-            startOffset="0"
-            endLine="111"
-            endColumn="15"
-            endOffset="4257"/>
+            endOffset="4250"/>
     </incident>
 
     <incident
         id="Overdraw"
         severity="warning"
-        message="Possible overdraw: Root element paints background `#80ced6` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
+        message="Possible overdraw: Root element paints background `#00FF00` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
         <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
             line="9"
             column="5"
-            startOffset="408"
+            startOffset="384"
             endLine="9"
             endColumn="33"
-            endOffset="436"/>
+            endOffset="412"/>
     </incident>
 
     <incident
@@ -902,29 +760,15 @@
     <incident
         id="Overdraw"
         severity="warning"
-        message="Possible overdraw: Root element paints background `#80ced6` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
+        message="Possible overdraw: Root element paints background `#FF0000` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
         <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="9"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+            line="6"
             column="5"
-            startOffset="408"
-            endLine="9"
+            startOffset="217"
+            endLine="6"
             endColumn="33"
-            endOffset="436"/>
-    </incident>
-
-    <incident
-        id="Overdraw"
-        severity="warning"
-        message="Possible overdraw: Root element paints background `#80ced6` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="9"
-            column="5"
-            startOffset="408"
-            endLine="9"
-            endColumn="33"
-            endOffset="436"/>
+            endOffset="245"/>
     </incident>
 
     <incident
@@ -939,20 +783,6 @@
             endLine="10"
             endColumn="33"
             endOffset="475"/>
-    </incident>
-
-    <incident
-        id="Overdraw"
-        severity="warning"
-        message="Possible overdraw: Root element paints background `#80ced6` with a theme that also paints a background (inferred theme is `@style/AppTheme`)">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="9"
-            column="5"
-            startOffset="383"
-            endLine="9"
-            endColumn="33"
-            endOffset="411"/>
     </incident>
 
     <incident
@@ -991,10 +821,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
             line="10"
             column="5"
-            startOffset="379"
+            startOffset="388"
             endLine="10"
             endColumn="33"
-            endOffset="407"/>
+            endOffset="416"/>
     </incident>
 
     <incident
@@ -1017,12 +847,12 @@
         message="This `LinearLayout` layout or its `LinearLayout` parent is unnecessary">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="79"
+            line="88"
             column="10"
-            startOffset="2968"
-            endLine="79"
+            startOffset="3450"
+            endLine="88"
             endColumn="22"
-            endOffset="2980"/>
+            endOffset="3462"/>
     </incident>
 
     <incident
@@ -1047,10 +877,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
             line="73"
             column="18"
-            startOffset="2939"
+            startOffset="2916"
             endLine="73"
             endColumn="30"
-            endOffset="2951"/>
+            endOffset="2928"/>
     </incident>
 
     <incident
@@ -1061,10 +891,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
             line="2"
             column="1"
-            startOffset="39"
+            startOffset="40"
             endLine="5"
             endColumn="17"
-            endOffset="268"/>
+            endOffset="257"/>
     </incident>
 
     <incident
@@ -1075,10 +905,24 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
             line="2"
             column="1"
-            startOffset="39"
+            startOffset="40"
             endLine="5"
             endColumn="17"
-            endOffset="268"/>
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="IconDipSize"
+        severity="warning"
+        message="The image `ic_launcher.png` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher.png: 32x32 dp (48x48 px), mipmap-xhdpi/ic_launcher.png: 48x48 dp (96x96 px), mipmap-xxhdpi/ic_launcher.png: 48x48 dp (144x144 px), mipmap-xxxhdpi/ic_launcher.png: 48x48 dp (192x192 px)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-hdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxxhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xhdpi/ic_launcher.png"/>
     </incident>
 
     <incident
@@ -1098,56 +942,11 @@
     </incident>
 
     <incident
-        id="ButtonStyle"
+        id="IconLocation"
         severity="warning"
-        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
-        <fix-composite
-            description="Make borderless">
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="700"
-                    endOffset="2184"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="862"
-                    endOffset="1316"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="1330"
-                    endOffset="1738"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="1752"
-                    endOffset="2160"/>
-            </fix-attribute>
-        </fix-composite>
+        message="Found bitmap drawable `res/drawable/medvan_logo.png` in densityless folder">
         <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="24"
-            column="14"
-            startOffset="863"
-            endLine="24"
-            endColumn="20"
-            endOffset="869"/>
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/medvan_logo.png"/>
     </incident>
 
     <incident
@@ -1162,8 +961,8 @@
                 value="?android:attr/buttonBarStyle">
                 <range
                     file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="700"
-                    endOffset="2184"/>
+                    startOffset="753"
+                    endOffset="2565"/>
             </fix-attribute>
             <fix-attribute
                 description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
@@ -1171,8 +970,8 @@
                 value="?android:attr/buttonBarButtonStyle">
                 <range
                     file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="862"
-                    endOffset="1316"/>
+                    startOffset="919"
+                    endOffset="1480"/>
             </fix-attribute>
             <fix-attribute
                 description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
@@ -1180,8 +979,8 @@
                 value="?android:attr/buttonBarButtonStyle">
                 <range
                     file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="1330"
-                    endOffset="1738"/>
+                    startOffset="1496"
+                    endOffset="2010"/>
             </fix-attribute>
             <fix-attribute
                 description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
@@ -1189,18 +988,18 @@
                 value="?android:attr/buttonBarButtonStyle">
                 <range
                     file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="1752"
-                    endOffset="2160"/>
+                    startOffset="2026"
+                    endOffset="2540"/>
             </fix-attribute>
         </fix-composite>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="36"
+            line="25"
             column="14"
-            startOffset="1331"
-            endLine="36"
+            startOffset="920"
+            endLine="25"
             endColumn="20"
-            endOffset="1337"/>
+            endOffset="926"/>
     </incident>
 
     <incident
@@ -1215,8 +1014,8 @@
                 value="?android:attr/buttonBarStyle">
                 <range
                     file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="700"
-                    endOffset="2184"/>
+                    startOffset="753"
+                    endOffset="2565"/>
             </fix-attribute>
             <fix-attribute
                 description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
@@ -1224,8 +1023,8 @@
                 value="?android:attr/buttonBarButtonStyle">
                 <range
                     file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="862"
-                    endOffset="1316"/>
+                    startOffset="919"
+                    endOffset="1480"/>
             </fix-attribute>
             <fix-attribute
                 description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
@@ -1233,8 +1032,8 @@
                 value="?android:attr/buttonBarButtonStyle">
                 <range
                     file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="1330"
-                    endOffset="1738"/>
+                    startOffset="1496"
+                    endOffset="2010"/>
             </fix-attribute>
             <fix-attribute
                 description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
@@ -1242,177 +1041,230 @@
                 value="?android:attr/buttonBarButtonStyle">
                 <range
                     file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-                    startOffset="1752"
-                    endOffset="2160"/>
+                    startOffset="2026"
+                    endOffset="2540"/>
             </fix-attribute>
         </fix-composite>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
+            line="39"
+            column="14"
+            startOffset="1497"
+            endLine="39"
+            endColumn="20"
+            endOffset="1503"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
+                    startOffset="753"
+                    endOffset="2565"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
+                    startOffset="919"
+                    endOffset="1480"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
+                    startOffset="1496"
+                    endOffset="2010"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
+                    startOffset="2026"
+                    endOffset="2540"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
+            line="52"
+            column="14"
+            startOffset="2027"
+            endLine="52"
+            endColumn="20"
+            endOffset="2033"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="685"
+                    endOffset="2550"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="812"
+                    endOffset="1372"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="1386"
+                    endOffset="1948"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="1962"
+                    endOffset="2525"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+            line="21"
+            column="14"
+            startOffset="813"
+            endLine="21"
+            endColumn="20"
+            endOffset="819"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="685"
+                    endOffset="2550"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="812"
+                    endOffset="1372"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="1386"
+                    endOffset="1948"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="1962"
+                    endOffset="2525"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+            line="34"
+            column="14"
+            startOffset="1387"
+            endLine="34"
+            endColumn="20"
+            endOffset="1393"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="685"
+                    endOffset="2550"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="812"
+                    endOffset="1372"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="1386"
+                    endOffset="1948"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
+                    startOffset="1962"
+                    endOffset="2525"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
             line="47"
             column="14"
-            startOffset="1753"
+            startOffset="1963"
             endLine="47"
             endColumn="20"
-            endOffset="1759"/>
-    </incident>
-
-    <incident
-        id="ButtonStyle"
-        severity="warning"
-        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
-        <fix-composite
-            description="Make borderless">
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="635"
-                    endOffset="2173"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="759"
-                    endOffset="1212"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="1225"
-                    endOffset="1680"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="1693"
-                    endOffset="2149"/>
-            </fix-attribute>
-        </fix-composite>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="20"
-            column="14"
-            startOffset="760"
-            endLine="20"
-            endColumn="20"
-            endOffset="766"/>
-    </incident>
-
-    <incident
-        id="ButtonStyle"
-        severity="warning"
-        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
-        <fix-composite
-            description="Make borderless">
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="635"
-                    endOffset="2173"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="759"
-                    endOffset="1212"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="1225"
-                    endOffset="1680"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="1693"
-                    endOffset="2149"/>
-            </fix-attribute>
-        </fix-composite>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="31"
-            column="14"
-            startOffset="1226"
-            endLine="31"
-            endColumn="20"
-            endOffset="1232"/>
-    </incident>
-
-    <incident
-        id="ButtonStyle"
-        severity="warning"
-        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
-        <fix-composite
-            description="Make borderless">
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="635"
-                    endOffset="2173"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="759"
-                    endOffset="1212"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="1225"
-                    endOffset="1680"/>
-            </fix-attribute>
-            <fix-attribute
-                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
-                attribute="style"
-                value="?android:attr/buttonBarButtonStyle">
-                <range
-                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-                    startOffset="1693"
-                    endOffset="2149"/>
-            </fix-attribute>
-        </fix-composite>
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="42"
-            column="14"
-            startOffset="1694"
-            endLine="42"
-            endColumn="20"
-            endOffset="1700"/>
+            endOffset="1969"/>
     </incident>
 
     <incident
@@ -1530,12 +1382,12 @@
         message="Avoid using sizes smaller than `11sp`: `10sp`">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
-            line="146"
+            line="137"
             column="13"
-            startOffset="5514"
-            endLine="146"
+            startOffset="5639"
+            endLine="137"
             endColumn="36"
-            endOffset="5537"/>
+            endOffset="5662"/>
     </incident>
 
     <incident
@@ -1560,10 +1412,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
             line="12"
             column="6"
-            startOffset="449"
+            startOffset="470"
             endLine="12"
             endColumn="14"
-            endOffset="457"/>
+            endOffset="478"/>
     </incident>
 
     <incident
@@ -1586,12 +1438,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="23"
+            line="26"
             column="6"
-            startOffset="804"
-            endLine="23"
+            startOffset="945"
+            endLine="26"
             endColumn="14"
-            endOffset="812"/>
+            endOffset="953"/>
     </incident>
 
     <incident
@@ -1672,10 +1524,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
             line="12"
             column="6"
-            startOffset="449"
+            startOffset="470"
             endLine="12"
             endColumn="14"
-            endOffset="457"/>
+            endOffset="478"/>
     </incident>
 
     <incident
@@ -1698,12 +1550,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="23"
+            line="26"
             column="6"
-            startOffset="804"
-            endLine="23"
+            startOffset="945"
+            endLine="26"
             endColumn="14"
-            endOffset="812"/>
+            endOffset="953"/>
     </incident>
 
     <incident
@@ -1726,12 +1578,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="72"
+            line="82"
             column="6"
-            startOffset="2638"
-            endLine="72"
+            startOffset="3015"
+            endLine="82"
             endColumn="14"
-            endOffset="2646"/>
+            endOffset="3023"/>
     </incident>
 
     <incident
@@ -1754,12 +1606,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="83"
+            line="96"
             column="6"
-            startOffset="2993"
-            endLine="83"
+            startOffset="3490"
+            endLine="96"
             endColumn="14"
-            endOffset="3001"/>
+            endOffset="3498"/>
     </incident>
 
     <incident
@@ -1868,10 +1720,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
             line="12"
             column="6"
-            startOffset="424"
+            startOffset="445"
             endLine="12"
             endColumn="14"
-            endOffset="432"/>
+            endOffset="453"/>
     </incident>
 
     <incident
@@ -1894,12 +1746,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="23"
+            line="26"
             column="6"
-            startOffset="779"
-            endLine="23"
+            startOffset="920"
+            endLine="26"
             endColumn="14"
-            endOffset="787"/>
+            endOffset="928"/>
     </incident>
 
     <incident
@@ -1924,10 +1776,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
             line="40"
             column="6"
-            startOffset="1410"
+            startOffset="1449"
             endLine="40"
             endColumn="14"
-            endOffset="1418"/>
+            endOffset="1457"/>
     </incident>
 
     <incident
@@ -1950,12 +1802,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="76"
+            line="90"
             column="6"
-            startOffset="2559"
-            endLine="76"
+            startOffset="3139"
+            endLine="90"
             endColumn="15"
-            endOffset="2568"/>
+            endOffset="3148"/>
     </incident>
 
     <incident
@@ -1978,12 +1830,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="65"
+            line="77"
             column="6"
-            startOffset="2219"
-            endLine="65"
+            startOffset="2715"
+            endLine="77"
             endColumn="15"
-            endOffset="2228"/>
+            endOffset="2724"/>
     </incident>
 
     <incident
@@ -2006,12 +1858,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="51"
+            line="59"
             column="6"
-            startOffset="1834"
-            endLine="51"
+            startOffset="2178"
+            endLine="59"
             endColumn="15"
-            endOffset="1843"/>
+            endOffset="2187"/>
     </incident>
 
     <incident
@@ -2034,12 +1886,12 @@
         </fix-alternatives>
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="65"
+            line="77"
             column="6"
-            startOffset="2194"
-            endLine="65"
+            startOffset="2692"
+            endLine="77"
             endColumn="15"
-            endOffset="2203"/>
+            endOffset="2701"/>
     </incident>
 
     <incident
@@ -2386,10 +2238,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
             line="20"
             column="9"
-            startOffset="729"
+            startOffset="758"
             endLine="20"
             endColumn="29"
-            endOffset="749"/>
+            endOffset="778"/>
     </incident>
 
     <incident
@@ -2398,12 +2250,12 @@
         message="Hardcoded string &quot;Password...&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="31"
+            line="34"
             column="9"
-            startOffset="1094"
-            endLine="31"
+            startOffset="1236"
+            endLine="34"
             endColumn="35"
-            endOffset="1120"/>
+            endOffset="1262"/>
     </incident>
 
     <incident
@@ -2412,26 +2264,26 @@
         message="Hardcoded string &quot;Forget Password&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="42"
+            line="48"
             column="9"
-            startOffset="1444"
-            endLine="42"
+            startOffset="1706"
+            endLine="48"
             endColumn="39"
-            endOffset="1474"/>
+            endOffset="1736"/>
     </incident>
 
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;login&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;Login&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="52"
+            line="60"
             column="9"
-            startOffset="1778"
-            endLine="52"
+            startOffset="2121"
+            endLine="60"
             endColumn="29"
-            endOffset="1798"/>
+            endOffset="2141"/>
     </incident>
 
     <incident
@@ -2440,12 +2292,12 @@
         message="Hardcoded string &quot;Or, Create a new account :&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="63"
+            line="73"
             column="9"
-            startOffset="2129"
-            endLine="63"
+            startOffset="2554"
+            endLine="73"
             endColumn="50"
-            endOffset="2170"/>
+            endOffset="2595"/>
     </incident>
 
     <incident
@@ -2454,12 +2306,12 @@
         message="Hardcoded string &quot;Sign Up&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="73"
+            line="85"
             column="9"
-            startOffset="2526"
-            endLine="73"
+            startOffset="3032"
+            endLine="85"
             endColumn="31"
-            endOffset="2548"/>
+            endOffset="3054"/>
     </incident>
 
     <incident
@@ -2468,12 +2320,12 @@
         message="Hardcoded string &quot;Patient&apos;s/Attendant&apos;s Login&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_login.xml"
-            line="94"
+            line="109"
             column="9"
-            startOffset="3214"
-            endLine="94"
+            startOffset="3832"
+            endLine="109"
             endColumn="51"
-            endOffset="3256"/>
+            endOffset="3874"/>
     </incident>
 
     <incident
@@ -2482,26 +2334,26 @@
         message="Hardcoded string &quot;Logout&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="34"
+            line="37"
             column="17"
-            startOffset="1292"
-            endLine="34"
+            startOffset="1456"
+            endLine="37"
             endColumn="38"
-            endOffset="1313"/>
+            endOffset="1477"/>
     </incident>
 
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;history&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;History&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="45"
+            line="50"
             column="17"
-            startOffset="1713"
-            endLine="45"
+            startOffset="1985"
+            endLine="50"
             endColumn="39"
-            endOffset="1735"/>
+            endOffset="2007"/>
     </incident>
 
     <incident
@@ -2510,12 +2362,12 @@
         message="Hardcoded string &quot;Profile&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="56"
+            line="63"
             column="17"
-            startOffset="2136"
-            endLine="56"
+            startOffset="2516"
+            endLine="63"
             endColumn="39"
-            endOffset="2158"/>
+            endOffset="2538"/>
     </incident>
 
     <incident
@@ -2524,12 +2376,12 @@
         message="Hardcoded string &quot;Search for nearest hospital&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="74"
+            line="81"
             column="21"
-            startOffset="2867"
-            endLine="74"
+            startOffset="3265"
+            endLine="81"
             endColumn="63"
-            endOffset="2909"/>
+            endOffset="3307"/>
     </incident>
 
     <incident
@@ -2538,12 +2390,12 @@
         message="Hardcoded string &quot;Request An Ambulance&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_map.xml"
-            line="146"
+            line="153"
             column="13"
-            startOffset="5888"
-            endLine="146"
+            startOffset="6368"
+            endLine="153"
             endColumn="48"
-            endOffset="5923"/>
+            endOffset="6403"/>
     </incident>
 
     <incident
@@ -2624,10 +2476,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
             line="20"
             column="9"
-            startOffset="729"
+            startOffset="758"
             endLine="20"
             endColumn="29"
-            endOffset="749"/>
+            endOffset="778"/>
     </incident>
 
     <incident
@@ -2636,12 +2488,12 @@
         message="Hardcoded string &quot;Password...&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="31"
+            line="34"
             column="9"
-            startOffset="1094"
-            endLine="31"
+            startOffset="1236"
+            endLine="34"
             endColumn="35"
-            endOffset="1120"/>
+            endOffset="1262"/>
     </incident>
 
     <incident
@@ -2650,26 +2502,26 @@
         message="Hardcoded string &quot;Verify Email&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="42"
+            line="48"
             column="9"
-            startOffset="1441"
-            endLine="42"
+            startOffset="1703"
+            endLine="48"
             endColumn="36"
-            endOffset="1468"/>
+            endOffset="1730"/>
     </incident>
 
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;Already  have an account ?&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;Already have an account?&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="52"
+            line="60"
             column="9"
-            startOffset="1798"
-            endLine="52"
-            endColumn="50"
-            endOffset="1839"/>
+            startOffset="2141"
+            endLine="60"
+            endColumn="48"
+            endOffset="2180"/>
     </incident>
 
     <incident
@@ -2678,12 +2530,12 @@
         message="Hardcoded string &quot;Login&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="62"
+            line="72"
             column="9"
-            startOffset="2188"
-            endLine="62"
+            startOffset="2610"
+            endLine="72"
             endColumn="29"
-            endOffset="2208"/>
+            endOffset="2630"/>
     </incident>
 
     <incident
@@ -2692,12 +2544,12 @@
         message="Hardcoded string &quot;Sign Up With Your Email&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_customer_signup.xml"
-            line="83"
+            line="96"
             column="9"
-            startOffset="2874"
-            endLine="83"
+            startOffset="3408"
+            endLine="96"
             endColumn="47"
-            endOffset="2912"/>
+            endOffset="3446"/>
     </incident>
 
     <incident
@@ -2708,24 +2560,24 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
             line="19"
             column="9"
-            startOffset="721"
+            startOffset="749"
             endLine="19"
             endColumn="39"
-            endOffset="751"/>
+            endOffset="779"/>
     </incident>
 
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;login&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;Login&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="29"
+            line="31"
             column="9"
-            startOffset="1055"
-            endLine="29"
+            startOffset="1164"
+            endLine="31"
             endColumn="29"
-            endOffset="1075"/>
+            endOffset="1184"/>
     </incident>
 
     <incident
@@ -2734,12 +2586,12 @@
         message="Hardcoded string &quot;Or, Create a new account :&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="39"
+            line="43"
             column="9"
-            startOffset="1405"
-            endLine="39"
+            startOffset="1595"
+            endLine="43"
             endColumn="50"
-            endOffset="1446"/>
+            endOffset="1636"/>
     </incident>
 
     <incident
@@ -2748,12 +2600,12 @@
         message="Hardcoded string &quot;Sign Up&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="49"
+            line="55"
             column="9"
-            startOffset="1802"
-            endLine="49"
+            startOffset="2073"
+            endLine="55"
             endColumn="31"
-            endOffset="1824"/>
+            endOffset="2095"/>
     </incident>
 
     <incident
@@ -2762,12 +2614,12 @@
         message="Hardcoded string &quot;Driver&apos;s Login&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="68"
+            line="77"
             column="9"
-            startOffset="2489"
-            endLine="68"
+            startOffset="2870"
+            endLine="77"
             endColumn="38"
-            endOffset="2518"/>
+            endOffset="2899"/>
     </incident>
 
     <incident
@@ -2776,12 +2628,12 @@
         message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="80"
+            line="90"
             column="9"
-            startOffset="2918"
-            endLine="80"
+            startOffset="3303"
+            endLine="90"
             endColumn="29"
-            endOffset="2938"/>
+            endOffset="3323"/>
     </incident>
 
     <incident
@@ -2790,12 +2642,12 @@
         message="Hardcoded string &quot;Password...&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_login.xml"
-            line="91"
+            line="104"
             column="9"
-            startOffset="3283"
-            endLine="91"
+            startOffset="3781"
+            endLine="104"
             endColumn="35"
-            endOffset="3309"/>
+            endOffset="3807"/>
     </incident>
 
     <incident
@@ -2804,12 +2656,12 @@
         message="Hardcoded string &quot;Logout&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="30"
+            line="33"
             column="17"
-            startOffset="1189"
-            endLine="30"
+            startOffset="1349"
+            endLine="33"
             endColumn="38"
-            endOffset="1210"/>
+            endOffset="1370"/>
     </incident>
 
     <incident
@@ -2818,12 +2670,12 @@
         message="Hardcoded string &quot;History&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="41"
+            line="46"
             column="17"
-            startOffset="1656"
-            endLine="41"
+            startOffset="1924"
+            endLine="46"
             endColumn="39"
-            endOffset="1678"/>
+            endOffset="1946"/>
     </incident>
 
     <incident
@@ -2832,12 +2684,12 @@
         message="Hardcoded string &quot;Profile&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="52"
+            line="59"
             column="17"
-            startOffset="2125"
-            endLine="52"
+            startOffset="2501"
+            endLine="59"
             endColumn="39"
-            endOffset="2147"/>
+            endOffset="2523"/>
     </incident>
 
     <incident
@@ -2846,12 +2698,12 @@
         message="Hardcoded string &quot;Working&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="57"
+            line="64"
             column="13"
-            startOffset="2299"
-            endLine="57"
+            startOffset="2680"
+            endLine="64"
             endColumn="35"
-            endOffset="2321"/>
+            endOffset="2702"/>
     </incident>
 
     <incident
@@ -2860,12 +2712,12 @@
         message="Hardcoded string &quot;Destination: --&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="89"
+            line="98"
             column="17"
-            startOffset="3403"
-            endLine="89"
+            startOffset="3895"
+            endLine="98"
             endColumn="47"
-            endOffset="3433"/>
+            endOffset="3925"/>
     </incident>
 
     <incident
@@ -2874,12 +2726,12 @@
         message="Hardcoded string &quot;Pickup Customer&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_map.xml"
-            line="107"
+            line="116"
             column="9"
-            startOffset="4116"
-            endLine="107"
+            startOffset="4626"
+            endLine="116"
             endColumn="39"
-            endOffset="4146"/>
+            endOffset="4656"/>
     </incident>
 
     <incident
@@ -2974,10 +2826,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
             line="20"
             column="9"
-            startOffset="704"
+            startOffset="733"
             endLine="20"
             endColumn="29"
-            endOffset="724"/>
+            endOffset="753"/>
     </incident>
 
     <incident
@@ -2986,12 +2838,12 @@
         message="Hardcoded string &quot;Password...&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="31"
+            line="34"
             column="9"
-            startOffset="1069"
-            endLine="31"
+            startOffset="1211"
+            endLine="34"
             endColumn="35"
-            endOffset="1095"/>
+            endOffset="1237"/>
     </incident>
 
     <incident
@@ -3000,12 +2852,12 @@
         message="Hardcoded string &quot;Verify Email&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="42"
+            line="48"
             column="9"
-            startOffset="1416"
-            endLine="42"
+            startOffset="1678"
+            endLine="48"
             endColumn="36"
-            endOffset="1443"/>
+            endOffset="1705"/>
     </incident>
 
     <incident
@@ -3014,12 +2866,12 @@
         message="Hardcoded string &quot;Already  have an account ?&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="52"
+            line="60"
             column="9"
-            startOffset="1773"
-            endLine="52"
+            startOffset="2116"
+            endLine="60"
             endColumn="50"
-            endOffset="1814"/>
+            endOffset="2157"/>
     </incident>
 
     <incident
@@ -3028,12 +2880,12 @@
         message="Hardcoded string &quot;Login&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="62"
+            line="72"
             column="9"
-            startOffset="2163"
-            endLine="62"
+            startOffset="2587"
+            endLine="72"
             endColumn="29"
-            endOffset="2183"/>
+            endOffset="2607"/>
     </incident>
 
     <incident
@@ -3042,12 +2894,12 @@
         message="Hardcoded string &quot;Sign Up With Your Email&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_driver_signup.xml"
-            line="83"
+            line="96"
             column="9"
-            startOffset="2849"
-            endLine="83"
+            startOffset="3385"
+            endLine="96"
             endColumn="47"
-            endOffset="2887"/>
+            endOffset="3423"/>
     </incident>
 
     <incident
@@ -3226,10 +3078,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
             line="19"
             column="9"
-            startOffset="674"
+            startOffset="692"
             endLine="19"
             endColumn="33"
-            endOffset="698"/>
+            endOffset="716"/>
     </incident>
 
     <incident
@@ -3240,10 +3092,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
             line="28"
             column="9"
-            startOffset="960"
+            startOffset="987"
             endLine="28"
             endColumn="45"
-            endOffset="996"/>
+            endOffset="1023"/>
     </incident>
 
     <incident
@@ -3254,10 +3106,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
             line="37"
             column="9"
-            startOffset="1262"
+            startOffset="1298"
             endLine="37"
             endColumn="115"
-            endOffset="1368"/>
+            endOffset="1404"/>
     </incident>
 
     <incident
@@ -3268,10 +3120,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
             line="46"
             column="9"
-            startOffset="1637"
+            startOffset="1682"
             endLine="46"
             endColumn="48"
-            endOffset="1676"/>
+            endOffset="1721"/>
     </incident>
 
     <incident
@@ -3282,10 +3134,10 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
             line="54"
             column="9"
-            startOffset="1916"
+            startOffset="1969"
             endLine="54"
             endColumn="38"
-            endOffset="1945"/>
+            endOffset="1998"/>
     </incident>
 
     <incident
@@ -3296,38 +3148,24 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_reset_password.xml"
             line="61"
             column="9"
-            startOffset="2130"
+            startOffset="2190"
             endLine="61"
             endColumn="28"
-            endOffset="2149"/>
+            endOffset="2209"/>
     </incident>
 
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;Med Rescue&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;MedVan&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
             line="41"
             column="17"
-            startOffset="1628"
+            startOffset="1612"
             endLine="41"
-            endColumn="42"
-            endOffset="1653"/>
-    </incident>
-
-    <incident
-        id="HardcodedText"
-        severity="warning"
-        message="Hardcoded string &quot;(Book Ambulances 24X7)&quot;, should use `@string` resource">
-        <location
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
-            line="51"
-            column="17"
-            startOffset="2036"
-            endLine="51"
-            endColumn="54"
-            endOffset="2073"/>
+            endColumn="38"
+            endOffset="1633"/>
     </incident>
 
     <incident
@@ -3338,52 +3176,52 @@
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
             line="61"
             column="17"
-            startOffset="2456"
+            startOffset="2433"
             endLine="61"
             endColumn="66"
-            endOffset="2505"/>
+            endOffset="2482"/>
     </incident>
 
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;I&apos;m a Patient &quot;, should use `@string` resource">
+        message="Hardcoded string &quot;Patient&apos;s App&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
-            line="90"
+            line="89"
             column="25"
-            startOffset="3742"
-            endLine="90"
-            endColumn="54"
-            endOffset="3771"/>
+            startOffset="3718"
+            endLine="89"
+            endColumn="53"
+            endOffset="3746"/>
     </incident>
 
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;  I&apos;m a Driver&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;Driver&apos;s App&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
-            line="107"
+            line="105"
             column="25"
-            startOffset="4495"
-            endLine="107"
-            endColumn="54"
-            endOffset="4524"/>
+            startOffset="4552"
+            endLine="105"
+            endColumn="52"
+            endOffset="4579"/>
     </incident>
 
     <incident
         id="HardcodedText"
         severity="warning"
-        message="Hardcoded string &quot;Med Rescue © 2019&quot;, should use `@string` resource">
+        message="Hardcoded string &quot;MedVan © 2025&quot;, should use `@string` resource">
         <location
             file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_welcome_.xml"
-            line="143"
+            line="134"
             column="13"
-            startOffset="5373"
-            endLine="143"
-            endColumn="45"
-            endOffset="5405"/>
+            startOffset="5502"
+            endLine="134"
+            endColumn="41"
+            endOffset="5530"/>
     </incident>
 
     <incident

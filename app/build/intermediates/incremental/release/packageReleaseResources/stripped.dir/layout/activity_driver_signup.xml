@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".DriverSignupActivity"
     android:orientation="vertical"
-    android:background="#80ced6"
+    android:background="@drawable/grad_bg"
     >
 
     <EditText
@@ -14,21 +14,27 @@
         android:layout_width="322dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="280dp"
         android:layout_marginRight="40dp"
         android:ems="10"
         android:hint="Email"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:textStyle="bold"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="wrap_content"
+        android:layout_width="322dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="270dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="40dp"
         android:ems="10"
         android:hint="Password..."
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:textStyle="bold"
         android:inputType="textPassword" />
 
 
@@ -39,7 +45,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="228dp"
-        android:text="Verify Email" />
+        android:text="Verify Email"
+        android:textColor="#000000"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView"
@@ -50,6 +58,8 @@
         android:layout_marginLeft="100dp"
         android:layout_marginBottom="187dp"
         android:text="Already  have an account ?"
+        android:textColor="#000000"
+        android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
@@ -59,17 +69,20 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="114dp"
-        android:text="Login" />
+        android:text="Login"
+        android:textColor="#000000"
+        android:textStyle="bold" />
 
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="81dp"
+        android:layout_height="200dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="51dp"
-        app:srcCompat="@drawable/ic_local_hospital_black_24dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/medvan_logo"
         tools:ignore="VectorDrawableCompat" />
 
 
@@ -79,8 +92,9 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView"
         android:layout_marginLeft="80dp"
-        android:layout_marginBottom="-50dp"
+        android:layout_marginBottom="20dp"
         android:text="Sign Up With Your Email"
-        android:textColor="@color/colorPrimary"
-        android:textSize="20dp" />
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 </RelativeLayout>

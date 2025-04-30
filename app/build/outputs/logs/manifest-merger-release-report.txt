@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:2:1-73:12
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:2:1-73:12
 MERGED from [androidx.databinding:viewbinding:8.9.1] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e14ce38d168b3b4150cc738d442c0274\transformed\jetified-viewbinding-8.9.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.basgeekball:awesome-validation:4.3] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\2453755e7482f527919c37c48d479161\transformed\jetified-awesome-validation-4.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\a2dae289eed538ab8272f15809ccd4ff\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
@@ -100,39 +100,39 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Sourav\
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\d879ee0168f4c39e78ab5f2a1072c220\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\6f59acb009937e8ae6017227819ad849\transformed\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
 	package
-		INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:4:5-71
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:4:5-71
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:4:22-68
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:4:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:5:5-71
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:5:5-71
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:5:22-68
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:5:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:6:5-72
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:6:5-72
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:6:22-69
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:6:22-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:12:5-79
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:12:5-79
 MERGED from [com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:10:5-79
 MERGED from [com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:12:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:13:5-81
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:13:5-81
 MERGED from [com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:9:5-81
 MERGED from [com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:13:22-78
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:14:5-67
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:14:5-67
 MERGED from [com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:12:5-67
 MERGED from [com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:12:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\806346005d9fe3ee9ada7120d4f24181\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
@@ -158,14 +158,14 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\36c26b0517d810df19ee0ffc097212ff\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\36c26b0517d810df19ee0ffc097212ff\transformed\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:14:22-64
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:14:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:15:5-80
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:15:5-80
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:15:22-77
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:15:22-77
 application
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:17:5-71:19
-INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:17:5-71:19
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:17:5-71:19
+INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:17:5-71:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\a2dae289eed538ab8272f15809ccd4ff\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\a2dae289eed538ab8272f15809ccd4ff\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e7377562d4a98a5152b3775c57c550e7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -245,147 +245,147 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\c9ecdb2986c9bba73680712e21355996\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\c9ecdb2986c9bba73680712e21355996\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8cb8c09c003000518d67f6c3299cc3c1\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:21:9-41
 	android:roundIcon
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:22:9-54
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:22:9-54
 	android:icon
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:20:9-43
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:24:9-40
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:24:9-40
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:18:9-61
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:18:9-61
 activity#sachdeva.saksham.medrescue.ResetPasswordActivity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:25:9-83
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:25:9-83
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:25:57-81
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:25:57-81
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:25:19-56
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:25:19-56
 activity#sachdeva.saksham.medrescue.CustomerRegistration
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:26:9-82
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:26:9-82
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:26:56-80
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:26:56-80
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:26:19-55
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:26:19-55
 activity#sachdeva.saksham.medrescue.DriverSignupActivity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:27:9-28:61
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:27:9-28:61
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:27:56-80
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:27:56-80
 	android:configChanges
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:28:13-59
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:28:13-59
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:27:19-55
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:27:19-55
 activity#sachdeva.saksham.medrescue.CustomerSignup
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:29:9-76
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:29:9-76
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:29:50-74
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:29:50-74
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:29:19-49
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:29:19-49
 service#sachdeva.saksham.medrescue.onAppKilled
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:31:9-33:44
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:31:9-33:44
 	android:stopWithTask
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:33:13-41
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:33:13-41
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:32:13-40
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:32:13-40
 activity#sachdeva.saksham.medrescue.Welcome_Activity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:35:9-43:20
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:35:9-43:20
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:36:13-45
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:36:13-45
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:38:13-42:29
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:39:17-69
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:39:25-66
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:39:25-66
 action#android.intent.action.VIEW
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:41:17-77
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:41:27-74
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:41:27-74
 activity#sachdeva.saksham.medrescue.CustomerLoginActivity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:45:9-48:69
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:45:9-48:69
 	android:label
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:48:13-66
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:48:13-66
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:47:13-37
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:46:13-50
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:46:13-50
 activity#sachdeva.saksham.medrescue.DriverLoginActivity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:49:9-52:67
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:49:9-52:67
 	android:label
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:52:13-64
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:52:13-64
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:51:13-37
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:50:13-48
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:50:13-48
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:54:9-56:55
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:54:9-56:55
 	android:value
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:56:13-52
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:56:13-52
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:55:13-58
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:55:13-58
 activity#sachdeva.saksham.medrescue.DriverMapActivity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:58:9-61:65
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:58:9-61:65
 	android:label
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:61:13-62
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:61:13-62
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:60:13-37
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:59:13-46
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:59:13-46
 activity#sachdeva.saksham.medrescue.CustomerMapActivity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:62:9-65:67
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:62:9-65:67
 	android:label
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:65:13-64
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:65:13-64
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:64:13-37
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:64:13-37
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:63:13-48
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:63:13-48
 activity#sachdeva.saksham.medrescue.DriverSettingActivity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:66:9-83
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:66:9-83
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:66:57-81
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:66:57-81
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:66:19-56
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:66:19-56
 activity#sachdeva.saksham.medrescue.CustomerSettingsActivity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:67:9-86
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:67:9-86
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:67:60-84
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:67:60-84
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:67:19-59
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:67:19-59
 activity#sachdeva.saksham.medrescue.HistorySingleActivity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:68:9-83
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:68:9-83
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:68:57-81
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:68:57-81
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:68:19-56
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:68:19-56
 activity#sachdeva.saksham.medrescue.HistoryActivity
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:69:9-77
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:69:9-77
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:69:51-75
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:69:51-75
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:69:19-50
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:69:19-50
 activity#sachdeva.saksham.medrescue.MapsActivity2
-ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:70:9-75
+ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:70:9-75
 	android:exported
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:70:49-73
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:70:49-73
 	android:name
-		ADDED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:70:19-48
+		ADDED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:70:19-48
 uses-sdk
-INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.9.1] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e14ce38d168b3b4150cc738d442c0274\transformed\jetified-viewbinding-8.9.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.9.1] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e14ce38d168b3b4150cc738d442c0274\transformed\jetified-viewbinding-8.9.1\AndroidManifest.xml:5:5-44
 MERGED from [com.basgeekball:awesome-validation:4.3] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\2453755e7482f527919c37c48d479161\transformed\jetified-awesome-validation-4.3\AndroidManifest.xml:7:5-9:41
@@ -579,9 +579,9 @@ MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\Sour
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:11:5-76
 	android:name

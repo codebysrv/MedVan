@@ -38,7 +38,7 @@ public class DriverLoginActivity extends AppCompatActivity {
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 if(user!=null && mAuth.getCurrentUser().isEmailVerified()){
                     Intent intent = new Intent(DriverLoginActivity.this, DriverMapActivity.class);
-                    Toast.makeText(DriverLoginActivity.this, "Welcome to Med Rescue", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DriverLoginActivity.this, "Welcome to MedVan", Toast.LENGTH_SHORT).show();
                     startActivity(intent);
                     finish();
                 }
@@ -76,26 +76,53 @@ public class DriverLoginActivity extends AppCompatActivity {
         mLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final String email=mEmail.getText().toString();
-                final String password =mPassword.getText().toString();
+                final String email = mEmail.getText().toString().trim();
+                final String password = mPassword.getText().toString().trim();
+
+                // Validate input fields
+                if (email.isEmpty()) {
+                    mEmail.setError("Email is required");
+                    mEmail.requestFocus();
+                    return;
+                }
+
+                if (password.isEmpty()) {
+                    mPassword.setError("Password is required");
+                    mPassword.requestFocus();
+                    return;
+                }
+
+                // Show loading indicator
+                Toast.makeText(DriverLoginActivity.this, "Signing in...", Toast.LENGTH_SHORT).show();
+
                 mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(DriverLoginActivity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(!task.isSuccessful()){
-                            Toast.makeText(DriverLoginActivity.this, "Driver Sign In Error", Toast.LENGTH_SHORT).show();
-                        }else{
-
-                            if(mAuth.getCurrentUser().isEmailVerified()){
-                                String user_id= mAuth.getCurrentUser().getUid();
-                                DatabaseReference current_user_db = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(user_id);
-                                current_user_db.setValue(true);
-
-                            }else{
-                                Toast.makeText(DriverLoginActivity.this, "Please, verify your email.", Toast.LENGTH_SHORT).show();
-
+                        if (!task.isSuccessful()) {
+                            String errorMessage = "Sign in failed";
+                            if (task.getException() != null) {
+                                String error = task.getException().getMessage();
+                                if (error.contains("no user record")) {
+                                    errorMessage = "No account found with this email";
+                                } else if (error.contains("password is invalid")) {
+                                    errorMessage = "Incorrect password";
+                                } else if (error.contains("network error")) {
+                                    errorMessage = "Network error. Please check your connection";
+                                }
+                            }
+                            Toast.makeText(DriverLoginActivity.this, errorMessage, Toast.LENGTH_LONG).show();
+                        } else {
+                            if (mAuth.getCurrentUser() != null) {
+                                if (mAuth.getCurrentUser().isEmailVerified()) {
+                                    String user_id = mAuth.getCurrentUser().getUid();
+                                    DatabaseReference current_user_db = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(user_id);
+                                    current_user_db.setValue(true);
+                                } else {
+                                    Toast.makeText(DriverLoginActivity.this, "Please verify your email first", Toast.LENGTH_LONG).show();
+                                    mAuth.signOut();
+                                }
                             }
                         }
-
                     }
                 });
             }

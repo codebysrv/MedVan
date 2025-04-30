@@ -15,7 +15,8 @@
     <item name="customerPhone" type="id"/>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="app_name">Med Rescue</string>
+    <string name="app_name">MedVan</string>
+    <string name="app_tagline">Your Emergency Partner</string>
     <string name="default_web_client_id" translatable="false">840924514078-4urdtjpqe4ottcsnf3uf1lfa8dorotvs.apps.googleusercontent.com</string>
     <string name="error_field_required">This field is required</string>
     <string name="error_incorrect_password">Password should be of atleast 8 characters which must contain one lower case, one upper case, one special character and one digit.</string>

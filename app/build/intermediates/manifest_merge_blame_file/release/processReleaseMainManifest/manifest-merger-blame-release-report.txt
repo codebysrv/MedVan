@@ -9,31 +9,31 @@
 9        android:targetSdkVersion="34" />
 10    <!-- To auto-complete the email text field in the login form with the user's emails -->
 11    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-11-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:4:5-71
-11-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:4:22-68
+11-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:4:5-71
+11-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:4:22-68
 12    <uses-permission android:name="android.permission.READ_PROFILE" />
-12-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:5:5-71
-12-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:5:22-68
+12-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:5:5-71
+12-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:5:22-68
 13    <uses-permission android:name="android.permission.READ_CONTACTS" />
-13-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:6:5-72
-13-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:6:22-69
+13-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:6:5-72
+13-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:6:22-69
 14    <!--
 15         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
 16         Google Maps Android API v2, but you must specify either coarse or fine
 17         location permissions for the 'MyLocation' functionality. 
 18    -->
 19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-19-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:12:5-79
-19-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:12:22-76
+19-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:12:5-79
+19-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:12:22-76
 20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-20-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:13:5-81
-20-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:13:22-78
+20-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:13:5-81
+20-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:13:22-78
 21    <uses-permission android:name="android.permission.INTERNET" />
-21-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:14:5-67
-21-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:14:22-64
+21-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:14:5-67
+21-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:14:22-64
 22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-22-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:15:5-80
-22-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:15:22-77
+22-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:15:5-80
+22-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:15:22-77
 23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
 23-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:11:5-76
 23-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:11:22-73
@@ -85,148 +85,148 @@
 46-->[androidx.core:core:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8cb8c09c003000518d67f6c3299cc3c1\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 47
 48    <application
-48-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:17:5-71:19
+48-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:17:5-71:19
 49        android:name="androidx.multidex.MultiDexApplication"
-49-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:18:9-61
+49-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:18:9-61
 50        android:allowBackup="true"
-50-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:19:9-35
+50-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:19:9-35
 51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 51-->[androidx.core:core:1.9.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\8cb8c09c003000518d67f6c3299cc3c1\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 52        android:extractNativeLibs="true"
 53        android:icon="@mipmap/ic_launcher"
-53-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:20:9-43
+53-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:20:9-43
 54        android:label="@string/app_name"
-54-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:21:9-41
+54-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:21:9-41
 55        android:roundIcon="@mipmap/ic_launcher_round"
-55-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:22:9-54
+55-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:22:9-54
 56        android:supportsRtl="true"
-56-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:23:9-35
+56-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:23:9-35
 57        android:theme="@style/AppTheme" >
-57-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:24:9-40
+57-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:24:9-40
 58        <activity
-58-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:25:9-83
+58-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:25:9-83
 59            android:name="sachdeva.saksham.medrescue.ResetPasswordActivity"
-59-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:25:19-56
+59-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:25:19-56
 60            android:exported="false" />
-60-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:25:57-81
+60-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:25:57-81
 61        <activity
-61-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:26:9-82
+61-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:26:9-82
 62            android:name="sachdeva.saksham.medrescue.CustomerRegistration"
-62-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:26:19-55
+62-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:26:19-55
 63            android:exported="false" />
-63-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:26:56-80
+63-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:26:56-80
 64        <activity
-64-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:27:9-28:61
+64-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:27:9-28:61
 65            android:name="sachdeva.saksham.medrescue.DriverSignupActivity"
-65-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:27:19-55
+65-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:27:19-55
 66            android:configChanges="orientation|screenSize"
-66-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:28:13-59
+66-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:28:13-59
 67            android:exported="false" />
-67-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:27:56-80
+67-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:27:56-80
 68        <activity
-68-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:29:9-76
+68-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:29:9-76
 69            android:name="sachdeva.saksham.medrescue.CustomerSignup"
-69-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:29:19-49
+69-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:29:19-49
 70            android:exported="false" />
-70-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:29:50-74
+70-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:29:50-74
 71
 72        <service
-72-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:31:9-33:44
+72-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:31:9-33:44
 73            android:name="sachdeva.saksham.medrescue.onAppKilled"
-73-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:32:13-40
+73-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:32:13-40
 74            android:stopWithTask="false" />
-74-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:33:13-41
+74-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:33:13-41
 75
 76        <activity
-76-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:35:9-43:20
+76-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:35:9-43:20
 77            android:name="sachdeva.saksham.medrescue.Welcome_Activity"
-77-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:36:13-45
+77-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:36:13-45
 78            android:exported="true" >
-78-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:37:13-36
+78-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:37:13-36
 79            <intent-filter>
-79-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:38:13-42:29
+79-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:38:13-42:29
 80                <action android:name="android.intent.action.MAIN" />
-80-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:39:17-69
-80-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:39:25-66
+80-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:39:17-69
+80-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:39:25-66
 81                <action android:name="android.intent.action.VIEW" />
-81-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:17-69
-81-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:25-66
+81-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:40:17-69
+81-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:40:25-66
 82
 83                <category android:name="android.intent.category.LAUNCHER" />
-83-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:41:17-77
-83-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:41:27-74
+83-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:41:17-77
+83-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:41:27-74
 84            </intent-filter>
 85        </activity>
 86        <activity
-86-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:45:9-48:69
+86-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:45:9-48:69
 87            android:name="sachdeva.saksham.medrescue.CustomerLoginActivity"
-87-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:46:13-50
+87-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:46:13-50
 88            android:exported="false"
-88-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:47:13-37
+88-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:47:13-37
 89            android:label="@string/title_activity_customer_login" />
-89-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:48:13-66
+89-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:48:13-66
 90        <activity
-90-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:49:9-52:67
+90-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:49:9-52:67
 91            android:name="sachdeva.saksham.medrescue.DriverLoginActivity"
-91-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:50:13-48
+91-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:50:13-48
 92            android:exported="false"
-92-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:51:13-37
+92-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:51:13-37
 93            android:label="@string/title_activity_driver_login" />
-93-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:52:13-64
+93-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:52:13-64
 94
 95        <meta-data
-95-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:54:9-56:55
+95-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:54:9-56:55
 96            android:name="com.google.android.geo.API_KEY"
-96-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:55:13-58
+96-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:55:13-58
 97            android:value="@string/google_maps_key" />
-97-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:56:13-52
+97-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:56:13-52
 98
 99        <activity
-99-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:58:9-61:65
+99-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:58:9-61:65
 100            android:name="sachdeva.saksham.medrescue.DriverMapActivity"
-100-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:59:13-46
+100-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:59:13-46
 101            android:exported="false"
-101-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:60:13-37
+101-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:60:13-37
 102            android:label="@string/title_activity_driver_map" />
-102-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:61:13-62
+102-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:61:13-62
 103        <activity
-103-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:62:9-65:67
+103-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:62:9-65:67
 104            android:name="sachdeva.saksham.medrescue.CustomerMapActivity"
-104-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:63:13-48
+104-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:63:13-48
 105            android:exported="false"
-105-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:64:13-37
+105-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:64:13-37
 106            android:label="@string/title_activity_customer_map" />
-106-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:65:13-64
+106-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:65:13-64
 107        <activity
-107-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:66:9-83
+107-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:66:9-83
 108            android:name="sachdeva.saksham.medrescue.DriverSettingActivity"
-108-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:66:19-56
+108-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:66:19-56
 109            android:exported="false" />
-109-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:66:57-81
+109-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:66:57-81
 110        <activity
-110-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:67:9-86
+110-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:67:9-86
 111            android:name="sachdeva.saksham.medrescue.CustomerSettingsActivity"
-111-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:67:19-59
+111-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:67:19-59
 112            android:exported="false" />
-112-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:67:60-84
+112-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:67:60-84
 113        <activity
-113-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:68:9-83
+113-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:68:9-83
 114            android:name="sachdeva.saksham.medrescue.HistorySingleActivity"
-114-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:68:19-56
+114-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:68:19-56
 115            android:exported="false" />
-115-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:68:57-81
+115-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:68:57-81
 116        <activity
-116-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:69:9-77
+116-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:69:9-77
 117            android:name="sachdeva.saksham.medrescue.HistoryActivity"
-117-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:69:19-50
+117-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:69:19-50
 118            android:exported="false" />
-118-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:69:51-75
+118-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:69:51-75
 119        <activity
-119-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:70:9-75
+119-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:70:9-75
 120            android:name="sachdeva.saksham.medrescue.MapsActivity2"
-120-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:70:19-48
+120-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:70:19-48
 121            android:exported="false" />
-121-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:70:49-73
+121-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:70:49-73
 122        <activity
 122-->[com.google.android.libraries.places:places:3.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\699d5a080390bebcf8f74479911ed13f\transformed\jetified-places-3.3.0\AndroidManifest.xml:15:9-21:20
 123            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
@@ -344,8 +344,8 @@
 183            <intent-filter>
 183-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
 184                <action android:name="android.intent.action.VIEW" />
-184-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:17-69
-184-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:25-66
+184-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:40:17-69
+184-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:40:25-66
 185
 186                <category android:name="android.intent.category.DEFAULT" />
 186-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
@@ -379,8 +379,8 @@
 201            <intent-filter>
 201-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
 202                <action android:name="android.intent.action.VIEW" />
-202-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:17-69
-202-->C:\Users\Sourav\Desktop\MEDVANMCA\MedRescue-master\app\src\main\AndroidManifest.xml:40:25-66
+202-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:40:17-69
+202-->C:\Users\Sourav\Desktop\MEDVAN\MedVan\app\src\main\AndroidManifest.xml:40:25-66
 203
 204                <category android:name="android.intent.category.DEFAULT" />
 204-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Sourav\.gradle\caches\8.11.1\transforms\e438fa35587461f0f4a826a7fb32a82f\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76

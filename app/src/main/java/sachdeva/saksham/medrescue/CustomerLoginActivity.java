@@ -58,7 +58,7 @@ public class CustomerLoginActivity extends AppCompatActivity {
                 if(user!=null && mAuth.getCurrentUser().isEmailVerified()){
 
                     Intent intent = new Intent(CustomerLoginActivity.this, CustomerMapActivity.class);
-                    Toast.makeText(CustomerLoginActivity.this, "Welcome to Med Rescue", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(CustomerLoginActivity.this, "Welcome to MedVan", Toast.LENGTH_SHORT).show();
                     startActivity(intent);
                     finish();
 

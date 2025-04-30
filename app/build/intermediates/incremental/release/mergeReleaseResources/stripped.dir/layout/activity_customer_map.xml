@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="sachdeva.saksham.medrescue.CustomerLoginActivity"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#00FF00">
 
     <fragment
         android:id="@+id/map"
@@ -30,7 +31,9 @@
                 android:layout_marginLeft="2dp"
                 android:layout_marginTop="2dp"
                 android:layout_height="wrap_content"
-                android:background="#80ced6"
+                android:background="@drawable/grad_bg"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
                 android:text="Logout" />
 
             <Button
@@ -41,8 +44,10 @@
                 android:layout_marginTop="2dp"
                 android:padding="1sp"
                 android:layout_height="wrap_content"
-                android:background="#80ced6"
-                android:text="history" />
+                android:background="@drawable/grad_bg"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="History" />
 
             <Button
                 android:layout_weight="1"
@@ -51,7 +56,9 @@
                 android:layout_marginTop="2dp"
                 android:padding="2dp"
                 android:layout_height="wrap_content"
-                android:background="#80ced6"
+                android:background="@drawable/grad_bg"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
                 android:id="@+id/settings"
                 android:text="Profile"/>
         </LinearLayout>
@@ -142,8 +149,10 @@
             android:layout_gravity="bottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#80ced6"
+            android:background="@drawable/grad_bg"
             android:text="Request An Ambulance"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:id="@+id/request"/>
     </LinearLayout>
 
