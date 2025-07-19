@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sachdeva.saksham.medrescue"
+    package="yadav.sourav.medvan"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -40,10 +40,10 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <permission
-        android:name="sachdeva.saksham.medrescue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="yadav.sourav.medvan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="sachdeva.saksham.medrescue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="yadav.sourav.medvan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:name="androidx.multidex.MultiDexApplication"
@@ -55,27 +55,28 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="sachdeva.saksham.medrescue.ResetPasswordActivity"
+            android:name="yadav.sourav.medvan.ResetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name="sachdeva.saksham.medrescue.CustomerRegistration"
+            android:name="yadav.sourav.medvan.CustomerRegistration"
             android:exported="false" />
         <activity
-            android:name="sachdeva.saksham.medrescue.DriverSignupActivity"
+            android:name="yadav.sourav.medvan.DriverSignupActivity"
             android:configChanges="orientation|screenSize"
             android:exported="false" />
         <activity
-            android:name="sachdeva.saksham.medrescue.CustomerSignup"
+            android:name="yadav.sourav.medvan.CustomerSignup"
             android:exported="false" />
 
         <service
-            android:name="sachdeva.saksham.medrescue.onAppKilled"
+            android:name="yadav.sourav.medvan.onAppKilled"
             android:stopWithTask="false" />
 
         <activity
-            android:name="sachdeva.saksham.medrescue.Welcome_Activity"
+            android:name="yadav.sourav.medvan.Welcome_Activity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -85,11 +86,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="sachdeva.saksham.medrescue.CustomerLoginActivity"
+            android:name="yadav.sourav.medvan.CustomerLoginActivity"
             android:exported="false"
             android:label="@string/title_activity_customer_login" />
         <activity
-            android:name="sachdeva.saksham.medrescue.DriverLoginActivity"
+            android:name="yadav.sourav.medvan.DriverLoginActivity"
             android:exported="false"
             android:label="@string/title_activity_driver_login" />
 
@@ -98,27 +99,27 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="sachdeva.saksham.medrescue.DriverMapActivity"
+            android:name="yadav.sourav.medvan.DriverMapActivity"
             android:exported="false"
             android:label="@string/title_activity_driver_map" />
         <activity
-            android:name="sachdeva.saksham.medrescue.CustomerMapActivity"
+            android:name="yadav.sourav.medvan.CustomerMapActivity"
             android:exported="false"
             android:label="@string/title_activity_customer_map" />
         <activity
-            android:name="sachdeva.saksham.medrescue.DriverSettingActivity"
+            android:name="yadav.sourav.medvan.DriverSettingActivity"
             android:exported="false" />
         <activity
-            android:name="sachdeva.saksham.medrescue.CustomerSettingsActivity"
+            android:name="yadav.sourav.medvan.CustomerSettingsActivity"
             android:exported="false" />
         <activity
-            android:name="sachdeva.saksham.medrescue.HistorySingleActivity"
+            android:name="yadav.sourav.medvan.HistorySingleActivity"
             android:exported="false" />
         <activity
-            android:name="sachdeva.saksham.medrescue.HistoryActivity"
+            android:name="yadav.sourav.medvan.HistoryActivity"
             android:exported="false" />
         <activity
-            android:name="sachdeva.saksham.medrescue.MapsActivity2"
+            android:name="yadav.sourav.medvan.MapsActivity2"
             android:exported="false" />
         <activity
             android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
@@ -222,7 +223,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="sachdeva.saksham.medrescue.firebaseinitprovider"
+            android:authorities="yadav.sourav.medvan.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -249,7 +250,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="sachdeva.saksham.medrescue.androidx-startup"
+            android:authorities="yadav.sourav.medvan.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

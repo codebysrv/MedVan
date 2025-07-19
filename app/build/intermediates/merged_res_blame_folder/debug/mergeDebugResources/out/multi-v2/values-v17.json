@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "sachdeva.saksham.medrescue.app-mergeDebugResources-44:/values-v17/values-v17.xml",
+            "outputFile": "yadav.sourav.medvan.app-mergeDebugResources-44:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Sourav\\.gradle\\caches\\8.11.1\\transforms\\63b513894714b4c08cfc62d3f2a136b9\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\Sourav\\.gradle\\caches\\8.11.1\\transforms\\0b834d86b9fda549dc534b966cd2300b\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MedVan</string>
     <string name="title_activity_customer_login">Sign in</string>
@@ -20,4 +21,7 @@
     <string name="title_activity_customer_map">Map</string>
     <string name="title_activity_login">Sign in</string>
     <string name="app_tagline">Your Emergency Partner</string>
+    
+    <!-- Google Maps API Key -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCIwIEPg1VCin6B2rRzanieCs_WvxYG5NM</string>
 </resources>

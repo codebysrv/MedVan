@@ -1,222 +1,234 @@
 [
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_item_history.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/item_history.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_maps2.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_maps2.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-hdpi_ambulance.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/ambulance.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_driver_setting_bg.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\driver_setting_bg.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_maps2.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_maps2.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_item_history.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\item_history.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_amb.jpg.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/amb.jpg"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_button_red_background.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\button_red_background.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-mdpi_ic_pickup.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-mdpi/ic_pickup.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-mdpi_ic_pickup_round.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-mdpi\\ic_pickup_round.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_driver_setting.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_driver_setting.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_driver_signup.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_driver_signup.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-mdpi_ic_pickup.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-mdpi\\ic_pickup.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xxxhdpi_ic_pickup.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxxhdpi/ic_pickup.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-hdpi_ambulance.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-hdpi\\ambulance.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_history_single.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_history_single.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_driver_map.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_driver_map.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_grad_bg.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\grad_bg.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_reset_password.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_reset_password.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_customer_signup.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_customer_signup.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_ic_add_alert_black_24dp.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/ic_add_alert_black_24dp.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xxxhdpi_ic_pickup_round.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xxxhdpi\\ic_pickup_round.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-hdpi_ic_pickup.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/ic_pickup.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_button_green_background.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\button_green_background.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_medvan_logo.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/medvan_logo.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_grad_bg.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/grad_bg.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xxxhdpi_ic_pickup.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xxxhdpi\\ic_pickup.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-hdpi_patient.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-hdpi\\patient.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_amb2.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/amb2.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_welcome_.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_welcome_.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "yadav.sourav.medvan.app-debug-46:/layout_activity_driver_map.xml.flat",
+        "source": "yadav.sourav.medvan.app-main-48:/layout/activity_driver_map.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_history.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_history.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_customer_login.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_customer_login.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_ic_edit_location_black_24dp.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/ic_edit_location_black_24dp.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_customer_map.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_customer_map.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_amb2.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\amb2.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-anydpi-v26_ic_pickup_round.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-anydpi-v26/ic_pickup_round.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_amb.jpg.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\amb.jpg"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xxxhdpi_ic_pickup_round.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxxhdpi/ic_pickup_round.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_customer_settings.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_customer_settings.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_customer_login.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_login.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_driver_setting.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_driver_setting.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-pngs-42:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_customer_map.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_map.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-hdpi_ic_pickup_round.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-hdpi\\ic_pickup_round.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_button_green_background.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/button_green_background.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_welcome_.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_welcome_.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_history.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_ic_launcher_background.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_driver_signup.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_driver_signup.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_ic_add_alert_black_24dp.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\ic_add_alert_black_24dp.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-anydpi-v26_ic_pickup_round.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-anydpi-v26\\ic_pickup_round.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-anydpi-v26_ic_pickup.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-anydpi-v26/ic_pickup.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xxhdpi_ic_pickup_round.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxhdpi/ic_pickup_round.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_vital_signs.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_vital_signs.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xhdpi_ic_pickup_round.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xhdpi/ic_pickup_round.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xxhdpi_ic_pickup.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxhdpi/ic_pickup.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xhdpi_ic_pickup.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xhdpi\\ic_pickup.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_button_red_background.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/button_red_background.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-hdpi_ic_pickup_round.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/ic_pickup_round.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xxhdpi_ic_pickup.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xxhdpi\\ic_pickup.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xhdpi_ic_pickup.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xhdpi/ic_pickup.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-mdpi_ic_pickup_round.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-mdpi/ic_pickup_round.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_ic_edit_location_black_24dp.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\ic_edit_location_black_24dp.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_driver_map.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_driver_map.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_customer_signup.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_signup.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_medvan_logo.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\medvan_logo.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-pngs-41:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-hdpi_patient.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-hdpi/patient.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-hdpi_ic_pickup.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-hdpi\\ic_pickup.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_customer_settings.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_settings.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xhdpi_ic_pickup_round.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xhdpi\\ic_pickup_round.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/drawable_ic_local_hospital_black_24dp.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/drawable/ic_local_hospital_black_24dp.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\layout_activity_driver_login.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_driver_login.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_reset_password.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_reset_password.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_driver_login.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_driver_login.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-debug-46:/layout_activity_history_single.xml.flat",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_history_single.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-xxhdpi_ic_pickup_round.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-xxhdpi\\ic_pickup_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\mipmap-anydpi-v26_ic_pickup.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\mipmap-anydpi-v26\\ic_pickup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-debug-46:\\drawable_ic_local_hospital_black_24dp.xml.flat",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\drawable\\ic_local_hospital_black_24dp.xml"
     }
 ]

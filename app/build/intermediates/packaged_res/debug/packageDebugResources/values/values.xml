@@ -17,22 +17,21 @@
     <string name="action_sign_in_short">Sign in</string>
     <string name="app_name">MedVan</string>
     <string name="app_tagline">Your Emergency Partner</string>
-    <string name="default_web_client_id" translatable="false">840924514078-4urdtjpqe4ottcsnf3uf1lfa8dorotvs.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">427349828478-h34ntspg0jh537gtclknjuavm03r9a7o.apps.googleusercontent.com</string>
     <string name="error_field_required">This field is required</string>
     <string name="error_incorrect_password">Password should be of atleast 8 characters which must contain one lower case, one upper case, one special character and one digit.</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_no">This phone no.is invalid.</string>
-    <string name="firebase_database_url" translatable="false">https://medvan-69484-default-rtdb.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">840924514078</string>
-    <string name="google_api_key" translatable="false">AIzaSyB0sdqxH_oDVC8Fa-L_930clvlBCz41LAE</string>
-    <string name="google_app_id" translatable="false">1:840924514078:android:2dc6e8dfb2ec5da57feb0f</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB0sdqxH_oDVC8Fa-L_930clvlBCz41LAE</string>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB0sdqxH_oDVC8Fa-L_930clvlBCz41LAE</string>
-    <string name="google_storage_bucket" translatable="false">medvan-69484.firebasestorage.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">427349828478</string>
+    <string name="google_api_key" translatable="false">AIzaSyCIwIEPg1VCin6B2rRzanieCs_WvxYG5NM</string>
+    <string name="google_app_id" translatable="false">1:427349828478:android:0664291f129b0b6242892f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCIwIEPg1VCin6B2rRzanieCs_WvxYG5NM</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCIwIEPg1VCin6B2rRzanieCs_WvxYG5NM</string>
+    <string name="google_storage_bucket" translatable="false">medvan-5f8c5.firebasestorage.app</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="project_id" translatable="false">medvan-69484</string>
+    <string name="project_id" translatable="false">medvan-5f8c5</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="title_activity_customer_login">Sign in</string>

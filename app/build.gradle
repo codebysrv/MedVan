@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'sachdeva.saksham.medrescue'
+    namespace 'yadav.sourav.medvan'
     compileSdk 34
 
     defaultConfig {
-        applicationId "sachdeva.saksham.medrescue"
+        applicationId "yadav.sourav.medvan"
         minSdk 21
         targetSdk 34
         versionCode 1

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">427349828478-h34ntspg0jh537gtclknjuavm03r9a7o.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">427349828478</string>
+    <string name="google_api_key" translatable="false">AIzaSyCIwIEPg1VCin6B2rRzanieCs_WvxYG5NM</string>
+    <string name="google_app_id" translatable="false">1:427349828478:android:0664291f129b0b6242892f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCIwIEPg1VCin6B2rRzanieCs_WvxYG5NM</string>
+    <string name="google_storage_bucket" translatable="false">medvan-5f8c5.firebasestorage.app</string>
+    <string name="project_id" translatable="false">medvan-5f8c5</string>
+</resources>

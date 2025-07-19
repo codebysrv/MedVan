@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20sp"
-    android:background="#80ced6"
+    android:background="@android:color/transparent"
     >
 
     <TextView
@@ -14,7 +14,7 @@
         android:id="@+id/time"
         android:textSize="15dp"
         android:text="time"
-        />
+        android:textStyle="bold" />
 
     <TextView
 
@@ -23,6 +23,6 @@
         android:id="@+id/rideId"
         android:textSize="15dp"
         android:text="rideid"
-        />
+        android:textStyle="bold" />
 
 </LinearLayout>

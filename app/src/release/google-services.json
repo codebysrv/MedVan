@@ -1,63 +1,33 @@
 {
   "project_info": {
-    "project_number": "840924514078",
-    "firebase_url": "https://medvan-69484-default-rtdb.firebaseio.com",
-    "project_id": "medvan-69484",
-    "storage_bucket": "medvan-69484.firebasestorage.app"
+    "project_number": "427349828478",
+    "project_id": "medvan-5f8c5",
+    "storage_bucket": "medvan-5f8c5.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:840924514078:android:ccec4f666d2724277feb0f",
+        "mobilesdk_app_id": "1:427349828478:android:0664291f129b0b6242892f",
         "android_client_info": {
-          "package_name": "com.example.medvan"
+          "package_name": "yadav.sourav.medvan"
         }
       },
       "oauth_client": [
         {
-          "client_id": "840924514078-4urdtjpqe4ottcsnf3uf1lfa8dorotvs.apps.googleusercontent.com",
+          "client_id": "427349828478-h34ntspg0jh537gtclknjuavm03r9a7o.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB0sdqxH_oDVC8Fa-L_930clvlBCz41LAE"
+          "current_key": "AIzaSyCIwIEPg1VCin6B2rRzanieCs_WvxYG5NM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "840924514078-4urdtjpqe4ottcsnf3uf1lfa8dorotvs.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:840924514078:android:2dc6e8dfb2ec5da57feb0f",
-        "android_client_info": {
-          "package_name": "sachdeva.saksham.medrescue"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "840924514078-4urdtjpqe4ottcsnf3uf1lfa8dorotvs.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB0sdqxH_oDVC8Fa-L_930clvlBCz41LAE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "840924514078-4urdtjpqe4ottcsnf3uf1lfa8dorotvs.apps.googleusercontent.com",
+              "client_id": "427349828478-h34ntspg0jh537gtclknjuavm03r9a7o.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,58 +1,66 @@
 [
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_history.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_history.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_driver_login.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_driver_login.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_customer_login.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_login.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_history.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_history.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_welcome_.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_welcome_.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_history_single.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_history_single.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_customer_map.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_map.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_customer_login.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_customer_login.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_driver_login.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_driver_login.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_driver_signup.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_driver_signup.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/item_history.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/item_history.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\item_history.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\item_history.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_driver_map.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_driver_map.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_reset_password.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_reset_password.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_history_single.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_history_single.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_maps2.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_maps2.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_maps2.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_maps2.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_vital_signs.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_vital_signs.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_reset_password.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_reset_password.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_customer_signup.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_customer_signup.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_customer_signup.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_signup.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_customer_settings.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_customer_settings.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_driver_setting.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_driver_setting.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_welcome_.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_welcome_.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_customer_settings.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_customer_settings.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_driver_setting.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_driver_setting.xml"
     },
     {
-        "merged": "sachdeva.saksham.medrescue.app-mergeDebugResources-45:/layout/activity_driver_signup.xml",
-        "source": "sachdeva.saksham.medrescue.app-main-48:/layout/activity_driver_signup.xml"
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_customer_map.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_customer_map.xml"
+    },
+    {
+        "merged": "yadav.sourav.medvan.app-mergeDebugResources-45:/layout/activity_driver_map.xml",
+        "source": "yadav.sourav.medvan.app-main-48:/layout/activity_driver_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-mergeDebugResources-45:\\layout\\activity_driver_map.xml",
+        "source": "C:\\Users\\Sourav\\.gradle\\daemon\\8.11.1\\yadav.sourav.medvan.app-main-48:\\layout\\activity_driver_map.xml"
     }
 ]

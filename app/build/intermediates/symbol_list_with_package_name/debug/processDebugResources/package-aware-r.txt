@@ -1,4 +1,4 @@
-sachdeva.saksham.medrescue
+yadav.sourav.medvan
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3387,6 +3387,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable driver_setting_bg
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable grad_bg
@@ -3980,6 +3981,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id sos_button
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -4404,7 +4406,6 @@ string fab_transformation_sheet_behavior
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
-string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

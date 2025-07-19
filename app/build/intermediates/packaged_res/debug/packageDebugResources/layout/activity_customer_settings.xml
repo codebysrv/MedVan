@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sachdeva.saksham.medrescue.CustomerSettingsActivity"
+    tools:context="yadav.sourav.medvan.CustomerSettingsActivity"
     android:orientation="vertical"
     android:padding="20sp"
-    android:background="#80ced6"
+    android:background="@drawable/driver_setting_bg"
     >
 
     <TextView
@@ -17,7 +17,8 @@
         android:layout_marginTop="60dp"
         android:text="                 Patient's Profile"
         android:textColor="@color/place_autocomplete_prediction_primary_text"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/name"
@@ -26,7 +27,8 @@
         android:layout_marginTop="80dp"
         android:layout_marginBottom="20sp"
         android:background="@null"
-        android:hint="Name" />
+        android:hint="Name"
+        android:textStyle="bold" />
     <EditText
         android:id="@+id/phone"
         android:layout_width="match_parent"
@@ -35,17 +37,18 @@
         android:hint="Phone"
         android:layout_marginBottom="20sp"
         android:inputType="number"
+        android:textStyle="bold"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/confirm"
         android:text="Confirm"
-        />
+        android:textStyle="bold" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/back"
         android:text="Back"
-        />
+        android:textStyle="bold" />
 </LinearLayout>

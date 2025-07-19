@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
     android:background="@drawable/grad_bg"
-    tools:context="sachdeva.saksham.medrescue.Welcome_Activity">
+    tools:context="yadav.sourav.medvan.Welcome_Activity">
 
     <RelativeLayout
         android:layout_width="wrap_content"
