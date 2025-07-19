@@ -39,6 +39,24 @@ _Database structure images have been removed._
 
 ---
 
+## Project Slides
+
+![Screenshot_20250630_023157](Slides/Screenshot_20250630_023157.png)
+![Screenshot_20250630_015501](Slides/Screenshot_20250630_015501.png)
+![Screenshot_20250630_014828](Slides/Screenshot_20250630_014828.png)
+![Screenshot_20250630_014550](Slides/Screenshot_20250630_014550.png)
+![Screenshot_20250629_231231](Slides/Screenshot_20250629_231231.png)
+![Screenshot_20250629_230902](Slides/Screenshot_20250629_230902.png)
+![Screenshot_20250629_230327](Slides/Screenshot_20250629_230327.png)
+![Screenshot_20250629_230220](Slides/Screenshot_20250629_230220.png)
+![Screenshot_20250629_230114](Slides/Screenshot_20250629_230114.png)
+![Screenshot_20250629_221646 copy 2](Slides/Screenshot_20250629_221646%20copy%202.png)
+![Screenshot_20250629_221646 copy](Slides/Screenshot_20250629_221646%20copy.png)
+![Screenshot_20250629_221646](Slides/Screenshot_20250629_221646.png)
+![Screenshot_20250629_221538](Slides/Screenshot_20250629_221538.png)
+
+---
+
 ## Getting Started
 
 1. Clone the repository:
