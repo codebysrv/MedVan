@@ -85,7 +85,7 @@ git clone https://github.com/codebysrv/MedVan.git
 This project was submitted as part of the final semester MCA curriculum.
 
 📄 **Download the official thesis document**:  
-[📘 MedVan Project Thesis (PDF)](docs/MedVan_Thesis.pdf)
+[📘 MedVan Project Thesis (PDF)](https://github.com/codebysrv/MedVan/blob/main/docs/MedVan_Thesis.pdf)
 
 > The thesis includes system design, methodology, architecture diagrams, database schema, implementation screenshots, and future scope.
 
