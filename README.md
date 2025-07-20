@@ -50,12 +50,11 @@ The application leverages **Google Maps and Firebase** to deliver a seamless exp
 
 | ![](Slides/Screenshot_20250630_023157.png) | ![](Slides/Screenshot_20250630_015501.png) |
 |--------------------------------------------|--------------------------------------------|
-| ![](Slides/Screenshot_20250630_014828.png) | ![](Slides/Screenshot_20250630_014550.png) |
+| ![](Slides/Screenshot_20250629_221538.png) | ![](Slides/Screenshot_20250630_014550.png) |
 | ![](Slides/Screenshot_20250629_231231.png) | ![](Slides/Screenshot_20250629_230902.png) |
 | ![](Slides/Screenshot_20250629_230327.png) | ![](Slides/Screenshot_20250629_230220.png) |
 | ![](Slides/Screenshot_20250629_230114.png) | ![](Slides/Screenshot_20250629_221646.png) |
 | ![](Slides/Screenshot_20250629_221646%20copy.png) | ![](Slides/Screenshot_20250629_221646%20copy%202.png) |
-| ![](Slides/Screenshot_20250629_221538.png) |                                            |
 
 ---
 
