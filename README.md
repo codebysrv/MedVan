@@ -84,9 +84,12 @@ git clone https://github.com/codebysrv/MedVan.git
 
 This project was submitted as part of the final semester MCA curriculum.
 
-📄 **Download the official thesis document**:  
-[📘 MedVan Project Thesis (PDF)](https://github.com/codebysrv/MedVan/blob/main/docs/MedVan_Thesis.pdf)
+📄 **View Thesis (on GitHub)**:  
+[📘 MedVan MCA Final Year Project Thesis](https://github.com/codebysrv/MedVan/blob/main/docs/MedVan_Thesis.pdf)
 
-> The thesis includes system design, methodology, architecture diagrams, database schema, implementation screenshots, and future scope.
+📥 **Direct PDF Download**:  
+[⬇️ Click here to download the full MCA Thesis](https://raw.githubusercontent.com/codebysrv/MedVan/main/docs/MedVan_Thesis.pdf)
+
+> The thesis covers system design, architecture diagrams, Firebase integration, UI flows, and implementation steps.
 
 ---
