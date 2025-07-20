@@ -1,6 +1,17 @@
 # 🚑 MedVan: Smart Ambulance Booking App  
 
-A **real-time ambulance booking application** designed for Android that connects patients with the nearest available ambulances and drivers, ensuring **fast and reliable emergency response**.
+A **real-time ambulance booking Android application** that bridges the gap between emergency patients and ambulance drivers by leveraging **location tracking**, **cloud-based communication**, and a **user-friendly interface**.
+
+---
+
+## 🧾 Project Overview
+
+**MedVan** is a smart ambulance dispatching system designed and developed for Android devices. The application connects patients in need with nearby ambulance drivers in **real time**, enabling faster response during medical emergencies.
+
+This project was developed and submitted as a part of the academic curriculum for the **Master of Computer Applications (MCA)** program at  
+🎓 **Maulana Abul Kalam Azad University of Technology (MAKAUT), West Bengal**.
+
+The application leverages **Google Maps and Firebase** to deliver a seamless experience for both users and ambulance drivers, focusing on minimizing delay and simplifying access to emergency transportation.
 
 ---
 
@@ -80,16 +91,22 @@ git clone https://github.com/codebysrv/MedVan.git
 
 ---
 
-## 📚 Final Year MCA Thesis
+📚 Final Year MCA Thesis
+This project was submitted in partial fulfillment of the requirements for the degree of Master of Computer Applications (MCA)
+at Maulana Abul Kalam Azad University of Technology (MAKAUT), West Bengal.
 
-This project was submitted as part of the final semester MCA curriculum.
+📄 View Thesis (on GitHub):
+📘 MedVan MCA Final Year Project Thesis
 
-📄 **View Thesis (on GitHub)**:  
-[📘 MedVan MCA Final Year Project Thesis](https://github.com/codebysrv/MedVan/blob/main/docs/MedVan_Thesis.pdf)
+📥 Direct PDF Download:
+⬇️ Click here to download the full MCA Thesis
 
-📥 **Direct PDF Download**:  
-[⬇️ Click here to download the full MCA Thesis](https://raw.githubusercontent.com/codebysrv/MedVan/main/docs/MedVan_Thesis.pdf)
+The thesis includes system architecture, Firebase schema, implementation approach, and a detailed walkthrough of the features.
 
-> The thesis covers system design, architecture diagrams, Firebase integration, UI flows, and implementation steps.
+📄 License
+This project is licensed under the MIT License.
+See the LICENSE file for more information.
 
----
+🤝 Contributing
+We welcome feedback, feature suggestions, and contributions to improve this app further.
+Feel free to fork, raise issues, or submit pull requests.
