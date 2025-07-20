@@ -91,7 +91,7 @@ git clone https://github.com/codebysrv/MedVan.git
 
 ---
 
-📚 Final Year MCA Thesis
+## 📚 Final Year MCA Thesis
 This project was submitted in partial fulfillment of the requirements for the degree of Master of Computer Applications (MCA)
 at Maulana Abul Kalam Azad University of Technology (MAKAUT), West Bengal.
 
@@ -103,10 +103,7 @@ at Maulana Abul Kalam Azad University of Technology (MAKAUT), West Bengal.
 
 The thesis includes system architecture, Firebase schema, implementation approach, and a detailed walkthrough of the features.
 
-📄 License
-This project is licensed under the MIT License.
-See the LICENSE file for more information.
 
-🤝 Contributing
+## 🤝 Contributing
 We welcome feedback, feature suggestions, and contributions to improve this app further.
 Feel free to fork, raise issues, or submit pull requests.
