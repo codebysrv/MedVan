@@ -1,81 +1,92 @@
-# MedVan 🚑
+# 🚑 MedVan: Smart Ambulance Booking App  
 
-A real-time ambulance booking Android application.
-
----
-
-## Features
-- Welcome page
-- User registration and login (Customer & Driver)
-- Request an ambulance (for Patients/Attendants)
-- Pickup request and navigation (for Drivers)
-- Payment integration (if applicable)
-- Reviews and feedback
-- Report an issue
-- Settings for both Customers and Drivers
-- Password reset functionality
-- Trip history and details
-
-## Technologies Used
-- Android (Java)
-- Minimum SDK: KitKat API 21+
-- IDE: Android Studio
-- Google Firebase (Database & Authentication)
-- Google Maps API
-- Google Places Autocomplete API
-- Device GPS for real-time location
+A **real-time ambulance booking application** designed for Android that connects patients with the nearest available ambulances and drivers, ensuring **fast and reliable emergency response**.
 
 ---
 
-## Screenshots
+## 📱 Key Features
 
-_Screenshots have been removed._
-
----
-
-## Database Structure
-
-_Database structure images have been removed._
-
----
-
-## Project Slides
-
-![Screenshot_20250630_023157](Slides/Screenshot_20250630_023157.png)
-![Screenshot_20250630_015501](Slides/Screenshot_20250630_015501.png)
-![Screenshot_20250630_014828](Slides/Screenshot_20250630_014828.png)
-![Screenshot_20250630_014550](Slides/Screenshot_20250630_014550.png)
-![Screenshot_20250629_231231](Slides/Screenshot_20250629_231231.png)
-![Screenshot_20250629_230902](Slides/Screenshot_20250629_230902.png)
-![Screenshot_20250629_230327](Slides/Screenshot_20250629_230327.png)
-![Screenshot_20250629_230220](Slides/Screenshot_20250629_230220.png)
-![Screenshot_20250629_230114](Slides/Screenshot_20250629_230114.png)
-![Screenshot_20250629_221646 copy 2](Slides/Screenshot_20250629_221646%20copy%202.png)
-![Screenshot_20250629_221646 copy](Slides/Screenshot_20250629_221646%20copy.png)
-![Screenshot_20250629_221646](Slides/Screenshot_20250629_221646.png)
-![Screenshot_20250629_221538](Slides/Screenshot_20250629_221538.png)
+- 🔐 **User Authentication** (Patient & Driver)
+- 🧭 **Real-time Ambulance Request** with GPS tracking
+- 🚘 **Pickup Navigation & Auto-Matching for Drivers**
+- 💳 **(Optional) Payment Integration**
+- 📝 **Trip History & Detailed Trip Information**
+- ⭐ **Ratings & Feedback System**
+- 🛠️ **Report an Issue** functionality
+- ⚙️ **User Settings** (separate for Patient and Driver)
+- 🔄 **Forgot/Reset Password**
+- 🖼️ **Clean UI with Welcome and Onboarding Screens**
 
 ---
 
-## Getting Started
+## 🛠️ Tech Stack
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/codebysrv/MedVan.git
-   ```
-2. Open in Android Studio.
-3. Add your Firebase configuration (`google-services.json`) in the appropriate folders.
-4. Build and run on an Android device or emulator.
+| Technology         | Purpose                                 |
+|--------------------|------------------------------------------|
+| **Android (Java)** | Core App Development                    |
+| **Android Studio** | IDE for Development                     |
+| **Firebase**       | Authentication & Realtime Database      |
+| **Google Maps API**| Live Tracking & Route Navigation        |
+| **Places API**     | Autocomplete & Location Suggestions     |
+| **Device GPS**     | Real-Time Location Detection            |
+| **Min SDK**        | API Level 21 (Android 5.0 - Lollipop)   |
 
 ---
 
-## License
+## 📸 Screenshots
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+> _A glimpse of the app UI and functionality:_
+
+| ![](Slides/Screenshot_20250630_023157.png) | ![](Slides/Screenshot_20250630_015501.png) |
+|--------------------------------------------|--------------------------------------------|
+| ![](Slides/Screenshot_20250630_014828.png) | ![](Slides/Screenshot_20250630_014550.png) |
+| ![](Slides/Screenshot_20250629_231231.png) | ![](Slides/Screenshot_20250629_230902.png) |
+| ![](Slides/Screenshot_20250629_230327.png) | ![](Slides/Screenshot_20250629_230220.png) |
+| ![](Slides/Screenshot_20250629_230114.png) | ![](Slides/Screenshot_20250629_221646.png) |
+| ![](Slides/Screenshot_20250629_221646%20copy.png) | ![](Slides/Screenshot_20250629_221646%20copy%202.png) |
+| ![](Slides/Screenshot_20250629_221538.png) |                                            |
+
+---
+
+## 🧩 Database Architecture
+
+> The app uses **Firebase Realtime Database** for structured and synchronized data communication between users and drivers.
+
+📌 _Note: Database structure images have been removed in this version. Please refer to the Firebase console or DB schema documentation._
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Android Studio (latest recommended)
+- Firebase account
+- Google Maps API & Places API keys
+
+### 🛠 Installation Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/codebysrv/MedVan.git
+
+# 2. Open the project in Android Studio
+
+# 3. Add Firebase configuration file
+# Place your google-services.json in the 'app/' directory
+
+# 4. Build the project and run it on an emulator or physical device
 
 
+---
 
+## 📚 Final Year MCA Thesis
 
+This project was submitted as part of the final semester MCA curriculum.
 
+📄 **Download the official thesis document**:  
+[📘 MedVan Project Thesis (PDF)](docs/MedVan_Thesis.pdf)
 
+> The thesis includes system design, methodology, architecture diagrams, database schema, implementation screenshots, and future scope.
 
+---
